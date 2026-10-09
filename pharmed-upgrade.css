@@ -1,0 +1,87 @@
+/* Pharmed UG premium responsive layer • follows existing style.css */
+:root{--ph-gold:#c28f36;--ph-forest:#063b2d;--ph-cream:#faf8f1;--ph-line:#d8e4d9}
+body{overflow-x:hidden}
+:focus-visible{outline:3px solid var(--ph-gold);outline-offset:3px}
+.header .navrow{gap:12px}
+.brand{font-size:1.02rem;gap:6px}
+.brand img{width:58px;height:58px}
+.links{gap:12px}
+.links a{font-size:.78rem}
+.footer-grid{grid-template-columns:2fr 1fr 1fr 1fr}
+.hero{background:radial-gradient(ellipse at 75% 30%,#e9f4e7,#f9fbf7 42%,#fdf6e9 100%)}
+.ph-hero-art{border:1px solid #dae6db;background:linear-gradient(150deg,#ffffff 35%,#edf4e9);position:relative;padding:16px 20px 9px!important;border-radius:28px;box-shadow:0 20px 55px #1d4b2d16;min-height:360px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ph-hero-art img{width:100%;max-height:430px;object-fit:contain;mix-blend-mode:multiply}
+.ph-hero-art p{margin:0 12px 8px;text-align:center;font-size:.84rem;color:var(--ph-forest);font-weight:600;line-height:1.5}
+.ph-section{padding:72px 0}
+.ph-family-section{background:linear-gradient(180deg,#fff,#f3f8f1)}
+.ph-section-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:28px}
+.ph-section-heading p{max-width:720px;color:#5a7465}
+.ph-section-heading .eyebrow{margin-bottom:6px}
+.ph-outline-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 18px;border:1px solid var(--ph-forest);color:var(--ph-forest);text-decoration:none;font-weight:700;border-radius:10px;white-space:nowrap}
+.ph-outline-btn:hover{background:var(--ph-forest);color:#fff}
+.ph-mascot-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.ph-mascot-card{background:#fff;border:1px solid var(--ph-line);border-radius:20px;overflow:hidden;box-shadow:0 8px 30px #123b2509;transition:transform .2s,box-shadow .2s}
+.ph-mascot-card:hover{transform:translateY(-4px);box-shadow:0 15px 32px #0a442019}
+.ph-mascot-open{display:block;width:100%;padding:0;border:0;background:linear-gradient(145deg,#fdfcf7,#f4f9f2);cursor:pointer}
+.ph-mascot-open img{width:100%;height:225px;object-fit:contain;mix-blend-mode:multiply}
+.ph-mascot-caption{padding:13px 15px 15px;border-top:1px solid #edf0e9}
+.ph-mascot-caption h3{font-size:1.07rem;margin:0 0 4px}
+.ph-mascot-caption small{color:#6c786c}
+.ph-brand-identity{display:flex;align-items:center;gap:28px;padding:20px 25px;background:#f8fbf7;border:1px solid var(--ph-line);border-radius:22px;margin-bottom:30px}
+.ph-brand-identity img{width:170px;height:170px;object-fit:contain;background:white;border-radius:18px}
+.ph-brand-identity h2{font-size:1.5rem}
+.ph-brand-identity p{color:#516b5b}
+.ph-band-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:60px;align-items:center}
+.ph-idea-band{background:linear-gradient(120deg,#edf6ed,#fdf8eb)}
+.ph-idea-band img{max-height:280px;max-width:100%;justify-self:center;border-radius:22px;mix-blend-mode:multiply}
+.ph-idea-band .btn{margin-top:12px}
+.ph-ideas-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.ph-idea{background:#fff;border:1px solid var(--ph-line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 10px 26px #173b1809}
+.ph-idea>img{width:100%;height:230px;object-fit:contain;background:#f8f9f5}
+.ph-idea-body{padding:18px 23px 24px;flex:1}
+.ph-idea h3{font-size:1.26rem;margin-top:12px}
+.ph-idea p{font-size:.92rem;color:#526d60}
+.ph-tag{display:inline-flex;border-radius:20px;background:#f9f2de;color:#68501e;font-weight:700;font-size:.72rem;padding:5px 11px}
+.ph-guide-card{padding:27px;background:#fff;border-radius:18px;border:1px solid var(--ph-line);box-shadow:0 9px 25px #102b1607}
+.ph-guide-card h3{font-size:1.26rem}
+.ph-guide-card p{color:#526b5b}
+.ph-guide-number{display:inline-flex;align-items:center;justify-content:center;background:#e7f0e5;color:var(--ph-forest);font-weight:700;border-radius:50%;width:44px;height:44px;margin-bottom:13px}
+.ph-guides-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.ph-side-mascot{width:185px;max-height:185px;object-fit:contain;border-radius:19px;mix-blend-mode:multiply}
+.ph-resources{margin-top:28px;border-left:4px solid var(--ph-gold);padding:16px 23px;background:#fff;border-radius:10px}
+.ph-resources p{margin:6px 0 8px;color:#496254}
+.ph-resources a{display:inline-block;color:#0f654a;font-weight:600;margin-right:22px;margin-top:6px}
+.ph-context-mascot{background:linear-gradient(110deg,#f4f9f4,#fff8ee)}
+.ph-context-image{width:100%;max-width:350px;max-height:300px;object-fit:contain;mix-blend-mode:multiply;justify-self:center;grid-row:1;grid-column:1}
+.ph-context-mascot .ph-band-grid{grid-template-columns:.65fr 1.35fr;gap:50px}
+.ph-product-tools{background:#f8fbf7;border:1px solid var(--ph-line);padding:12px 18px;border-radius:15px;display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin-bottom:22px}
+.ph-product-tools label{display:flex;align-items:center;gap:10px;font-size:.89rem;font-weight:650;color:var(--ph-forest)}
+.ph-product-tools select{border:1px solid #aac4af;border-radius:8px;background:#fff;color:var(--ph-forest);padding:6px 8px;min-height:40px}
+.ph-product-tools input[type=checkbox]{accent-color:var(--ph-forest);width:18px;height:18px}
+.ph-product-tools small{color:#657b6b;font-size:.74rem;flex-basis:100%}
+.ph-save{display:inline-flex;margin-left:12px;vertical-align:middle;align-items:center;justify-content:center;width:42px;height:42px;border:1px solid #bad0bd;border-radius:50%;background:#f8faf6;font-size:1.4rem;color:#3d7152}
+.ph-save.is-saved{background:#fff2df;color:#a5641a;border-color:#eccb8d}
+.product-card[hidden]{display:none!important}
+.ph-empty{grid-column:1/-1;padding:26px;background:#f8faf7;border-radius:14px}
+.ph-detail-aside{background:#f5f9f4}
+.ph-detail-aside img{width:100%;max-height:280px;object-fit:contain;mix-blend-mode:multiply}
+#ph-mascot-dialog{border:0;border-radius:22px;padding:0;max-width:min(660px,calc(100% - 30px));box-shadow:0 24px 90px #092b244d}
+#ph-mascot-dialog::backdrop{background:#092d25aa;backdrop-filter:blur(2px)}
+.ph-dialog-inner{text-align:center;padding:14px 25px 26px;position:relative}
+.ph-dialog-inner img{margin:auto;width:min(100%,480px);max-height:65vh;object-fit:contain}
+.ph-dialog-inner h3{margin:5px 0;font-size:1.55rem}
+.ph-dialog-inner p{font-size:.85rem;color:#61736b}
+.ph-dialog-close{position:absolute;top:12px;right:12px;background:#fff;border:1px solid #d4e3d5;border-radius:50%;width:42px;height:42px;font-size:1.6rem;line-height:1}
+.rtl .ph-resources{border-left:0;border-right:4px solid var(--ph-gold)}
+@media(max-width:1100px){.links{gap:9px}.links a{font-size:.76rem}.footer-grid{gap:22px}}
+@media(max-width:970px){.ph-mascot-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.ph-guides-grid,.ph-ideas-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.ph-section{padding:46px 0}.ph-mascot-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.ph-mascot-open img{height:180px}.ph-mascot-caption{padding:10px 12px}.ph-mascot-caption h3{font-size:.94rem}.ph-brand-identity{flex-direction:column;text-align:center;padding:18px}.ph-brand-identity img{width:125px;height:125px}.ph-ideas-grid,.ph-guides-grid,.ph-band-grid,.ph-context-mascot .ph-band-grid{grid-template-columns:1fr}.ph-context-image{max-width:250px}.ph-section-heading{align-items:start;flex-direction:column;gap:15px}.ph-side-mascot{width:125px}.ph-hero-art{min-height:260px}.ph-hero-art img{max-height:320px}.footer-grid{grid-template-columns:1fr 1fr;gap:20px}.ph-product-tools{align-items:start;flex-direction:column}.ph-product-tools small{flex-basis:auto}.ph-idea>img{height:210px}}
+@media(max-width:410px){.ph-mascot-grid{grid-template-columns:1fr 1fr}.ph-mascot-open img{height:150px}.footer-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.ph-mascot-card{transition:none}}
+
+/* Official emblem layered on every mascot card to guarantee authentic brand recognition. */
+.ph-mascot-card{position:relative}
+.ph-brand-stamp,.ph-hero-stamp{position:absolute;top:12px;right:12px;background:#ffffffed;border-radius:50%;border:1px solid #e8e0cd;box-shadow:0 3px 16px #18371d20;display:flex;align-items:center;justify-content:center;width:52px;height:52px;pointer-events:none}
+.ph-brand-stamp img,.ph-hero-stamp img{width:43px;height:43px;object-fit:contain;mix-blend-mode:normal}
+.ph-hero-stamp{top:20px;right:20px;width:74px;height:74px}
+.ph-hero-stamp img{width:62px;height:62px;max-height:none}
