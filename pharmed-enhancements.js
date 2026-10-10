@@ -107,3 +107,16 @@ document.addEventListener('change',e=>{if(e.target.matches('#ph-sort, #ph-only-s
 document.addEventListener('input',e=>{if(e.target.id==='search')queueMicrotask(enhanceCards)});
 upgrade();
 })();
+/* Pharmed science academy auto-loader: paste after final })(); in pharmed-enhancements.js */
+(function(){
+  if(window.__pharmedScienceLoaderActive)return;
+  window.__pharmedScienceLoaderActive=true;
+  if(!document.querySelector('link[href="pharmed-science.css"]')){
+    var css=document.createElement('link');
+    css.rel='stylesheet'; css.href='pharmed-science.css'; document.head.appendChild(css);
+  }
+  if(!document.querySelector('script[src="pharmed-science.js"]')){
+    var script=document.createElement('script');
+    script.src='pharmed-science.js'; document.body.appendChild(script);
+  }
+})();
