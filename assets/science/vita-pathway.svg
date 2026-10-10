@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="410" viewBox="0 0 1250 410" role="img">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#fff0ee"/></linearGradient><filter id="ds"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#254334" flood-opacity=".13"/></filter></defs>
+<rect x="0" y="0" width="1250" height="410" rx="32" fill="url(#bg)"/>
+<text x="55" y="75" font-family="Arial,sans-serif" font-size="37" font-weight="bold" fill="#803f52">VITAMINS | LABEL CHECK</text>
+<text x="55" y="119" font-family="Arial,sans-serif" font-size="23" fill="#4d7162">Historical product data must be reconciled</text>
+<rect x="55" y="168" width="252" height="170" rx="22" fill="#ffffff" stroke="#d58b91" stroke-width="3" filter="url(#ds)"/>
+<circle cx="100" cy="209" r="24" fill="#d58b91"/><text x="100" y="218" text-anchor="middle" font-size="24" font-family="Arial,sans-serif" fill="#fff" font-weight="bold">1</text>
+<text x="82" y="266" font-size="24" font-family="Arial,sans-serif" font-weight="bold" fill="#803f52">Ingredients</text>
+<text x="82" y="303" font-size="19" font-family="Arial,sans-serif" fill="#4b6e63">Identity + purity</text>
+<path d="M323 245 h22 m-8 -8 l8 8 -8 8" fill="none" stroke="#d58b91" stroke-width="4"/>
+<rect x="359" y="168" width="252" height="170" rx="22" fill="#ffffff" stroke="#d58b91" stroke-width="3" filter="url(#ds)"/>
+<circle cx="404" cy="209" r="24" fill="#d58b91"/><text x="404" y="218" text-anchor="middle" font-size="24" font-family="Arial,sans-serif" fill="#fff" font-weight="bold">2</text>
+<text x="386" y="266" font-size="24" font-family="Arial,sans-serif" font-weight="bold" fill="#803f52">Units</text>
+<text x="386" y="303" font-size="19" font-family="Arial,sans-serif" fill="#4b6e63">mg versus microgram</text>
+<path d="M627 245 h22 m-8 -8 l8 8 -8 8" fill="none" stroke="#d58b91" stroke-width="4"/>
+<rect x="663" y="168" width="252" height="170" rx="22" fill="#ffffff" stroke="#d58b91" stroke-width="3" filter="url(#ds)"/>
+<circle cx="708" cy="209" r="24" fill="#d58b91"/><text x="708" y="218" text-anchor="middle" font-size="24" font-family="Arial,sans-serif" fill="#fff" font-weight="bold">3</text>
+<text x="690" y="266" font-size="24" font-family="Arial,sans-serif" font-weight="bold" fill="#803f52">Nutrition</text>
+<text x="690" y="303" font-size="19" font-family="Arial,sans-serif" fill="#4b6e63">Reference intake</text>
+<path d="M931 245 h22 m-8 -8 l8 8 -8 8" fill="none" stroke="#d58b91" stroke-width="4"/>
+<rect x="967" y="168" width="252" height="170" rx="22" fill="#ffffff" stroke="#d58b91" stroke-width="3" filter="url(#ds)"/>
+<circle cx="1012" cy="209" r="24" fill="#d58b91"/><text x="1012" y="218" text-anchor="middle" font-size="24" font-family="Arial,sans-serif" fill="#fff" font-weight="bold">4</text>
+<text x="994" y="266" font-size="24" font-family="Arial,sans-serif" font-weight="bold" fill="#803f52">Compliance</text>
+<text x="994" y="303" font-size="19" font-family="Arial,sans-serif" fill="#4b6e63">Target-market label</text>
+<text x="55" y="381" font-size="18" font-family="Arial,sans-serif" fill="#526659">Scientific education only. Not evidence of product efficacy or an authorised health claim.</text></svg>
