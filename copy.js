@@ -78,7 +78,7 @@ const COPY = {
     "impressum": "Legal notice (Impressum)",
     "privacy": "Privacy policy",
     "legal": "Legal",
-    "updated": "Website draft · product concepts only",
+    "updated": "Pharmed – Company Under Development · Website draft · product concepts only",
     "noResults": "No matching products found."
   },
   "de": {
@@ -160,7 +160,7 @@ const COPY = {
     "impressum": "Impressum",
     "privacy": "Datenschutzerklärung",
     "legal": "Rechtliches",
-    "updated": "Website-Entwurf · ausschließlich Produktkonzepte",
+    "updated": "Pharmed – Unternehmen im Aufbau · Website-Entwurf · ausschließlich Produktkonzepte",
     "noResults": "Keine passenden Produkte gefunden."
   },
   "ar": {
@@ -242,7 +242,7 @@ const COPY = {
     "impressum": "البيانات القانونية",
     "privacy": "سياسة الخصوصية",
     "legal": "المعلومات القانونية",
-    "updated": "نسخة تجريبية للموقع · تصاميم منتجات فقط",
+    "updated": "فارميد – الشركة قيد التأسيس · نسخة تجريبية للموقع · تصاميم منتجات فقط",
     "noResults": "لم يتم العثور على منتجات مطابقة."
   }
 };
