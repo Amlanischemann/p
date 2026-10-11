@@ -1,0 +1,66 @@
+/* Pharmed UG 2026 consolidated portfolio: educational/static, no trackers or AI API keys. */
+(()=>{'use strict';
+const old=Array.isArray(window.PHARMED_FORMULAS)?window.PHARMED_FORMULAS:[];
+const newer=Array.isArray(window.PHARMED_NEW_PROPOSALS)?window.PHARMED_NEW_PROPOSALS:[];
+const items=[...old,...newer];
+const escapeHTML=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const image=id=>'assets/new-products/'+encodeURIComponent(id)+'.webp';
+const currentLang=()=>['en','de','ar'].includes(document.documentElement.lang)?document.documentElement.lang:'en';
+const isNew=p=>p&&typeof p.ingredient==='string';
+const tx={
+ en:{nav:'13 Formulations',guide:'Pharmed Guide',head:'Pharmed Research Guide',sub:'Research assistance with source links and an optional external Microsoft Copilot handoff. No AI answers are generated on this website.',choose:'Select a concept',prompt:'Editable research prompt',copy:'Copy question',copilot:'Open Microsoft Copilot ↗',close:'Close',copied:'Copied. Paste it into Copilot if you choose.',privacy:'No visitor text is sent automatically. Copilot opens as a separate service under its own terms. Do not paste private customer or business information.',home:'13 nutrition, herbal and wellness concepts',homeIntro:'Explore our original product-design proposals and the scientific and German/EU compliance questions behind them. Illustrations are not approved product labels.',browse:'Explore all concepts',evidence:'Scientific references',warn:'Draft product concepts only. All package claims, values, barcodes and address details require verification.',profile:'Formulation and regulatory development notes',recipe:'Research ingredients or prototype targets',caution:'Before public use',notForSale:'Artwork only · Not for sale',source:'View sources'},
+ de:{nav:'13 Rezepturen',guide:'Pharmed-Guide',head:'Pharmed Forschungs-Guide',sub:'Wissenschaftliche Recherchehilfe mit optionaler Weiterleitung zu Microsoft Copilot. Kein KI-Chat auf dieser Website.',choose:'Konzept auswählen',prompt:'Editierbare Recherchefrage',copy:'Frage kopieren',copilot:'Microsoft Copilot öffnen ↗',close:'Schließen',copied:'Kopiert. Bei Bedarf in Copilot einfügen.',privacy:'Es wird kein Besuchereingabetext automatisch versendet. Copilot ist ein externer Dienst. Keine vertraulichen Kunden- oder Firmendaten einfügen.',home:'13 Konzepte für Ernährung, Kräuter und Wellness',homeIntro:'Entdecken Sie neue Produktentwürfe und die wissenschaftlichen bzw. rechtlichen Prüffragen. Abbildungen sind keine zugelassenen Etiketten.',browse:'Alle Konzepte erkunden',evidence:'Wissenschaftliche Quellen',warn:'Nur Entwürfe. Verpackungsaussagen, Mengen, Adressen und Barcodes sind unbestätigt.',profile:'Entwicklung, Rezeptur und Regulierung',recipe:'Zutaten bzw. Rezepturziele',caution:'Vor einer Veröffentlichung prüfen',notForSale:'Entwurf · Nicht zum Verkauf',source:'Quellen öffnen'},
+ ar:{nav:'13 تركيبة',guide:'دليل فارميد',head:'دليل فارميد البحثي',sub:'مساعدة للبحث العلمي مع خيار الانتقال إلى Microsoft Copilot خارج الموقع؛ لا توجد محادثة ذكاء اصطناعي على هذه الصفحة.',choose:'اختر فكرة المنتج',prompt:'سؤال بحث قابل للتعديل',copy:'نسخ السؤال',copilot:'فتح Microsoft Copilot ↗',close:'إغلاق',copied:'تم النسخ؛ الصق النص في Copilot إذا رغبت.',privacy:'لا ترسل مدخلات المستخدم تلقائياً. كوبيلوت خدمة خارجية. لا تشارك بيانات العملاء أو المعلومات السرية.',home:'13 فكرة لمنتجات التغذية والأعشاب والعافية',homeIntro:'استعرض تصاميم المنتجات والأسئلة العلمية والقانونية المرتبطة بها. الصور ليست ملصقات معتمدة.',browse:'عرض كل التركيبات',evidence:'المراجع العلمية',warn:'التصاميم مقترحات فقط؛ بيانات العبوات والكميات والعناوين غير معتمدة.',profile:'ملاحظات التطوير والتركيب واللوائح',recipe:'المكونات والأهداف التركيبية',caution:'فحوصات ما قبل التسويق',notForSale:'تصميم فقط · ليس للبيع',source:'عرض المصادر'}
+};
+const t=k=>(tx[currentLang()]||tx.en)[k]||tx.en[k]||k;
+function entry(id){return items.find(x=>x.id===id)}
+function itemDescription(p){if(isNew(p))return currentLang()==='de'?p.deIngredient:currentLang()==='ar'?p.arIngredient:p.ingredient;return currentLang()==='de'?p.deFormula:currentLang()==='ar'?p.arFormula:p.enFormula}
+function warning(p){if(isNew(p))return currentLang()==='de'?p.deWarning:currentLang()==='ar'?p.arWarning:p.warning;return currentLang()==='de'?p.deNote:p.note}
+function sourceURLs(p){return (p.sources||p.source||[]).filter(x=>/^https:\/\//.test(x))}
+function rows(p){return p.formula||p.composition||[]}
+function safeNav(){const links=document.querySelector('.links');if(links&&!links.querySelector('a[data-pu-nav]')){
+ const a=document.createElement('a');a.href='concepts.html';a.setAttribute('data-pu-nav','1');a.textContent=t('nav');links.append(a)}
+ document.querySelectorAll('a[data-pu-nav]').forEach(a=>a.textContent=t('nav'));
+ const footer=document.querySelector('.footer-grid');if(footer&&!footer.querySelector('.pu-footer')){
+ const area=document.createElement('div');area.className='pu-footer';area.innerHTML='<strong>'+escapeHTML(t('nav'))+'</strong><ul><li><a href="concepts.html">'+escapeHTML(t('browse'))+'</a></li><li><a href="evidence.html">'+escapeHTML(t('evidence'))+'</a></li></ul>';footer.append(area)}
+}
+function home(){if(document.body.dataset.page!=='index')return;
+ const root=document.getElementById('content');if(!root||root.querySelector('.pu-home'))return;
+ const selection=['magnesium-minerals','vitamin-d3-k2','prebiotic-fiber','matcha-protein-latte','botanical-infusion','protein-essentials'];
+ const section=document.createElement('section');section.className='pu-home';
+ section.innerHTML='<div class="wrap"><span class="pu-eyebrow">PHARMED UG · FUTURE PRODUCT CONCEPTS</span><h2>'+escapeHTML(t('home'))+'</h2><p>'+escapeHTML(t('homeIntro'))+'</p><div class="pu-home-grid">'+selection.map(id=>{const p=entry(id);if(!p)return '';return '<a class="pu-home-tile" href="concepts.html#'+encodeURIComponent(p.id)+'"><img loading="lazy" src="'+image(p.id)+'" alt="'+escapeHTML(p.name)+' concept artwork"><strong>'+escapeHTML(p.name)+'</strong><small>'+escapeHTML(t('notForSale'))+'</small></a>'}).join('')+'</div><div class="pu-actions"><a class="pu-btn" href="concepts.html">'+escapeHTML(t('browse'))+' →</a><a class="pu-btn pu-outline" href="evidence.html">'+escapeHTML(t('evidence'))+' ↗</a></div><p class="pu-alert">'+escapeHTML(t('warn'))+'</p></div>';
+ root.append(section);
+}
+function ideas(){if(document.body.dataset.page!=='ideas')return;document.querySelectorAll('.ph-idea').forEach(card=>{const a=card.querySelector('a[href^="product.html?id="]');if(!a||card.querySelector('.pu-read-more'))return;const id=new URL(a.href,location.href).searchParams.get('id');if(!entry(id))return;const b=document.createElement('a');b.className='pu-read-more';b.href='concepts.html#'+encodeURIComponent(id);b.textContent=t('browse')+' →';card.querySelector('.ph-idea-body')?.append(b);card.classList.add('pu-labelled')});}
+function profile(){if(document.body.dataset.page!=='product')return;const id=new URLSearchParams(location.search).get('id'),p=entry(id),main=document.getElementById('content');if(!p||!main||main.querySelector('.pu-profile'))return;
+ const div=document.createElement('section');div.className='pu-profile wrap';
+ const fmt=rows(p).map(r=>'<tr><td>'+escapeHTML(r[0])+'</td><td>'+escapeHTML(r[1])+'</td></tr>').join('');
+ div.innerHTML='<h2>'+escapeHTML(t('profile'))+'</h2><p class="pu-alert">'+escapeHTML(t('warn'))+'</p><div class="pu-profile-inner"><img loading="lazy" src="'+image(id)+'" alt="'+escapeHTML(p.name)+' concept label not approved"><div><h3>'+escapeHTML(t('recipe'))+'</h3><p>'+escapeHTML(itemDescription(p))+'</p><div class="pu-table-scroll"><table><thead><tr><th>Component</th><th>Proposed status</th></tr></thead><tbody>'+fmt+'</tbody></table></div><h3>'+escapeHTML(t('caution'))+'</h3><p>'+escapeHTML(warning(p))+'</p><p class="pu-links">'+sourceURLs(p).slice(0,3).map(u=>'<a href="'+escapeHTML(u)+'" target="_blank" rel="noopener noreferrer">'+escapeHTML(t('source'))+' ↗</a>').join(' ')+'</p><p><a href="concepts.html#'+encodeURIComponent(id)+'">'+escapeHTML(t('browse'))+' →</a></p></div></div>';
+ main.append(div);
+}
+function concepts(){if(document.body.dataset.page!=='concepts')return;
+ const q=document.getElementById('pu-search'),cards=[...document.querySelectorAll('.pu-item')],buttons=[...document.querySelectorAll('[data-pu-filter]')];
+ if(q&&!q.dataset.ready){q.dataset.ready='1';let current='all';const draw=()=>{const query=q.value.trim().toLowerCase();cards.forEach(c=>{const fits=current==='all'||c.dataset.risk===current;const match=(c.dataset.search+' '+c.innerText).toLowerCase().includes(query);c.hidden=!(fits&&match)});};q.addEventListener('input',draw);buttons.forEach(b=>b.addEventListener('click',()=>{current=b.dataset.puFilter;buttons.forEach(a=>a.classList.toggle('active',a===b));draw()}));}
+}
+function researchPrompt(p){const list=rows(p).map(r=>r[0]+': '+r[1]).join('; ');
+ const name=p.name;const lang=currentLang();
+ if(lang==='de')return 'Bewerte ausschließlich als Produktentwicklungsrecherche das Pharmed UG Konzept „'+name+'“ ('+list+'). Prüfe die EU-/deutsche Einordnung als Lebensmittel, Nahrungsergänzungsmittel oder mögliches Arzneimittel; vergleiche NemV, BVL, BfR, EFSA und die EU-Health-Claims-Verordnung. Prüfe Risikogruppen, Allergene, Neuartige Lebensmittel und die erforderliche Analytik. Zitiere Primärquellen. Aussagen der generierten Verpackung sind ausdrücklich nicht bestätigt.';
+ if(lang==='ar')return 'راجع علمياً وقانونياً فكرة Pharmed UG «'+name+'» ('+list+'). وضح التصنيف بين الغذاء والمكمل والدواء، وراجع تشريعات الاتحاد الأوروبي وألمانيا وBfR وBVL وEFSA مع روابط رسمية. لا تفترض صحة النص الموجود على عبوة التصميم ولا تنشئ ادعاءات علاجية.';
+ return 'Critically review this UNAPPROVED Pharmed UG concept: '+name+' ('+list+'). Separate food supplement, conventional food and medicinal product classification. Identify official German/EU requirements (NemV, BVL, BfR, EFSA, EU authorized claims), supplier and finished-product tests, contraindications, novel-food questions, and evidence quality. Cite authoritative primary sources. Packaging text and illustrative quantities may be wrong. Do not invent approved claims or a market-ready label.';
+}
+function guide(){if(document.querySelector('.pu-guide-launch'))return;
+ const btn=document.createElement('button');btn.type='button';btn.className='pu-guide-launch';btn.setAttribute('aria-haspopup','dialog');btn.textContent='✦ '+t('guide');
+ const panel=document.createElement('aside');panel.className='pu-guide-dialog';panel.hidden=true;panel.setAttribute('role','dialog');panel.setAttribute('aria-modal','false');panel.setAttribute('aria-label',t('head'));
+ panel.innerHTML='<button type="button" class="pu-guide-close" aria-label="'+escapeHTML(t('close'))+'">×</button><h2>'+escapeHTML(t('head'))+'</h2><p>'+escapeHTML(t('sub'))+'</p><label for="pu-guide-item">'+escapeHTML(t('choose'))+'</label><select id="pu-guide-item">'+items.map(p=>'<option value="'+escapeHTML(p.id)+'">'+escapeHTML(p.name)+'</option>').join('')+'</select><label for="pu-guide-text">'+escapeHTML(t('prompt'))+'</label><textarea id="pu-guide-text" rows="7" spellcheck="true"></textarea><div class="pu-guide-buttons"><button type="button" id="pu-copy">'+escapeHTML(t('copy'))+'</button><a href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer">'+escapeHTML(t('copilot'))+'</a></div><p role="status" id="pu-status" aria-live="polite"></p><p class="pu-guide-note">'+escapeHTML(t('privacy'))+'</p>';
+ document.body.append(btn,panel);const input=panel.querySelector('#pu-guide-item'),txt=panel.querySelector('#pu-guide-text');input.value=entry(new URLSearchParams(location.search).get('id'))?.id||items[0].id;txt.value=researchPrompt(entry(input.value));input.onchange=()=>txt.value=researchPrompt(entry(input.value));
+ const close=()=>{panel.hidden=true;btn.setAttribute('aria-expanded','false');btn.focus()};btn.onclick=()=>{panel.hidden=!panel.hidden;btn.setAttribute('aria-expanded',String(!panel.hidden));if(!panel.hidden)input.focus()};panel.querySelector('.pu-guide-close').onclick=close;document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!panel.hidden)close()});
+ panel.querySelector('#pu-copy').onclick=async()=>{try{if(!navigator.clipboard?.writeText)throw Error('Clipboard unavailable');await navigator.clipboard.writeText(txt.value);panel.querySelector('#pu-status').textContent=t('copied')}catch(e){txt.focus();txt.select();panel.querySelector('#pu-status').textContent='Select the text and press Ctrl+C.'}};
+}
+function refresh(){safeNav();home();ideas();profile();concepts();guide();}
+refresh();
+// Language switching is handled by existing app.js and the mascot layer; refresh removed or newly inserted UI.
+document.addEventListener('click',e=>{if(e.target.closest('[data-lang]'))queueMicrotask(()=>{document.querySelector('.pu-guide-dialog')?.remove();document.querySelector('.pu-guide-launch')?.remove();refresh()})});
+if(document.body.dataset.page==='ideas'){
+ const main=document.getElementById('content');if(main){const mo=new MutationObserver(()=>{if(!main.querySelector('.ph-ideas-grid'))return;ideas()});mo.observe(main,{childList:true,subtree:true})}
+}
+})();
