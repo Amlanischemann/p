@@ -9,6 +9,24 @@ window.PHARMED_SETTINGS = {
   showWishlist: true,
   contactEmail: ''
 };
+
+/* Consistent product artwork across All Products, Products and product detail pages.
+   These pre-existing images are branded design visuals, not verified retail labels. */
+(function () {
+  'use strict';
+  if (typeof PRODUCTS === 'undefined' || !Array.isArray(PRODUCTS)) return;
+  const premiumImages = {
+    'omega-3-gum': 'assets/redesign/omega-3-gum-science.webp',
+    'probio-gum': 'assets/redesign/probio-gum-science.webp',
+    'vita-straw': 'assets/redesign/vita-straw-science.webp'
+  };
+  for (const product of PRODUCTS) {
+    if (Object.prototype.hasOwnProperty.call(premiumImages, product.id)) {
+      product.image = premiumImages[product.id];
+    }
+  }
+})();
+
 (function(){
   'use strict';
   const statuses={
