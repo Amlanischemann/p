@@ -38,7 +38,7 @@ window.PHARMED_SETTINGS = {
     const footer=document.querySelector('#site-footer footer');if(!footer)return;
     let el=footer.querySelector('#pharmed-formation-notice');
     if(!el){el=document.createElement('p');el.id='pharmed-formation-notice';el.style.cssText='margin:0;padding:12px 20px;text-align:center;font-size:14px;line-height:1.6;border-top:1px solid rgba(255,255,255,.16)';footer.appendChild(el);}
-    el.textContent=statuses[lang()];el.lang=lang();el.dir=lang()==='ar'?'rtl':'ltr';
+    if(el.textContent!==statuses[lang()])el.textContent=statuses[lang()];el.lang=lang();el.dir=lang()==='ar'?'rtl':'ltr';
   }
   /* Replace repeated promotional draft labels, never numerical claims or provenance fields. */
   const changes=[
