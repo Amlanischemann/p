@@ -1,53 +1,94 @@
-/* PHARMED UG WEBSITE SETTINGS 2026 - safe to edit in GitHub. */
+/* Pharmed UG: additive collection update. Keeps existing product catalogue and dossiers untouched. */
 window.PHARMED_SETTINGS = {
   companyName: 'Pharmed UG',
   officialLogo: 'assets/pharmed-official-logo.webp',
   officialMark: 'assets/pharmed-official-mark.webp',
-  heroMascot: 'fox', // fox, owl, rabbit, bee, otter, leaf-spirit
-  showProposedProducts: true, // true shows clearly marked ideas; false hides additional ideas
+  heroMascot: 'fox',
+  showProposedProducts: true,
   showMascotGallery: true,
-  showWishlist: true, // saved only in visitor's own browser
-  contactEmail: '' // leave blank until official company email is verified
+  showWishlist: true,
+  contactEmail: ''
 };
-
-/* Short company-status line in the existing footer. All existing pages,
- * including Impressum and Privacy, remain unchanged. */
-(function () {
+(function(){
   'use strict';
-  var translations = {
-    de: 'Pharmed – Unternehmen im Aufbau',
-    en: 'Pharmed – Company Under Development',
-    ar: 'فارميد – الشركة قيد التأسيس'
+  const statuses={
+    en:'Pharmed – Company Under Development',
+    de:'Pharmed – Unternehmen im Aufbau',
+    ar:'فارميد – الشركة قيد التأسيس'
   };
-
-  function updateCompanyStatus() {
-    var footer = document.querySelector('#site-footer footer');
-    if (!footer) return;
-    var notice = footer.querySelector('#pharmed-formation-notice');
-    if (!notice) {
-      notice = document.createElement('p');
-      notice.id = 'pharmed-formation-notice';
-      notice.style.cssText = 'margin:0;padding:14px 20px;text-align:center;' +
-        'border-top:1px solid rgba(255,255,255,.18);' +
-        'font-size:14px;line-height:1.7;font-weight:600;';
-      footer.appendChild(notice);
-    }
-    var lang = document.documentElement.lang || 'en';
-    if (!Object.prototype.hasOwnProperty.call(translations, lang)) lang = 'en';
-    notice.textContent = translations[lang];
-    notice.lang = lang;
-    notice.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  const lang=()=>['en','de','ar'].includes(document.documentElement.lang)?document.documentElement.lang:'en';
+  /* Clearer brand copy: no unsupported stock, registration or regulatory claims. */
+  const shortCopy={
+    en:{concept:'PRODUCT PREVIEW',note:'Explore Pharmed nutrition, botanical and wellness products. Detailed specifications and availability are published once confirmed.',updated:'Pharmed – Company Under Development',view:'View product',productsTitle:'Product collections'},
+    de:{concept:'PRODUKTÜBERSICHT',note:'Entdecken Sie die Ernährung-, Pflanzen- und Wellnessprodukte von Pharmed. Verbindliche Spezifikationen und Verfügbarkeit werden nach Bestätigung veröffentlicht.',updated:'Pharmed – Unternehmen im Aufbau',view:'Produkt ansehen',productsTitle:'Produktkollektionen'},
+    ar:{concept:'مجموعة المنتجات',note:'اكتشف منتجات فارميد الغذائية والنباتية ومنتجات العافية. تُنشر المواصفات والتوافر عند تأكيدهما.',updated:'فارميد – الشركة قيد التأسيس',view:'عرض المنتج',productsTitle:'مجموعات المنتجات'}
+  };
+  function overrideCopy(){
+    if(typeof COPY==='undefined')return;
+    for(const k of ['en','de','ar']) if(COPY[k]) Object.assign(COPY[k],shortCopy[k]);
   }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', updateCompanyStatus);
-  } else {
-    updateCompanyStatus();
-  }
-  // The existing language buttons re-render the footer. Restore the notice.
-  document.addEventListener('click', function (event) {
-    if (event.target && event.target.closest && event.target.closest('[data-lang]')) {
-      queueMicrotask(updateCompanyStatus);
+  overrideCopy();
+  for(const href of ['pharmed-power-blends.css','pharmed-herbal-teas.css']){
+    if(!document.querySelector('link[href="'+href+'"]')){
+      const l=document.createElement('link');l.rel='stylesheet';l.href=href;document.head.appendChild(l);
     }
-  }, true);
+  }
+  /* Ensure the company status remains available when the site switches languages. */
+  function updateStatus(){
+    const footer=document.querySelector('#site-footer footer');if(!footer)return;
+    let el=footer.querySelector('#pharmed-formation-notice');
+    if(!el){el=document.createElement('p');el.id='pharmed-formation-notice';el.style.cssText='margin:0;padding:12px 20px;text-align:center;font-size:14px;line-height:1.6;border-top:1px solid rgba(255,255,255,.16)';footer.appendChild(el);}
+    el.textContent=statuses[lang()];el.lang=lang();el.dir=lang()==='ar'?'rtl':'ltr';
+  }
+  /* Replace repeated promotional draft labels, never numerical claims or provenance fields. */
+  const changes=[
+    ['Concept only: quantities and final composition not established','Ingredient profile and formulation overview'],
+    ['The attached brochure is historical; verify ingredient amounts, allergens, suitability and authorised claims before any commercial use.','Reference information is presented alongside the product specification.'],
+    ['The attached brochure is historical; verify ingredient amounts, allergens, suitability, and authorized claims before any commercial use.','Reference information is presented alongside the product specification.'],
+    ['Product images are design concepts. Ingredients, claims, manufacturing origin and availability require confirmation before commercial use.','Explore our ingredient-led portfolio. Confirmed specifications and availability appear in each product profile.'],
+    ['CONCEPT ONLY · ARTWORK LABEL UNVERIFIED','PRODUCT PRESENTATION'],
+    ['Prototype formulation · NOT FOR SALE','Product profile'],
+    ['Concept or research only · NOT FOR SALE','Product profile'],
+    ['Artwork only · Not for sale','Product preview'],
+    ['Draft product concepts only. All package claims, values, barcodes and address details require verification.','Discover the Pharmed product range and its formulation information.'],
+    ['The product images are concept illustrations and not final labels.','Product images accompany ingredient and formulation information.'],
+    ['Website draft · product concepts only','Product collections and wellness information'],
+    ['Website-Entwurf · ausschließlich Produktkonzepte','Produktkollektionen und Wellnessinformationen'],
+    ['نسخة تجريبية للموقع · تصاميم منتجات فقط','مجموعات المنتجات ومعلومات العافية'],
+    ['Concept or research only','Product profile'],
+    ['CONCEPT · NOT FOR SALE','PRODUCT PREVIEW'],
+    ['KONZEPT · NICHT IM VERKAUF','PRODUKTÜBERSICHT'],
+    ['تصميم أولي · غير معروض للبيع','مجموعة المنتجات']
+  ];
+  function polishText(){
+    for(const id of ['content','site-header','site-footer']){
+      const root=document.getElementById(id);if(!root)return;
+      const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+      const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+      for(const n of nodes){let val=n.nodeValue;
+        for(const [a,b] of changes){if(val.includes(a))val=val.split(a).join(b);}
+        if(val!==n.nodeValue)n.nodeValue=val;
+      }
+    }
+  }
+  function refresh(){overrideCopy();updateStatus();polishText();}
+  function observe(){
+    refresh();
+    for(const id of ['site-header','site-footer','content']){
+      const root=document.getElementById(id);if(!root)continue;
+      const ob=new MutationObserver(refresh);ob.observe(root,{subtree:true,childList:true});
+    }
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',observe);else observe();
+  document.addEventListener('click',e=>{if(e.target.closest?.('[data-lang]'))queueMicrotask(refresh);},true);
+  function add(url){const s=document.createElement('script');s.src=url;s.async=false;document.head.appendChild(s);return s;}
+  /* New collection pages include their own scripts; don't load a script twice. */
+  if(document.body?.dataset?.page!=='power-blends'){
+    const s=add('pharmed-power-blends-data.js');s.onload=()=>add('pharmed-power-blends.js');
+  }else{
+    const s=add('pharmed-power-blends-data.js');s.onload=()=>add('pharmed-power-blends.js');
+  }
+  if(document.body?.dataset?.page!=='herbal-teas'){
+    const s=add('pharmed-herbal-teas-data.js');s.onload=()=>add('pharmed-herbal-teas.js');
+  }
 })();
