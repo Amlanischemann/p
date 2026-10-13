@@ -1,0 +1,12 @@
+PHARMED UG COMPLETE UPDATED WEBSITE
+
+1. Extract this ZIP.
+2. Open your GitHub repository at https://github.com/Amlanischemann/p
+3. Upload the CONTENTS of this extracted folder to the repository root, retaining folders (especially assets).
+4. Commit/push changes.
+5. Wait until Cloudflare Pages deployment succeeds.
+6. Open https://pharmed-ug.pages.dev/ and select Men's Health from navigation, or view the six-product homepage feature.
+7. The full page is https://pharmed-ug.pages.dev/mens-health.html
+
+The full Men's Health page is standalone and includes its own styles and scripts.
+Products remain proposed development concepts pending applicable export and regulatory review.
