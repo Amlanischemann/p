@@ -1,0 +1,66 @@
+/* VetHerb Animal Nutrition — an original Pharmed UG animal-feed R&D design system. */
+.pa-root{--pa-forest:#183f30;--pa-sage:#778e58;--pa-gold:#b59859;--pa-cream:#f7f6ed;--pa-border:#dce5d8;background:#f6f8f3;color:#193c2f;min-height:75vh}
+.pa-root,.pa-root *{box-sizing:border-box}
+.pa-root a{text-decoration:none}
+.pa-hero{position:relative;isolation:isolate;background:linear-gradient(115deg,#103b2a 10%,#376449 68%,#718a4d);overflow:hidden;color:white}
+.pa-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 76% 18%,rgba(229,217,155,.25),transparent 35%),radial-gradient(circle at 10% 90%,rgba(120,146,103,.38),transparent 40%);z-index:-1}
+.pa-hero-inner{max-width:1210px;margin:0 auto;padding:59px 26px 43px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:34px}
+.pa-kicker{color:#e0cc8d;text-transform:uppercase;font-size:12px;font-weight:800;letter-spacing:.18em}
+.pa-hero h1{color:#fff;font:normal clamp(42px,6vw,75px)/1.07 Georgia,serif;letter-spacing:-.03em;margin:15px 0 18px}
+.pa-hero h1 em{color:#e0cb88;font-style:normal}
+.pa-hero p{font-size:17px;color:#e1efe3;line-height:1.7;max-width:660px;margin:0 0 24px}
+.pa-hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.pa-btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border-radius:9px;border:1px solid transparent;background:#f5eac7;color:#1e452f!important;font-size:14px;font-weight:800;text-decoration:none;cursor:pointer;min-height:44px}
+.pa-btn:hover,.pa-btn:focus-visible{background:#fff1b6}
+.pa-btn--ghost{color:#fff!important;border-color:rgba(255,255,255,.5);background:transparent}
+.pa-btn--ghost:hover{background:rgba(255,255,255,.14)}
+.pa-hero-art{max-width:380px;width:100%;height:360px;object-fit:contain;filter:drop-shadow(0 24px 18px rgba(0,0,0,.17));justify-self:center;border-radius:12px}
+.pa-stats{display:flex;flex-wrap:wrap;gap:18px;margin-top:24px}
+.pa-stats span{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:800;color:#e6eee4}
+.pa-stats b{font:normal 25px/1 Georgia,serif;color:#e7d7a8}
+.pa-notice{max-width:1180px;margin:22px auto 0;padding:14px 18px;color:#526a55;font-size:13px;line-height:1.65;background:#edf2e8;border-left:4px solid #b79b57;border-radius:4px}
+.pa-wrap{max-width:1230px;margin:0 auto;padding:34px 25px 72px}
+.pa-section-head{display:flex;justify-content:space-between;gap:25px;align-items:end;margin:15px 0 21px}
+.pa-section-head h2{color:#1d4430;font:normal clamp(28px,3vw,42px)/1.16 Georgia,serif;margin:7px 0}
+.pa-section-head p{font-size:14px;line-height:1.6;color:#617460;max-width:600px;margin:0}
+.pa-small-kicker{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#987c40;font-weight:800}
+.pa-controls{background:#fff;border:1px solid #dee7da;border-radius:15px;padding:15px;display:grid;gap:14px;margin-bottom:17px}
+.pa-tabs{display:flex;gap:8px;flex-wrap:wrap}
+.pa-tab{border:1px solid #cdd9c8;background:#f7faf5;color:#355941;border-radius:100px;padding:10px 14px;cursor:pointer;font:700 13px/1.2 inherit;min-height:42px}
+.pa-tab[aria-pressed="true"]{background:#1a573c;border-color:#1a573c;color:#fff}
+.pa-search-line{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pa-search{border:1px solid #cdd9c8;padding:13px 15px;background:white;border-radius:9px;flex:1;min-width:200px;color:#224b36;font-size:14px}
+.pa-sort{border:1px solid #cdd9c8;background:white;padding:12px;border-radius:9px;max-width:250px;color:#2e5740}
+.pa-total{font-size:13px;color:#61725d;font-weight:700;margin:0 0 20px}
+.pa-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:21px}
+.pa-card{background:white;border:1px solid #dce7d9;border-radius:17px;overflow:hidden;box-shadow:0 9px 24px rgba(28,66,39,.04);display:flex;flex-direction:column}
+.pa-card:hover{box-shadow:0 14px 30px rgba(28,66,39,.095)}
+.pa-card-visual{background:linear-gradient(135deg,#f1f4e7,#dae7d5);padding:16px;position:relative;min-height:265px;display:flex;align-items:center;justify-content:center}
+.pa-card-visual img{width:100%;height:245px;object-fit:contain;display:block}
+.pa-card-tag{position:absolute;top:13px;left:14px;background:rgba(255,255,255,.94);padding:6px 9px;border-radius:7px;color:#517054;font-weight:800;font-size:10px;letter-spacing:.07em;text-transform:uppercase}
+.pa-card-info{padding:18px 20px 23px;display:flex;flex:1;flex-direction:column}
+.pa-card-topic{font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:#a28147}
+.pa-card h3{font:normal 24px/1.15 Georgia,serif;color:#1a4431;margin:9px 0}
+.pa-card-info p{color:#586e5e;line-height:1.56;font-size:13px;margin:0 0 13px;flex:1}
+.pa-animals{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 16px}
+.pa-animal-chip{display:inline-flex;gap:5px;align-items:center;border:1px solid #dce6d7;background:#f7faf6;color:#526a53;border-radius:100px;padding:5px 8px;font-size:11px}
+.pa-card-more{display:inline-flex;gap:7px;align-items:center;color:#246c43;font-weight:800;font-size:13px;border-top:1px solid #e4eae0;padding-top:12px}
+.pa-overview{margin-top:38px;background:linear-gradient(145deg,#e9f0e4,#f7f7ed);padding:26px 30px;border:1px solid #d8e1d1;border-radius:16px}
+.pa-overview h2{font:normal 30px Georgia,serif;color:#234a36;margin:0 0 12px}
+.pa-overview-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}
+.pa-overview article{padding:15px;border-radius:12px;background:rgba(255,255,255,.68);color:#526b55;line-height:1.6;font-size:13px}
+.pa-overview article strong{display:block;color:#1a4b32;font-size:15px;margin-bottom:8px}
+.pa-detail-wrap{max-width:1210px;margin:0 auto;padding:28px 24px 70px}
+.pa-back{display:inline-block;color:#356b4b;font-weight:800;font-size:14px;margin-bottom:25px}
+.pa-detail-grid{display:grid;grid-template-columns: minmax(280px,.9fr) minmax(350px,1.1fr);gap:40px;align-items:start}
+.pa-detail-visual{background:linear-gradient(130deg,#f0f4e9,#e5ecd9);border:1px solid #dce6d8;border-radius:16px;padding:22px}
+.pa-detail-visual img{width:100%;max-height:600px;object-fit:contain;display:block}
+.pa-detail-title{font:normal clamp(34px,4.5vw,53px)/1.12 Georgia,serif;color:#183f2e;margin:10px 0 18px}
+.pa-detail-lead{font-size:18px;line-height:1.6;color:#516b58;margin:0 0 20px}
+.pa-checks{background:white;border:1px solid #dfe7da;border-radius:13px;padding:23px;margin-top:20px}
+.pa-checks h2{font:normal 26px Georgia,serif;color:#214a34;margin:0 0 13px}
+.pa-checks ul{padding-left:22px;margin:0;color:#526b58;line-height:1.75;font-size:14px}
+.pa-legal{margin-top:23px;border-left:4px solid #ab9158;background:#fffdf3;padding:16px 20px;border-radius:4px;font-size:13px;line-height:1.65;color:#6d5b35}
+.pa-nojs{padding:40px 20px}
+@media(max-width:940px){.pa-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pa-hero-inner{grid-template-columns:1fr 0.8fr}.pa-hero-art{height:300px}.pa-overview-grid{grid-template-columns:1fr}}
+@media(max-width:640px){.pa-grid{grid-template-columns:1fr}.pa-hero-inner{grid-template-columns:1fr;padding:36px 18px 26px}.pa-hero h1{font-size:47px}.pa-hero-art{height:260px}.pa-wrap,.pa-detail-wrap{padding:23px 15px 50px}.pa-section-head{display:block}.pa-detail-grid{grid-template-columns:1fr}.pa-card-visual{min-height:230px}.pa-card-visual img{height:220px}.pa-search-line{display:block}.pa-search,.pa-sort{width:100%;max-width:none;margin-bottom:10px}.pa-overview{padding:17px}}

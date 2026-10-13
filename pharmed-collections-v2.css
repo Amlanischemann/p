@@ -40,3 +40,7 @@ body[data-page="index"] .pb-home-teaser,body[data-page="index"] .ht-home-tile{di
 
 body[data-page="herbal-teas"] .ht-hero{display:none!important}
 .pm-tea-feature h1{font-family:Georgia,serif;font-size:clamp(27px,3vw,43px);margin:9px 0;color:#164130}
+
+/* Visually distinct animal-nutrition collection without affecting human products. */
+.pm-collection-card[href="animal-nutrition.html"]{border-color:#b5c6a0;background:linear-gradient(#fff,#f5f7eb)}
+.pm-collection-card[href="animal-nutrition.html"] img{background:#e3ebdb;object-fit:cover;object-position:center 41%;padding:0}

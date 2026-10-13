@@ -24,3 +24,12 @@
 .pm-all-card a{font-size:13px;font-weight:800;color:#18714c}
 .pm-all-legal{font-size:12px;color:#58705e;margin-top:26px;padding:14px;border-top:1px solid #d3e3d4;line-height:1.55}
 @media(max-width:600px){.pm-all-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.pm-all-card img{height:160px}.pm-all-content{padding:11px}.pm-all-card h2{font-size:16px}}
+
+/* Sorted collection headings + differentiated animal cards. */
+.pm-all-grouped{display:block!important}
+.pm-all-section{margin-bottom:34px}
+.pm-all-section-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid #dce8dc;margin:0 0 14px;padding:7px 3px}
+.pm-all-section-head h2{color:#164331;font:normal 26px/1.3 Georgia,serif;margin:0}
+.pm-all-section-head span{font-size:13px;font-weight:800;color:#7e8d76}
+.pm-all-card--animal{border-color:#b7caaa;background:linear-gradient(160deg,#fafdf9,#f2f7ed)}
+.pm-all-card--animal img{background:linear-gradient(150deg,#e6efdd,#f9f8e7);object-fit:contain}
