@@ -1,0 +1,5 @@
+PHARMED UG - MEN'S HEALTH IN NORMAL PRODUCTS CATALOGUE
+
+The six concepts appear in products.html under the Men's Health filter. Each has its own product.html?id=mens-... page with ingredient table and scientific mechanism. Language switch uses the original site. The separate mens-health.html page is not required.
+
+To deploy, upload the CONTENTS of this folder to the repository root, preserving assets/. Replacement of existing products-data.js, app.js and style.css is necessary.

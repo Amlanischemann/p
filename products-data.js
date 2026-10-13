@@ -197,4 +197,227 @@ const PRODUCTS = [
     },
     "id": "animal-supplements"
   }
+,
+{
+  "name": "PHARMED NO FLOW",
+  "image": "assets/mens-no-flow.svg",
+  "category": "men",
+  "description": {
+    "en": "Targeted amino-acid nutrition with L-citrulline and essential micronutrients for adult men. A premium once-daily sachet concept for international wellness markets.",
+    "de": "Ernährung für den Stickstoffmonoxid-Stoffwechsel. Enthält L-citrulline, Vitamin C, Zinc (elemental). Die angegebenen Mengen sind vorgeschlagene Tagesportionen für die Produktentwicklung.",
+    "ar": "تغذية مسار أكسيد النيتريك، يحتوي على L-citrulline، Vitamin C، Zinc (elemental). الكميات مقترحة للجرعة اليومية وتطوير المنتج."
+  },
+  "id": "mens-no-flow",
+  "ingredients": [
+    [
+      "L-citrulline",
+      "3,000 mg"
+    ],
+    [
+      "Vitamin C",
+      "80 mg"
+    ],
+    [
+      "Zinc (elemental)",
+      "10 mg"
+    ]
+  ],
+  "serving": "1 sachet daily",
+  "pack": "30 sachets",
+  "mechanism": "L-citrulline can be converted to L-arginine, the substrate for nitric oxide synthase. Nitric oxide signals via soluble guanylate cyclase and cGMP in vascular smooth muscle. Direct clinical proof that this finished formulation improves penile hardness or erection duration is unavailable.",
+  "claims": [
+    "Zinc contributes to normal fertility and reproduction.",
+    "Vitamin C contributes to the protection of cells from oxidative stress."
+  ],
+  "development": true
+},
+{
+  "name": "PHARMED VIGOR",
+  "image": "assets/mens-vigor.svg",
+  "category": "men",
+  "description": {
+    "en": "A botanical and micronutrient complex for adult male everyday nutritional routines, combining Panax ginseng, maca and zinc.",
+    "de": "Vitalität und reproduktive Ernährung. Enthält Panax ginseng root extract, Maca root powder, Zinc (elemental). Die angegebenen Mengen sind vorgeschlagene Tagesportionen für die Produktentwicklung.",
+    "ar": "الحيوية والتغذية الإنجابية، يحتوي على Panax ginseng root extract، Maca root powder، Zinc (elemental). الكميات مقترحة للجرعة اليومية وتطوير المنتج."
+  },
+  "id": "mens-vigor",
+  "ingredients": [
+    [
+      "Panax ginseng root extract",
+      "200 mg"
+    ],
+    [
+      "Maca root powder",
+      "500 mg"
+    ],
+    [
+      "Zinc (elemental)",
+      "10 mg"
+    ],
+    [
+      "Vitamin B6",
+      "1.4 mg"
+    ]
+  ],
+  "serving": "2 capsules daily",
+  "pack": "60 capsules",
+  "mechanism": "Panax ginseng contains ginsenosides, studied for vascular, neural and fatigue-related pathways. Maca has been investigated for subjective sexual desire. Results are inconsistent and not proof of improved libido or increased intercourse frequency.",
+  "claims": [
+    "Zinc contributes to normal fertility and reproduction.",
+    "Vitamin B6 contributes to normal energy-yielding metabolism."
+  ],
+  "development": true
+},
+{
+  "name": "PHARMED STAMINA",
+  "image": "assets/mens-stamina.svg",
+  "category": "men",
+  "description": {
+    "en": "A straightforward micronutrient formula for adult men with an emphasis on normal muscle and psychological functions.",
+    "de": "Tägliche Vitalität und Muskelfunktion. Enthält Magnesium (elemental), Vitamin B6, Zinc (elemental). Die angegebenen Mengen sind vorgeschlagene Tagesportionen für die Produktentwicklung.",
+    "ar": "الحيوية اليومية ووظائف العضلات، يحتوي على Magnesium (elemental)، Vitamin B6، Zinc (elemental). الكميات مقترحة للجرعة اليومية وتطوير المنتج."
+  },
+  "id": "mens-stamina",
+  "ingredients": [
+    [
+      "Magnesium (elemental)",
+      "100 mg"
+    ],
+    [
+      "Vitamin B6",
+      "1.4 mg"
+    ],
+    [
+      "Zinc (elemental)",
+      "10 mg"
+    ]
+  ],
+  "serving": "2 capsules daily",
+  "pack": "60 capsules",
+  "mechanism": "Magnesium participates in normal neuromuscular function and B6 contributes to normal psychological function. No oral dietary supplement in this concept has demonstrated reliable reduction in penile sensitivity or clinically meaningful delay of ejaculation. Sensitivity reduction is primarily an established mechanism of regulated topical anaesthetics, not this food product.",
+  "claims": [
+    "Magnesium contributes to normal muscle function.",
+    "Vitamin B6 contributes to normal psychological function."
+  ],
+  "development": true
+},
+{
+  "name": "PHARMED SPERM CARE",
+  "image": "assets/mens-sperm.svg",
+  "category": "men",
+  "description": {
+    "en": "Comprehensive nutritional support with selenium and zinc, combined with CoQ10 and L-carnitine for a sophisticated male reproductive-health range.",
+    "de": "Nährstoffe für die normale Spermienbildung. Enthält L-carnitine L-tartrate, Coenzyme Q10, Zinc (elemental). Die angegebenen Mengen sind vorgeschlagene Tagesportionen für die Produktentwicklung.",
+    "ar": "مغذيات لتكوين الحيوانات المنوية الطبيعي، يحتوي على L-carnitine L-tartrate، Coenzyme Q10، Zinc (elemental). الكميات مقترحة للجرعة اليومية وتطوير المنتج."
+  },
+  "id": "mens-sperm",
+  "ingredients": [
+    [
+      "L-carnitine L-tartrate",
+      "500 mg"
+    ],
+    [
+      "Coenzyme Q10",
+      "100 mg"
+    ],
+    [
+      "Zinc (elemental)",
+      "10 mg"
+    ],
+    [
+      "Selenium",
+      "55 µg"
+    ],
+    [
+      "Folate",
+      "200 µg"
+    ],
+    [
+      "Vitamin C",
+      "80 mg"
+    ]
+  ],
+  "serving": "2 capsules daily",
+  "pack": "60 capsules",
+  "mechanism": "Selenium-dependent selenoproteins have roles in sperm development; zinc contributes to normal reproductive function. CoQ10 is involved in electron transport and L-carnitine in fatty-acid transport; antioxidant supplementation trials in infertile men are mixed and cannot establish improvement in sperm viability, motility or pregnancy outcomes for this blend.",
+  "claims": [
+    "Selenium contributes to normal spermatogenesis.",
+    "Zinc contributes to normal fertility and reproduction.",
+    "Folate contributes to normal amino acid synthesis."
+  ],
+  "development": true
+},
+{
+  "name": "PHARMED PROSTA BOTANICAL",
+  "image": "assets/mens-prosta-botanical.svg",
+  "category": "men",
+  "description": {
+    "en": "A carefully positioned mature-men’s botanical supplement featuring saw palmetto fruit extract, pumpkin seed oil and zinc.",
+    "de": "Pflanzliches Männer-Wellnesskonzept. Enthält Saw palmetto (Serenoa repens) fruit extract, Pumpkin seed oil, Zinc (elemental). Die angegebenen Mengen sind vorgeschlagene Tagesportionen für die Produktentwicklung.",
+    "ar": "تركيبة نباتية لعافية الرجال، يحتوي على Saw palmetto (Serenoa repens) fruit extract، Pumpkin seed oil، Zinc (elemental). الكميات مقترحة للجرعة اليومية وتطوير المنتج."
+  },
+  "id": "mens-prosta-botanical",
+  "ingredients": [
+    [
+      "Saw palmetto (Serenoa repens) fruit extract",
+      "320 mg"
+    ],
+    [
+      "Pumpkin seed oil",
+      "500 mg"
+    ],
+    [
+      "Zinc (elemental)",
+      "10 mg"
+    ]
+  ],
+  "serving": "2 softgels daily",
+  "pack": "60 softgels",
+  "mechanism": "Saw palmetto lipophilic constituents have been studied for interactions with androgen pathways and 5-alpha-reductase in experimental models; robust clinical reviews generally find little or no benefit of saw palmetto alone for BPH urinary symptoms. Pumpkin seed oil has been studied, but clinically meaningful benefit remains uncertain.",
+  "claims": [
+    "Zinc contributes to the maintenance of normal testosterone levels in the blood."
+  ],
+  "development": true
+},
+{
+  "name": "PHARMED PROSTA NUTRI",
+  "image": "assets/mens-prosta-nutri.svg",
+  "category": "men",
+  "description": {
+    "en": "A tomato-derived carotenoid and micronutrient blend for male nutritional wellness as they age.",
+    "de": "Mikronährstoffe für gesundes Altern. Enthält Tomato extract providing lycopene, Pumpkin seed extract, Zinc (elemental). Die angegebenen Mengen sind vorgeschlagene Tagesportionen für die Produktentwicklung.",
+    "ar": "مغذيات دقيقة للتقدم الصحي في العمر، يحتوي على Tomato extract providing lycopene، Pumpkin seed extract، Zinc (elemental). الكميات مقترحة للجرعة اليومية وتطوير المنتج."
+  },
+  "id": "mens-prosta-nutri",
+  "ingredients": [
+    [
+      "Tomato extract providing lycopene",
+      "10 mg lycopene"
+    ],
+    [
+      "Pumpkin seed extract",
+      "250 mg"
+    ],
+    [
+      "Zinc (elemental)",
+      "10 mg"
+    ],
+    [
+      "Selenium",
+      "55 µg"
+    ],
+    [
+      "Vitamin E",
+      "12 mg α-TE"
+    ]
+  ],
+  "serving": "2 capsules daily",
+  "pack": "60 capsules",
+  "mechanism": "Lycopene and vitamin E participate in antioxidant chemistry; zinc and selenium support normal cellular and antioxidant enzyme functions. Human evidence does not establish that these ingredients prevent prostate cancer or reverse prostate enlargement.",
+  "claims": [
+    "Vitamin E contributes to the protection of cells from oxidative stress.",
+    "Selenium contributes to the protection of cells from oxidative stress."
+  ],
+  "development": true
+}
 ];
