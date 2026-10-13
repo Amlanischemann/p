@@ -1,48 +1,3 @@
-/* Pharmed VetHerb | multilingual proposed ingredient compositions for six concepts. */
-(()=>{'use strict';
-const candidates={
-'liver-support':[
-['Milk-thistle seed (Silybum marianum)','Mariendistelsamen','بذور شوك الحليب','Botanical material'],['Choline source (form TBD)','Cholinquelle (Form offen)','مصدر الكولين','Nutritional component'],['Betaine','Betain','البيتين','Nutritional component'],['Vitamin E source','Vitamin-E-Quelle','مصدر فيتامين E','Micronutrient']],
-'gut-balance':[
-['Chicory inulin','Chicorée-Inulin','إينولين الهندباء البرية','Plant fibre'],['Yeast mannan-oligosaccharides (MOS)','Hefe-MOS','مانان أوليغوسكاريد الخميرة','Yeast fraction'],['Yeast beta-glucans','Hefe-Beta-Glucane','بيتا غلوكانات الخميرة','Yeast fraction'],['Pectin-rich plant fibre','Pektinreiche Pflanzenfaser','ألياف غنية بالبكتين','Plant fibre']],
-'calm-support':[
-['L-tryptophan','L-Tryptophan','إل-تريبتوفان','Amino acid'],['Magnesium source','Magnesiumquelle','مصدر المغنيسيوم','Mineral'],['Thiamine (vitamin B1)','Thiamin (Vitamin B1)','الثيامين','Vitamin'],['Plant-fibre carrier','Pflanzenfaser-Träger','حامل من الألياف','Feed carrier']],
-'immune-force':[
-['Vitamin E source','Vitamin-E-Quelle','مصدر فيتامين E','Vitamin'],['Zinc source','Zinkquelle','مصدر الزنك','Mineral'],['Selenium source','Selenquelle','مصدر السيلينيوم','Mineral'],['Yeast beta-glucans','Hefe-Beta-Glucane','بيتا غلوكانات الخميرة','Yeast fraction']],
-'para-balance':[
-['Chicory-root fibre','Chicorée-Wurzelfaser','ألياف جذور الهندباء البرية','Feed fibre'],['Yeast MOS','Hefe-MOS','مانان أوليغوسكاريد الخميرة','Yeast fraction'],['Beet pulp fibre','Rübenschnitzelfaser','ألياف لب الشمندر','Feed fibre'],['Species-specific mineral premix','Tierartspezifischer Mineralmix','خليط معادن حسب الحيوان','Mineral']],
-'respira-comfort':[
-['Vitamin E source','Vitamin-E-Quelle','مصدر فيتامين E','Vitamin'],['Algal omega-3 oil','Omega-3-Algenöl','زيت أوميغا 3 الطحلبي','Fatty acids'],['Vitamin C source','Vitamin-C-Quelle','مصدر فيتامين C','Vitamin'],['Botanical polyphenol fraction (plant TBD)','Pflanzliche Polyphenole (Quelle offen)','بوليفينولات نباتية','Botanical material']]
-};
-
-const translations={
- en:{title:'Ingredients & Composition',ingredient:'Ingredient',category:'Ingredient class',purpose:'Formulation role',amount:'Amount per serving',notset:'To be determined',note:'Illustrative ingredient concept. Final composition and inclusion quantities will be provided when the species-specific formulation is established.',roles:['Botanical component','Nutrient source','Fibre component','Functional nutritional component']},
- de:{title:'Inhaltsstoffe & Zusammensetzung',ingredient:'Inhaltsstoff',category:'Bestandteiltyp',purpose:'Rolle in der Rezeptur',amount:'Menge pro Portion',notset:'In Entwicklung',note:'Beispielhafte Inhaltsstoffauswahl. Die endgültige Zusammensetzung und Einsatzmengen werden mit der tierartspezifischen Rezeptur festgelegt.'},
- ar:{title:'المكونات والتركيب',ingredient:'المكوّن',category:'نوع المكوّن',purpose:'دوره في التركيبة',amount:'الكمية لكل حصة',notset:'قيد التطوير',note:'مكونات مقترحة لتطوير المنتج. سيتم تحديد التركيبة النهائية والكميات وفقاً للنوع الحيواني المستهدف.'}
-};
-const categories={
- 'Botanical material':{de:'Pflanzlicher Rohstoff',ar:'مكوّن نباتي'},
- 'Nutritional component':{de:'Ernährungsbezogener Bestandteil',ar:'مكوّن غذائي'},
- 'Micronutrient':{de:'Mikronährstoff',ar:'عنصر غذائي دقيق'},
- 'Plant fibre':{de:'Pflanzenfaser',ar:'ألياف نباتية'},
- 'Yeast fraction':{de:'Hefebestandteil',ar:'مكوّن خميرة'},
- 'Amino acid':{de:'Aminosäure',ar:'حمض أميني'},
- 'Mineral':{de:'Mineralstoff',ar:'معدن'},
- 'Vitamin':{de:'Vitamin',ar:'فيتامين'},
- 'Feed carrier':{de:'Futtermittelträger',ar:'مادة حاملة'},
- 'Feed fibre':{de:'Futterfaser',ar:'ألياف علفية'},
- 'Fatty acids':{de:'Fettsäuren',ar:'أحماض دهنية'}
-};
-function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-window.PHARMED_VETHERB_INGREDIENTS_RENDER=(id,requestedLang)=>{
- const rows=candidates[id];if(!rows)return '';
- const lang=['en','de','ar'].includes(requestedLang)?requestedLang:'en',tr=translations[lang],col=lang==='de'?1:lang==='ar'?2:0;
- const body=rows.map(r=>'<tr><th scope="row">'+esc(r[col])+'</th><td>'+esc(lang==='en'?r[3]:(categories[r[3]]?.[lang]||r[3]))+'</td><td>'+esc(tr.notset)+'</td></tr>').join('');
- return '<section class="pa-checks pa-ingredient-box" id="pa-ingredients" aria-labelledby="pa-ingredients-title"><h2 id="pa-ingredients-title">'+esc(tr.title)+'</h2><div class="pa-ingredient-scroll" role="region" tabindex="0" aria-label="'+esc(tr.title)+'"><table class="pa-ingredient-table"><thead><tr><th scope="col">'+esc(tr.ingredient)+'</th><th scope="col">'+esc(tr.category)+'</th><th scope="col">'+esc(tr.amount)+'</th></tr></thead><tbody>'+body+'</tbody></table></div><p class="pa-ingredient-footnote">'+esc(tr.note)+'</p></section>';
-};
-})();
-
-
 /* Pharmed UG Animal Nutrition R&D showcase. No dose or efficacy claims; no tracking. */
 (()=>{'use strict';if(document.body.dataset.page!=='animal-nutrition')return;
 const products=Array.isArray(window.PHARMED_ANIMAL_COLLECTION)?window.PHARMED_ANIMAL_COLLECTION:[];
@@ -69,7 +24,7 @@ function browse(){const d=t(),root=el();if(!root)return;document.title=d.title+'
  root.querySelectorAll('[data-pa-species]').forEach(b=>{b.setAttribute('aria-pressed',String(active===b.dataset.paSpecies));b.addEventListener('click',()=>{active=b.dataset.paSpecies;setGrid();});});
  const sr=root.querySelector('#pa-search');sr.value=term;sr.addEventListener('input',e=>{term=e.target.value.trim().toLocaleLowerCase();setGrid()});const so=root.querySelector('#pa-sort');so.value=sortMode;so.addEventListener('change',e=>{sortMode=e.target.value;setGrid()});setGrid();
 }
-function detail(p){const d=t(),l=lang(),root=el();if(!root)return;document.title=(p.name[l]||p.name.en)+' | Pharmed UG';root.innerHTML='<div class="pa-root"><div class="pa-detail-wrap"><a href="animal-nutrition.html" class="pa-back">'+esc(d.back)+'</a><div class="pa-detail-grid"><div class="pa-detail-visual"><img src="'+esc(p.image)+'" alt="'+esc(p.name[l]||p.name.en)+' animal-feed packaging concept"></div><div><div class="pa-small-kicker">'+esc(d.kicker)+' · '+esc(d.stage)+'</div><h1 class="pa-detail-title">'+esc(p.name[l]||p.name.en)+'</h1><p class="pa-detail-lead">'+esc(p.summary[l]||p.summary.en)+'</p><div class="pa-checks"><h2>'+esc(d.research)+'</h2><p style="color:#526e57;line-height:1.7">'+esc(p.research)+'</p></div>'+(window.PHARMED_VETHERB_INGREDIENTS_RENDER?window.PHARMED_VETHERB_INGREDIENTS_RENDER(p.id,l):'')+'<div class="pa-checks"><h2>'+esc(d.subjects)+'</h2>'+animals(p)+'<p style="font-size:12px;color:#6b806c">'+esc(d.filterNote)+'</p></div><div class="pa-checks"><h2>'+esc(d.checkTitle)+'</h2><ul><li>'+esc(d.check1)+'</li><li>'+esc(d.check2)+'</li><li>'+esc(d.check3)+'</li><li>'+esc(d.check4)+'</li></ul></div><div class="pa-legal">'+esc(d.legal)+'</div><p style="margin-top:25px"><a class="pa-btn" href="all-products.html">'+esc(d.other)+' ↗</a></p></div></div></div></div>'}
+function detail(p){const d=t(),l=lang(),root=el();if(!root)return;document.title=(p.name[l]||p.name.en)+' | Pharmed UG';root.innerHTML='<div class="pa-root"><div class="pa-detail-wrap"><a href="animal-nutrition.html" class="pa-back">'+esc(d.back)+'</a><div class="pa-detail-grid"><div class="pa-detail-visual"><img src="'+esc(p.image)+'" alt="'+esc(p.name[l]||p.name.en)+' animal-feed packaging concept"></div><div><div class="pa-small-kicker">'+esc(d.kicker)+' · '+esc(d.stage)+'</div><h1 class="pa-detail-title">'+esc(p.name[l]||p.name.en)+'</h1><p class="pa-detail-lead">'+esc(p.summary[l]||p.summary.en)+'</p><div class="pa-checks"><h2>'+esc(d.research)+'</h2><p style="color:#526e57;line-height:1.7">'+esc(p.research)+'</p></div><div class="pa-checks"><h2>'+esc(d.subjects)+'</h2>'+animals(p)+'<p style="font-size:12px;color:#6b806c">'+esc(d.filterNote)+'</p></div><div class="pa-checks"><h2>'+esc(d.checkTitle)+'</h2><ul><li>'+esc(d.check1)+'</li><li>'+esc(d.check2)+'</li><li>'+esc(d.check3)+'</li><li>'+esc(d.check4)+'</li></ul></div><div class="pa-legal">'+esc(d.legal)+'</div><p style="margin-top:25px"><a class="pa-btn" href="all-products.html">'+esc(d.other)+' ↗</a></p></div></div></div></div>'}
 function run(){const id=new URLSearchParams(location.search).get('product');const product=products.find(x=>x.id===id);if(product)detail(product);else browse()}
 function init(){run();document.addEventListener('click',e=>{if(e.target.closest?.('[data-lang]'))setTimeout(run,0)});}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();

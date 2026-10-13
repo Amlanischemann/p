@@ -1,9 +1,14 @@
-PHARMED VETHERB INGREDIENT TABLES REPAIR
+PHARMED VETHERB: SIX ANIMAL PRODUCT INGREDIENT TABLES
 
-Upload all included root files to the SAME directory in the GitHub repository used by your published site. Overwrite existing files. Do NOT delete other site assets.
-
-IMPORTANT: Both animal-nutrition.html and pharmed-animal-nutrition.js must be replaced. Tables are now embedded directly into the main page JavaScript: pharmed-animal-ingredients.js is not required.
-
-Inspect the deployed site: animal-nutrition.html?product=liver-support, gut-balance, calm-support, immune-force, para-balance, respira-comfort.
-
-The suggested ingredient sets are development concepts only. Exact quantity/serving is not yet specified.
+Upload ALL 10 files in this ZIP to the ROOT of the GitHub repository Amlanischemann/p.
+DO NOT upload the enclosing folder. Overwrite the three existing files: animal-nutrition.html, pharmed-animal-nutrition.js, pharmed-all-products.js.
+The six NEW vetherb-*.html files contain REAL static HTML ingredient tables for ALL six products, no dynamic injection dependency.
+After Cloudflare deployment test:
+https://pharmed-ug.pages.dev/vetherb-liver-support.html
+https://pharmed-ug.pages.dev/vetherb-gut-balance.html
+https://pharmed-ug.pages.dev/vetherb-calm-support.html
+https://pharmed-ug.pages.dev/vetherb-immune-force.html
+https://pharmed-ug.pages.dev/vetherb-para-balance.html
+https://pharmed-ug.pages.dev/vetherb-respira-comfort.html
+The old animal-nutrition.html?product=... links redirect to these static pages.
+Amounts are NOT invented; candidate ingredients have not been formulated into production specs.
