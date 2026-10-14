@@ -37,9 +37,9 @@ window.PHARMED_SETTINGS = {
   const lang=()=>['en','de','ar'].includes(document.documentElement.lang)?document.documentElement.lang:'en';
   /* Clearer brand copy: no unsupported stock, registration or regulatory claims. */
   const shortCopy={
-    en:{concept:'PRODUCT PREVIEW',note:'Explore Pharmed nutrition, botanical and wellness products. Detailed specifications and availability are published once confirmed.',updated:'Pharmed – Company Under Development',view:'View product',productsTitle:'Product collections'},
-    de:{concept:'PRODUKTÜBERSICHT',note:'Entdecken Sie die Ernährung-, Pflanzen- und Wellnessprodukte von Pharmed. Verbindliche Spezifikationen und Verfügbarkeit werden nach Bestätigung veröffentlicht.',updated:'Pharmed – Unternehmen im Aufbau',view:'Produkt ansehen',productsTitle:'Produktkollektionen'},
-    ar:{concept:'مجموعة المنتجات',note:'اكتشف منتجات فارميد الغذائية والنباتية ومنتجات العافية. تُنشر المواصفات والتوافر عند تأكيدهما.',updated:'فارميد – الشركة قيد التأسيس',view:'عرض المنتج',productsTitle:'مجموعات المنتجات'}
+    en:{concept:'PHARMED COLLECTION',note:'Explore our nutrition, botanical and wellness collections, with distinctive formats and carefully selected ingredient combinations.',updated:'Pharmed – Company Under Development',view:'View product',productsTitle:'Product collections'},
+    de:{concept:'PHARMED PRODUKTWELT',note:'Entdecken Sie die Ernährungs-, Pflanzen- und Wellnesskollektionen von Pharmed mit besonderen Produktformaten und ausgewählten Inhaltsstoffen.',updated:'Pharmed – Unternehmen im Aufbau',view:'Produkt ansehen',productsTitle:'Produktkollektionen'},
+    ar:{concept:'مجموعة المنتجات',note:'اكتشف مجموعات فارميد من المنتجات الغذائية والنباتية والعافية بتركيبات متنوعة ومكونات مختارة بعناية.',updated:'فارميد – الشركة قيد التأسيس',view:'عرض المنتج',productsTitle:'مجموعات المنتجات'}
   };
   function overrideCopy(){
     if(typeof COPY==='undefined')return;
@@ -74,8 +74,8 @@ window.PHARMED_SETTINGS = {
     ['Website-Entwurf · ausschließlich Produktkonzepte','Produktkollektionen und Wellnessinformationen'],
     ['نسخة تجريبية للموقع · تصاميم منتجات فقط','مجموعات المنتجات ومعلومات العافية'],
     ['Concept or research only','Product profile'],
-    ['CONCEPT · NOT FOR SALE','PRODUCT PREVIEW'],
-    ['KONZEPT · NICHT IM VERKAUF','PRODUKTÜBERSICHT'],
+    ['CONCEPT · NOT FOR SALE','PHARMED COLLECTION'],
+    ['KONZEPT · NICHT IM VERKAUF','PHARMED PRODUKTWELT'],
     ['تصميم أولي · غير معروض للبيع','مجموعة المنتجات']
   ];
   function polishText(){
