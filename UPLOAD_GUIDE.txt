@@ -1,0 +1,7 @@
+PHARMED VISUAL REPAIR
+
+Upload all extracted file CONTENTS at the repository root, not the containing directory.
+Preserve assets/ and pharmed-collections-assets/ folder structure.
+The archive repairs missing styles and provides clearly marked illustration mockups for missing Power Blends images. Original photos for these sixteen products were absent from prior website archives. Replace the illustrations with actual licensed product images when available.
+The six Men’s Health products remain in the native catalogue.
+After GitHub commit and Cloudflare deployment, hard refresh (Ctrl+F5).
