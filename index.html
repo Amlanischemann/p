@@ -33,6 +33,45 @@
   <script src="pharmed-enhancements.js?v=20261014-photo-paths" defer></script>
   <script src="pharmed-portfolio.js?v=20261014-photo-paths" defer></script>
 <script src="pharmed-weight-nav.js?v=20261014-quantities" defer></script>
-<script src="pharmed-weight-collection-card.js?v=20261014" defer></script>
+<script>
+/* PHARMED Collections: eighth card, following the existing grid and its language. */
+(function(){
+ 'use strict';
+ const copy={
+  en:['Weight Management','Six nutrition products, SLIM MEAL flavours, detailed ingredients and a 28-day food routine.','Browse collection'],
+  de:['Gewichtsmanagement','Sechs Ernährungsprodukte mit Zutatenangaben, SLIM-MEAL-Sorten und 28-Tage-Ernährungsplan.','Kollektion entdecken'],
+  ar:['إدارة الوزن','ستة منتجات لإدارة الوزن مع تفاصيل المكونات والكميات ونكهتي سليم ميل وبرنامج غذائي لمدة ٢٨ يوماً.','استعرض المجموعة']
+ };
+ const destination='products.html#pharmed-weight-collection';
+ function update(){
+  const grid=document.querySelector('#pm-featured-collections .pm-collection-grid');
+  if(!grid)return;
+  const lang=(document.documentElement.lang||localStorage.getItem('pharmed-language')||'en').split('-')[0];
+  const [title,description,action]=copy[lang]||copy.en;
+  let card=grid.querySelector('a[data-pw-card="1"]');
+  if(!card){
+   card=document.createElement('a');
+   card.className='pm-collection-card';
+   card.dataset.pwCard='1';
+   card.href=destination;
+   card.innerHTML='<img loading="lazy" src="W03.webp" alt="PHARMED SLIM MEAL Vanilla Cinnamon"><div class="pm-card-copy"><h3></h3><p></p><span class="pm-linktext"></span></div>';
+   grid.appendChild(card);
+  }
+  if(card.querySelector('h3').textContent!==title)card.querySelector('h3').textContent=title;
+  if(card.querySelector('p').textContent!==description)card.querySelector('p').textContent=description;
+  if(card.querySelector('.pm-linktext').textContent!==action+' →')card.querySelector('.pm-linktext').textContent=action+' →';
+ }
+ let queued=false;
+ function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;update()})}
+ function start(){
+  update();
+  const main=document.getElementById('content');
+  if(main)new MutationObserver(schedule).observe(main,{childList:true,subtree:true});
+  document.addEventListener('click',e=>{if(e.target.closest('[data-lang]'))setTimeout(update,20)});
+  let checks=0;const retry=setInterval(()=>{update();if(++checks>=15)clearInterval(retry)},1000);
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
+})();
+</script>
 </body>
 </html>
