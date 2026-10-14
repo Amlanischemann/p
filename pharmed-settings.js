@@ -111,7 +111,8 @@ window.PHARMED_SETTINGS = {
 
 /* Load the 2026 Pharmed unified collection navigation, homepage categories and tea landing artwork. */
 (function(){'use strict';if(window.__PM_V2_LOADER)return;window.__PM_V2_LOADER=true;
-var s=document.createElement('script');s.src='pharmed-collections-v2.js?v=20261014-photo-paths';s.async=false;document.head.appendChild(s);
+var s=document.createElement('script');s.src='pharmed-collections-v2.js?v=20261014-stamina-flow';s.async=false;document.head.appendChild(s);
 })();
+
 
 

@@ -10,7 +10,7 @@ const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const lang=()=>['en','de','ar'].includes(document.documentElement.lang)?document.documentElement.lang:'en';
 const tx=()=>TXT[lang()];
 const features=[
- {name:'men',href:'products.html?category=men',img:'mens-vigor.png'},
+ {name:'men',href:'products.html?category=men',img:'mens-vigor-tribulus.png'},
  {name:'all',href:'all-products.html',img:'assets/pharmed-official-logo.webp'},
  {name:'supp',href:'products.html',img:'assets/new-products/vitamin-d3-k2-tablets.webp'},
  {name:'blend',href:'power-blends.html',img:'ragi-sunrise.webp'},
@@ -53,5 +53,6 @@ function init(){if(!document.querySelector('link[href="pharmed-collections-v2.cs
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
+
 
 

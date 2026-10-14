@@ -1,4 +1,4 @@
-/* Pharmed UG product data. Formulation targets are for B2B development enquiries. */
+/* Pharmed UG: STAMINA and NO FLOW botanical development revision; VIGOR Tribulus update retained. */
 const PRODUCTS = [
   {
     "name": "Herbal Cough Syrup",
@@ -200,12 +200,12 @@ const PRODUCTS = [
   },
   {
     "name": "PHARMED NO FLOW",
-    "image": "mens-no-flow.png",
+    "image": "mens-no-flow-botanical.png",
     "category": "men",
     "description": {
-      "en": "A focused amino-acid formula pairing L-citrulline with L-arginine, vitamin C and zinc. Presented in tablet blisters with a distinctive cobalt-and-gold carton.",
-      "de": "Gezielte Aminosäuren-Rezeptur mit L-Citrullin, L-Arginin, Vitamin C und Zink. Tablettenblister in einer markanten blau-goldenen Faltschachtel.",
-      "ar": "تركيبة مركزة تجمع إل-سيترولين وإل-أرجينين مع فيتامين C والزنك، بأقراص في شرائط بليستر وعلبة زرقاء وذهبية مميزة."
+      "en": "L-citrulline and L-arginine pair with French maritime pine bark and Panax ginseng root extracts in this expanded NO FLOW formula. Vitamin C and zinc complete the nutritional profile, with tablet blisters and a bold cobalt-and-gold carton.",
+      "de": "L-Citrullin und L-Arginin verbinden sich in der erweiterten NO-FLOW-Rezeptur mit Rindenextrakt der französischen Meereskiefer und Panax-Ginseng-Wurzelextrakt. Vitamin C und Zink ergänzen das Nährstoffprofil. Tablettenblister und eine markante kobaltblau-goldene Faltschachtel präsentieren das Produkt.",
+      "ar": "تجمع تركيبة NO FLOW الموسعة إل-سيترولين وإل-أرجينين مع مستخلص لحاء الصنوبر البحري الفرنسي ومستخلص جذور الجينسنغ. يكمل فيتامين C والزنك الملف الغذائي، بأقراص في شرائط بليستر وعلبة زرقاء وذهبية بارزة."
     },
     "id": "mens-no-flow",
     "ingredients": [
@@ -216,6 +216,14 @@ const PRODUCTS = [
       [
         "L-arginine",
         "500 mg"
+      ],
+      [
+        "French maritime pine (Pinus pinaster) bark extract",
+        "100 mg"
+      ],
+      [
+        "Panax ginseng root extract",
+        "200 mg"
       ],
       [
         "Vitamin C",
@@ -237,16 +245,16 @@ const PRODUCTS = [
       "ar": "120 قرصاً · شرائط بليستر مع علبة كرتونية"
     },
     "mechanism": {
-      "en": "L-citrulline is converted to L-arginine. Arginine supplies nitric oxide synthase; nitric oxide signals through soluble guanylate cyclase and cGMP. Vitamin C and zinc contribute to the protection of cells from oxidative stress. These ingredient pathways describe the formulation rationale.",
-      "de": "L-Citrullin wird zu L-Arginin umgewandelt. Arginin dient der Stickstoffmonoxid-Synthase als Substrat; Stickstoffmonoxid wirkt über lösliche Guanylatcyclase und cGMP. Vitamin C und Zink tragen dazu bei, die Zellen vor oxidativem Stress zu schützen. Diese Stoffwechselwege erläutern den Rezepturansatz.",
-      "ar": "يتحول إل-سيترولين إلى إل-أرجينين الذي يوفر الركيزة لإنزيم تصنيع أكسيد النيتريك. ينشط أكسيد النيتريك الغوانيلات سيكلاز الذائب ومسار cGMP. يسهم فيتامين C والزنك في حماية الخلايا من الإجهاد التأكسدي. توضح هذه المسارات الأساس العلمي لاختيار المكونات."
+      "en": "L-citrulline is converted to L-arginine, the substrate for nitric oxide synthase. Nitric oxide signals through soluble guanylate cyclase and cGMP. Pine bark contributes procyanidin-rich polyphenols and Panax ginseng supplies ginsenosides, giving the blend two characterised botanical components. Vitamin C and zinc contribute to the protection of cells from oxidative stress. These ingredient pathways explain the formulation rationale.",
+      "de": "L-Citrullin wird zu L-Arginin umgewandelt, dem Substrat der Stickstoffmonoxid-Synthase. Stickstoffmonoxid wirkt über lösliche Guanylatcyclase und cGMP. Kiefernrinde ergänzt procyanidinreiche Polyphenole, Panax-Ginseng liefert Ginsenoside. So erhält die Mischung zwei charakterisierte Pflanzenbestandteile. Vitamin C und Zink tragen dazu bei, die Zellen vor oxidativem Stress zu schützen. Diese Inhaltsstoffwege erläutern den Rezepturansatz.",
+      "ar": "يتحول إل-سيترولين إلى إل-أرجينين الذي يوفر الركيزة لإنزيم تصنيع أكسيد النيتريك. ينشط أكسيد النيتريك الغوانيلات سيكلاز الذائب ومسار cGMP. يوفر لحاء الصنوبر مركبات بوليفينول غنية بالبروسيانيدين، والجينسنغ مركبات الجينسينوسيد، مما يضيف مكونين نباتيين محددين إلى المزيج. يسهم فيتامين C والزنك في حماية الخلايا من الإجهاد التأكسدي. توضح هذه المسارات الأساس العلمي لاختيار المكونات."
     },
     "claims": [],
     "development": true,
     "subtitle": {
-      "en": "Amino acid complex",
-      "de": "Aminosäuren-Komplex",
-      "ar": "مركب الأحماض الأمينية"
+      "en": "Amino acid & botanical complex",
+      "de": "Aminosäuren- und Pflanzenkomplex",
+      "ar": "مركب الأحماض الأمينية والمكونات النباتية"
     },
     "accent": "#2365c4",
     "ingredientsI18n": {
@@ -258,6 +266,14 @@ const PRODUCTS = [
         [
           "L-arginine",
           "500 mg"
+        ],
+        [
+          "French maritime pine (Pinus pinaster) bark extract",
+          "100 mg"
+        ],
+        [
+          "Panax ginseng root extract",
+          "200 mg"
         ],
         [
           "Vitamin C",
@@ -278,6 +294,14 @@ const PRODUCTS = [
           "500 mg"
         ],
         [
+          "Rindenextrakt der französischen Meereskiefer (Pinus pinaster)",
+          "100 mg"
+        ],
+        [
+          "Panax-Ginseng-Wurzelextrakt",
+          "200 mg"
+        ],
+        [
           "Vitamin C",
           "80 mg"
         ],
@@ -296,6 +320,14 @@ const PRODUCTS = [
           "500 mg"
         ],
         [
+          "مستخلص لحاء الصنوبر البحري الفرنسي (Pinus pinaster)",
+          "100 mg"
+        ],
+        [
+          "مستخلص جذور الجينسنغ Panax ginseng",
+          "200 mg"
+        ],
+        [
           "فيتامين C",
           "80 mg"
         ],
@@ -309,21 +341,28 @@ const PRODUCTS = [
     "tabletCount": 120,
     "option": null,
     "sources": [
-      "https://www.legislation.gov.uk/eur/2012/432/annexes",
-      "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      "https://pubmed.ncbi.nlm.nih.gov/20184576/",
+      "https://pubmed.ncbi.nlm.nih.gov/17703218/",
+      "https://www.nccih.nih.gov/health/asian-ginseng",
+      "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction",
+      "https://www.legislation.gov.uk/eur/2012/432/annexes"
     ]
   },
   {
     "name": "PHARMED VIGOR",
-    "image": "mens-vigor.png",
+    "image": "mens-vigor-tribulus.png",
     "category": "men",
     "description": {
-      "en": "Maca and Panax ginseng meet zinc and selected B vitamins in a distinctive daily botanical formula. Ruby-and-gold packaging gives the range a confident shelf presence.",
-      "de": "Maca und Panax-Ginseng treffen auf Zink und ausgewählte B-Vitamine in einer pflanzenbetonten Tagesrezeptur. Rubinrote und goldene Akzente prägen den Auftritt.",
-      "ar": "تجمع تركيبة يومية نباتية جذور الماكا والجينسنغ مع الزنك وفيتامينات B المختارة، بتصميم أحمر وذهبي لافت."
+      "en": "Tribulus terrestris is now a core ingredient alongside maca and Panax ginseng in this botanical-led formula. Zinc and selected B vitamins complete the nutritional profile, presented in tablet blisters and a ruby-and-gold carton.",
+      "de": "Tribulus terrestris ergänzt Maca und Panax-Ginseng als fester Bestandteil dieser pflanzenbetonten Rezeptur. Zink und ausgewählte B-Vitamine vervollständigen das Nährstoffprofil. Tablettenblister und eine rubinrot-goldene Faltschachtel prägen die Präsentation.",
+      "ar": "الحسك الأرضي Tribulus terrestris مكون أساسي إلى جانب الماكا والجينسنغ في هذه التركيبة النباتية. يكمل الزنك وفيتامينات B المختارة الملف الغذائي، مع أقراص في شرائط بليستر وعلبة حمراء وذهبية."
     },
     "id": "mens-vigor",
     "ingredients": [
+      [
+        "Tribulus terrestris aerial-parts dry extract",
+        "750 mg"
+      ],
       [
         "Gelatinised maca root powder",
         "1,000 mg"
@@ -346,30 +385,34 @@ const PRODUCTS = [
       ]
     ],
     "serving": {
-      "en": "2 tablets per planned daily serving",
-      "de": "2 Tabletten pro geplanter Tagesportion",
-      "ar": "2 أقراص لكل حصة يومية مخططة"
+      "en": "4 tablets per planned daily serving",
+      "de": "4 Tabletten pro geplanter Tagesportion",
+      "ar": "4 أقراص لكل حصة يومية مخططة"
     },
     "pack": {
-      "en": "60 tablets · blister strips + carton",
-      "de": "60 Tabletten · Blister + Faltschachtel",
-      "ar": "60 قرصاً · شرائط بليستر مع علبة كرتونية"
+      "en": "120 tablets · blister strips + carton",
+      "de": "120 Tabletten · Blister + Faltschachtel",
+      "ar": "120 قرصاً · شرائط بليستر مع علبة كرتونية"
     },
     "mechanism": {
-      "en": "Panax ginseng contributes ginsenosides, while maca adds a distinct botanical profile. Thiamine and vitamin B6 contribute to normal energy-yielding metabolism; zinc contributes to normal fertility and reproduction. Botanical study results depend on the exact extract and cannot be transferred automatically to this blend.",
-      "de": "Panax-Ginseng liefert Ginsenoside; Maca ergänzt das pflanzliche Profil. Thiamin und Vitamin B6 tragen zu einem normalen Energiestoffwechsel bei, Zink zu einer normalen Fruchtbarkeit und Reproduktion. Ergebnisse zu Pflanzenextrakten hängen vom jeweiligen Extrakt ab und lassen sich nicht automatisch auf diese Mischung übertragen.",
-      "ar": "يوفر الجينسنغ مركبات الجينسينوسيد وتضيف الماكا مكوناً نباتياً مميزاً. يسهم الثيامين وفيتامين B6 في استقلاب الطاقة الطبيعي، والزنك في الخصوبة والتكاثر الطبيعيين. تعتمد نتائج الدراسات النباتية على المستخلص المحدد ولا تنتقل تلقائياً إلى هذه التركيبة."
+      "en": "Tribulus contributes a saponin-containing botanical component, while Panax ginseng supplies ginsenosides and maca adds a complementary root profile. Thiamine and vitamin B6 contribute to normal energy-yielding metabolism; zinc contributes to normal fertility and reproduction. The exact mechanism of Tribulus in human sexual function remains uncertain and depends on the preparation studied.",
+      "de": "Tribulus ergänzt saponinhaltige Pflanzenbestandteile, Panax-Ginseng liefert Ginsenoside und Maca ein weiteres Wurzelprofil. Thiamin und Vitamin B6 tragen zu einem normalen Energiestoffwechsel bei; Zink zu einer normalen Fruchtbarkeit und Reproduktion. Der genaue Mechanismus von Tribulus bei der menschlichen Sexualfunktion bleibt unklar und hängt von der untersuchten Zubereitung ab.",
+      "ar": "يوفر الحسك الأرضي مكونات نباتية تحتوي على السابونينات، والجينسنغ مركبات الجينسينوسيد، وتضيف الماكا مكوناً جذرياً مكملاً. يسهم الثيامين وفيتامين B6 في استقلاب الطاقة الطبيعي والزنك في الخصوبة والتكاثر الطبيعيين. لا تزال الآلية الدقيقة للحسك في الوظيفة الجنسية البشرية غير محسومة وتعتمد على المستحضر المدروس."
     },
     "claims": [],
     "development": true,
     "subtitle": {
-      "en": "Botanical vitality",
-      "de": "Pflanzliche Vitalität",
-      "ar": "الحيوية النباتية"
+      "en": "Tribulus, maca & ginseng complex",
+      "de": "Tribulus-, Maca- und Ginseng-Komplex",
+      "ar": "مركب الحسك الأرضي والماكا والجينسنغ"
     },
     "accent": "#b52e34",
     "ingredientsI18n": {
       "en": [
+        [
+          "Tribulus terrestris aerial-parts dry extract",
+          "750 mg"
+        ],
         [
           "Gelatinised maca root powder",
           "1,000 mg"
@@ -393,6 +436,10 @@ const PRODUCTS = [
       ],
       "de": [
         [
+          "Tribulus-terrestris-Trockenextrakt aus oberirdischen Pflanzenteilen",
+          "750 mg"
+        ],
+        [
           "Gelatinisiertes Macawurzelpulver",
           "1,000 mg"
         ],
@@ -415,6 +462,10 @@ const PRODUCTS = [
       ],
       "ar": [
         [
+          "مستخلص جاف للأجزاء الهوائية من الحسك الأرضي Tribulus terrestris",
+          "750 mg"
+        ],
+        [
           "مسحوق جذور الماكا المعالج حرارياً",
           "1,000 mg"
         ],
@@ -436,29 +487,39 @@ const PRODUCTS = [
         ]
       ]
     },
-    "servingCount": 2,
-    "tabletCount": 60,
-    "option": {
-      "en": "VIGOR Tribulus option: Tribulus terrestris can be assessed as a separate, market-specific botanical variant. The plant part, extract specification and serving are agreed during formulation development; it is not included in the quantities above.",
-      "de": "VIGOR mit Tribulus: Tribulus terrestris kann als separate, marktbezogene Rezepturvariante bewertet werden. Pflanzenteil, Extraktspezifikation und Portion werden während der Entwicklung festgelegt; Tribulus ist in den obigen Mengen nicht enthalten.",
-      "ar": "خيار VIGOR مع الحسك الأرضي Tribulus terrestris: يمكن تقييمه كتركيبة نباتية منفصلة حسب سوق التصدير. يحدد الجزء النباتي ومواصفة المستخلص والحصة خلال تطوير التركيبة؛ ولا يدخل في الكميات المذكورة أعلاه."
-    },
+    "servingCount": 4,
+    "tabletCount": 120,
+    "option": null,
     "sources": [
-      "https://www.legislation.gov.uk/eur/2012/432/annexes",
+      "https://pubmed.ncbi.nlm.nih.gov/28364864/",
+      "https://pubmed.ncbi.nlm.nih.gov/24630840/",
+      "https://pubmed.ncbi.nlm.nih.gov/25849625/",
       "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
     ]
   },
   {
     "name": "PHARMED STAMINA",
-    "image": "mens-stamina.png",
+    "image": "mens-stamina-herbal-v2.png",
     "category": "men",
     "description": {
-      "en": "A broader magnesium-and-B-vitamin blend with vitamin C for everyday nutritional routines. Magnesium supports normal muscle function and helps reduce tiredness and fatigue.",
-      "de": "Eine erweiterte Magnesium-B-Vitamin-Rezeptur mit Vitamin C für die tägliche Ernährung. Magnesium trägt zu einer normalen Muskelfunktion und zur Verringerung von Müdigkeit und Ermüdung bei.",
-      "ar": "تركيبة موسعة من المغنيسيوم وفيتامينات B وفيتامين C للتغذية اليومية. يسهم المغنيسيوم في وظيفة العضلات الطبيعية وتقليل التعب والإرهاق."
+      "en": "Rhodiola rosea and eleutherococcus root extracts give STAMINA a distinct botanical profile. CoQ10, magnesium, vitamin C and selected B vitamins complete the formula, presented in tablet blisters and a vivid purple-and-gold carton.",
+      "de": "Rhodiola-rosea- und Eleutherococcus-Wurzelextrakte prägen das pflanzliche Profil von STAMINA. Coenzym Q10, Magnesium, Vitamin C und ausgewählte B-Vitamine ergänzen die Rezeptur. Tablettenblister und eine kräftig violett-goldene Faltschachtel präsentieren das Produkt.",
+      "ar": "تمنح مستخلصات جذور الروديولا الوردية والإليوثيروكوكس منتج STAMINA ملفاً نباتياً مميزاً. يكمل CoQ10 والمغنيسيوم وفيتامين C وفيتامينات B المختارة التركيبة، بأقراص في شرائط بليستر وعلبة بنفسجية وذهبية زاهية."
     },
     "id": "mens-stamina",
     "ingredients": [
+      [
+        "Rhodiola rosea root extract (3% rosavin, 1% salidroside target)",
+        "200 mg"
+      ],
+      [
+        "Eleutherococcus senticosus root dry extract",
+        "200 mg"
+      ],
+      [
+        "Coenzyme Q10",
+        "100 mg"
+      ],
       [
         "Magnesium (elemental)",
         "150 mg"
@@ -495,20 +556,32 @@ const PRODUCTS = [
       "ar": "60 قرصاً · شرائط بليستر مع علبة كرتونية"
     },
     "mechanism": {
-      "en": "Magnesium supports normal muscle and nervous-system function. Vitamins B1, B2, B6, B12 and C contribute to normal energy-yielding metabolism; vitamin B6 also contributes to normal psychological function. This product is positioned around daily nutrition.",
-      "de": "Magnesium trägt zu einer normalen Muskel- und Nervenfunktion bei. Die Vitamine B1, B2, B6, B12 und C tragen zu einem normalen Energiestoffwechsel bei; Vitamin B6 auch zur normalen psychischen Funktion. Der Schwerpunkt liegt auf täglicher Ernährung.",
-      "ar": "يسهم المغنيسيوم في الوظائف الطبيعية للعضلات والجهاز العصبي. تسهم فيتامينات B1 وB2 وB6 وB12 وC في استقلاب الطاقة الطبيعي، كما يسهم B6 في الوظيفة النفسية الطبيعية. يركز المنتج على التغذية اليومية."
+      "en": "Rhodiola contributes rosavin and salidroside markers; eleutherococcus adds a root-extract profile characterised by eleutherosides. These botanicals are studied in fatigue and stress research. CoQ10 participates in mitochondrial electron transport. Magnesium supports normal muscle and nervous-system function, while the included vitamins contribute to normal energy-yielding metabolism. These ingredient pathways explain the formulation rationale.",
+      "de": "Rhodiola liefert die Marker Rosavin und Salidrosid; Eleutherococcus ergänzt ein durch Eleutheroside charakterisiertes Wurzelextraktprofil. Diese Pflanzen werden in der Müdigkeits- und Stressforschung untersucht. Coenzym Q10 wirkt am mitochondrialen Elektronentransport mit. Magnesium trägt zu normalen Muskel- und Nervenfunktionen bei, die enthaltenen Vitamine zu einem normalen Energiestoffwechsel. Diese Inhaltsstoffwege erläutern den Rezepturansatz.",
+      "ar": "توفر الروديولا مركبات روزافين وساليدروسايد، ويضيف الإليوثيروكوكس مستخلصاً جذرياً يتميز بمركبات إليوثيروسايد. تدرس هذه النباتات في أبحاث التعب والإجهاد. يشارك CoQ10 في نقل الإلكترونات داخل الميتوكوندريا. يسهم المغنيسيوم في الوظائف الطبيعية للعضلات والأعصاب، والفيتامينات المدرجة في استقلاب الطاقة الطبيعي. توضح هذه المسارات الأساس العلمي لاختيار المكونات."
     },
     "claims": [],
     "development": true,
     "subtitle": {
-      "en": "Daily energy nutrition",
-      "de": "Nährstoffe für den Alltag",
-      "ar": "تغذية الطاقة اليومية"
+      "en": "Rhodiola, eleuthero & CoQ10 complex",
+      "de": "Rhodiola-, Eleutherococcus- und CoQ10-Komplex",
+      "ar": "مركب الروديولا والإليوثيروكوكس وCoQ10"
     },
     "accent": "#804ca5",
     "ingredientsI18n": {
       "en": [
+        [
+          "Rhodiola rosea root extract (3% rosavin, 1% salidroside target)",
+          "200 mg"
+        ],
+        [
+          "Eleutherococcus senticosus root dry extract",
+          "200 mg"
+        ],
+        [
+          "Coenzyme Q10",
+          "100 mg"
+        ],
         [
           "Magnesium (elemental)",
           "150 mg"
@@ -536,6 +609,18 @@ const PRODUCTS = [
       ],
       "de": [
         [
+          "Rhodiola-rosea-Wurzelextrakt (Ziel: 3 % Rosavin, 1 % Salidrosid)",
+          "200 mg"
+        ],
+        [
+          "Eleutherococcus-senticosus-Wurzeltrockenextrakt",
+          "200 mg"
+        ],
+        [
+          "Coenzym Q10",
+          "100 mg"
+        ],
+        [
           "Magnesium (elementar)",
           "150 mg"
         ],
@@ -561,6 +646,18 @@ const PRODUCTS = [
         ]
       ],
       "ar": [
+        [
+          "مستخلص جذور الروديولا الوردية (هدف 3٪ روزافين و1٪ ساليدروسايد)",
+          "200 mg"
+        ],
+        [
+          "مستخلص جاف لجذور إليوثيروكوكس سنتيكوسوس",
+          "200 mg"
+        ],
+        [
+          "الإنزيم المساعد Q10",
+          "100 mg"
+        ],
         [
           "المغنيسيوم (عنصري)",
           "150 mg"
@@ -591,8 +688,12 @@ const PRODUCTS = [
     "tabletCount": 60,
     "option": null,
     "sources": [
-      "https://www.legislation.gov.uk/eur/2012/432/annexes",
-      "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      "https://pubmed.ncbi.nlm.nih.gov/15256690/",
+      "https://pubmed.ncbi.nlm.nih.gov/23740477/",
+      "https://www.ema.europa.eu/en/medicines/herbal/eleutherococci-radix",
+      "https://www.nccih.nih.gov/health/rhodiola",
+      "https://www.nccih.nih.gov/health/coenzyme-q10",
+      "https://www.legislation.gov.uk/eur/2012/432/annexes"
     ]
   },
   {
@@ -1053,4 +1154,3 @@ const PRODUCTS = [
     ]
   }
 ];
-
