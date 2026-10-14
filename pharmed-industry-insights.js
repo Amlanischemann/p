@@ -117,7 +117,7 @@
       summary:{en:'An energy-containing grain, nut and date drink mix designed around natural flavour.',de:'Getreide-Nuss-Dattel-Getränkepulver mit natürlich geprägtem Geschmack.',ar:'مزيج شراب من الحبوب والمكسرات والتمر بطعم طبيعي.'},
       test:{en:'Compare fat oxidation, powder flow and perceived sweetness during shelf life.',de:'Fettoxidation, Fließfähigkeit und wahrgenommene Süße über die Haltbarkeit testen.',ar:'قياس أكسدة الدهون وانسيابية المسحوق وحلاوته أثناء التخزين.'},
       risk:{en:'Nut allergens, food labelling and accurate energy calculations.',de:'Nussallergene, Kennzeichnung und korrekte Energieberechnung.',ar:'حساسية المكسرات ومتطلبات الملصق والحساب الصحيح للطاقة.'}},
-    {id:'traceable',cat:'quality',image:'assets/pharmed-official-mark.webp',href:'quality.html',
+    {id:'traceable',cat:'quality',image:'assets/ingredient-passport.svg',href:'quality.html',
       name:{en:'Digital Ingredient Passport',de:'Digitaler Rohstoffpass',ar:'جواز المادة الخام الرقمي'},
       summary:{en:'Build an internal source-to-batch record for botanical identity, certificates and traceability.',de:'Interne digitale Rückverfolgung für Pflanzenidentität, Zertifikate und Chargen.',ar:'سجل رقمي داخلي يربط هوية النبات والشهادات بالدفعات.'},
       test:{en:'Pilot batch-level ingredient records with two suppliers and one finished product.',de:'Chargendaten mit zwei Lieferanten und einem Fertigprodukt testen.',ar:'تجربة سجلات دفعات مع موردين اثنين ومنتج نهائي واحد.'},
@@ -167,3 +167,4 @@
   function init(){render();document.addEventListener('click',event=>{if(event.target.closest?.('[data-lang]'))setTimeout(render,0);});}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
+

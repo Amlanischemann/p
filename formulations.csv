@@ -1,25 +1,35 @@
-﻿SKU,Product,Category,Serving,Ingredient,Daily quantity
-NO-FLOW,PHARMED NO FLOW,Erectile function: vascular pathway,1 sachet daily,L-citrulline,"3,000 mg"
-NO-FLOW,PHARMED NO FLOW,Erectile function: vascular pathway,1 sachet daily,Vitamin C,80 mg
-NO-FLOW,PHARMED NO FLOW,Erectile function: vascular pathway,1 sachet daily,Zinc (elemental),10 mg
-VIGOR,PHARMED VIGOR,Libido & general vitality,2 capsules daily,Panax ginseng root extract,200 mg
-VIGOR,PHARMED VIGOR,Libido & general vitality,2 capsules daily,Maca root powder,500 mg
-VIGOR,PHARMED VIGOR,Libido & general vitality,2 capsules daily,Zinc (elemental),10 mg
-VIGOR,PHARMED VIGOR,Libido & general vitality,2 capsules daily,Vitamin B6,1.4 mg
-STAMINA,PHARMED STAMINA,Sexual stamina & ejaculation control,2 capsules daily,Magnesium (elemental),100 mg
-STAMINA,PHARMED STAMINA,Sexual stamina & ejaculation control,2 capsules daily,Vitamin B6,1.4 mg
-STAMINA,PHARMED STAMINA,Sexual stamina & ejaculation control,2 capsules daily,Zinc (elemental),10 mg
-SPERM,PHARMED SPERM CARE,Sperm & reproductive health,2 capsules daily,L-carnitine L-tartrate,500 mg
-SPERM,PHARMED SPERM CARE,Sperm & reproductive health,2 capsules daily,Coenzyme Q10,100 mg
-SPERM,PHARMED SPERM CARE,Sperm & reproductive health,2 capsules daily,Zinc (elemental),10 mg
-SPERM,PHARMED SPERM CARE,Sperm & reproductive health,2 capsules daily,Selenium,55 µg
-SPERM,PHARMED SPERM CARE,Sperm & reproductive health,2 capsules daily,Folate,200 µg
-SPERM,PHARMED SPERM CARE,Sperm & reproductive health,2 capsules daily,Vitamin C,80 mg
-PROSTA-BOTANICAL,PHARMED PROSTA BOTANICAL,Prostate wellness: botanical,2 softgels daily,Saw palmetto (Serenoa repens) fruit extract,320 mg
-PROSTA-BOTANICAL,PHARMED PROSTA BOTANICAL,Prostate wellness: botanical,2 softgels daily,Pumpkin seed oil,500 mg
-PROSTA-BOTANICAL,PHARMED PROSTA BOTANICAL,Prostate wellness: botanical,2 softgels daily,Zinc (elemental),10 mg
-PROSTA-NUTRI,PHARMED PROSTA NUTRI,Prostate wellness: healthy aging,2 capsules daily,Tomato extract providing lycopene,10 mg lycopene
-PROSTA-NUTRI,PHARMED PROSTA NUTRI,Prostate wellness: healthy aging,2 capsules daily,Pumpkin seed extract,250 mg
-PROSTA-NUTRI,PHARMED PROSTA NUTRI,Prostate wellness: healthy aging,2 capsules daily,Zinc (elemental),10 mg
-PROSTA-NUTRI,PHARMED PROSTA NUTRI,Prostate wellness: healthy aging,2 capsules daily,Selenium,55 µg
-PROSTA-NUTRI,PHARMED PROSTA NUTRI,Prostate wellness: healthy aging,2 capsules daily,Vitamin E,12 mg α-TE
+﻿Product,Packaging,Planned daily tablet count,Ingredient,Development target per planned daily serving
+PHARMED NO FLOW,120 tablets · blister strips + carton,4,L-citrulline,"3,000 mg"
+PHARMED NO FLOW,120 tablets · blister strips + carton,4,L-arginine,500 mg
+PHARMED NO FLOW,120 tablets · blister strips + carton,4,Vitamin C,80 mg
+PHARMED NO FLOW,120 tablets · blister strips + carton,4,Zinc (elemental),5 mg
+PHARMED VIGOR,60 tablets · blister strips + carton,2,Gelatinised maca root powder,"1,000 mg"
+PHARMED VIGOR,60 tablets · blister strips + carton,2,Panax ginseng root extract,200 mg
+PHARMED VIGOR,60 tablets · blister strips + carton,2,Zinc (elemental),5 mg
+PHARMED VIGOR,60 tablets · blister strips + carton,2,Vitamin B1 (thiamine),1.1 mg
+PHARMED VIGOR,60 tablets · blister strips + carton,2,Vitamin B6,0.9 mg
+PHARMED STAMINA,60 tablets · blister strips + carton,2,Magnesium (elemental),150 mg
+PHARMED STAMINA,60 tablets · blister strips + carton,2,Vitamin C,80 mg
+PHARMED STAMINA,60 tablets · blister strips + carton,2,Vitamin B1 (thiamine),1.1 mg
+PHARMED STAMINA,60 tablets · blister strips + carton,2,Vitamin B2 (riboflavin),1.4 mg
+PHARMED STAMINA,60 tablets · blister strips + carton,2,Vitamin B6,0.9 mg
+PHARMED STAMINA,60 tablets · blister strips + carton,2,Vitamin B12,2.5 µg
+PHARMED SPERM CARE,90 tablets · blister strips + carton,3,L-carnitine L-tartrate (salt weight),"1,500 mg"
+PHARMED SPERM CARE,90 tablets · blister strips + carton,3,Coenzyme Q10,100 mg
+PHARMED SPERM CARE,90 tablets · blister strips + carton,3,Vitamin C,160 mg
+PHARMED SPERM CARE,90 tablets · blister strips + carton,3,Zinc (elemental),5 mg
+PHARMED SPERM CARE,90 tablets · blister strips + carton,3,Selenium,40 µg
+PHARMED SPERM CARE,90 tablets · blister strips + carton,3,Folic acid,200 µg
+PHARMED SPERM CARE,90 tablets · blister strips + carton,3,Vitamin E,12 mg α-TE
+PHARMED SPERM CARE,90 tablets · blister strips + carton,3,Vitamin B12,2.5 µg
+PHARMED PROSTA BOTANICAL,60 tablets · blister strips + carton,2,Saw palmetto extract (tablet grade; extract payload),320 mg
+PHARMED PROSTA BOTANICAL,60 tablets · blister strips + carton,2,Pumpkin seed dry extract,500 mg
+PHARMED PROSTA BOTANICAL,60 tablets · blister strips + carton,2,Nettle root dry extract,150 mg
+PHARMED PROSTA BOTANICAL,60 tablets · blister strips + carton,2,Zinc (elemental),5 mg
+PHARMED PROSTA NUTRI,60 tablets · blister strips + carton,2,Tomato extract providing lycopene,10 mg lycopene
+PHARMED PROSTA NUTRI,60 tablets · blister strips + carton,2,Pumpkin seed dry extract,250 mg
+PHARMED PROSTA NUTRI,60 tablets · blister strips + carton,2,Vitamin C,80 mg
+PHARMED PROSTA NUTRI,60 tablets · blister strips + carton,2,Vitamin D3,10 µg
+PHARMED PROSTA NUTRI,60 tablets · blister strips + carton,2,Vitamin E,12 mg α-TE
+PHARMED PROSTA NUTRI,60 tablets · blister strips + carton,2,Zinc (elemental),5 mg
+PHARMED PROSTA NUTRI,60 tablets · blister strips + carton,2,Selenium,40 µg

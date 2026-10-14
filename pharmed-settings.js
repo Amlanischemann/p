@@ -46,7 +46,7 @@ window.PHARMED_SETTINGS = {
     for(const k of ['en','de','ar']) if(COPY[k]) Object.assign(COPY[k],shortCopy[k]);
   }
   overrideCopy();
-  for(const href of ['pharmed-power-blends.css','pharmed-herbal-teas.css']){
+  for(const href of ['pharmed-power-blends.css','pharmed-herbal-teas.css','pharmed-repair.css']){
     if(!document.querySelector('link[href="'+href+'"]')){
       const l=document.createElement('link');l.rel='stylesheet';l.href=href;document.head.appendChild(l);
     }
@@ -63,7 +63,7 @@ window.PHARMED_SETTINGS = {
     ['Concept only: quantities and final composition not established','Ingredient profile and formulation overview'],
     ['The attached brochure is historical; verify ingredient amounts, allergens, suitability and authorised claims before any commercial use.','Reference information is presented alongside the product specification.'],
     ['The attached brochure is historical; verify ingredient amounts, allergens, suitability, and authorized claims before any commercial use.','Reference information is presented alongside the product specification.'],
-    ['Product images are design concepts. Ingredients, claims, manufacturing origin and availability require confirmation before commercial use.','Explore our ingredient-led portfolio. Confirmed specifications and availability appear in each product profile.'],
+    ['Product images are design concepts. Ingredients, claims, manufacturing origin and availability require confirmation before commercial use.','Explore our ingredient-led portfolio. Explore product profiles and enquire about export or private-label options.'],
     ['CONCEPT ONLY · ARTWORK LABEL UNVERIFIED','PRODUCT PRESENTATION'],
     ['Prototype formulation · NOT FOR SALE','Product profile'],
     ['Concept or research only · NOT FOR SALE','Product profile'],
@@ -99,19 +99,18 @@ window.PHARMED_SETTINGS = {
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',observe);else observe();
   document.addEventListener('click',e=>{if(e.target.closest?.('[data-lang]'))queueMicrotask(refresh);},true);
-  function add(url){const s=document.createElement('script');s.src=url;s.async=false;document.head.appendChild(s);return s;}
-  /* New collection pages include their own scripts; don't load a script twice. */
-  if(document.body?.dataset?.page!=='power-blends'){
-    const s=add('pharmed-power-blends-data.js');s.onload=()=>add('pharmed-power-blends.js');
-  }else{
-    const s=add('pharmed-power-blends-data.js');s.onload=()=>add('pharmed-power-blends.js');
+  function loadOnce(url){
+    const existing=[...document.scripts].find(x=>new URL(x.src,location.href).pathname.split('/').pop()===url);
+    if(existing) return Promise.resolve();
+    return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url;s.async=false;s.onload=resolve;s.onerror=reject;document.head.appendChild(s)});
   }
-  if(document.body?.dataset?.page!=='herbal-teas'){
-    const s=add('pharmed-herbal-teas-data.js');s.onload=()=>add('pharmed-herbal-teas.js');
-  }
+  loadOnce('pharmed-power-blends-data.js').then(()=>loadOnce('pharmed-power-blends.js')).catch(()=>{});
+  loadOnce('pharmed-herbal-teas-data.js').then(()=>loadOnce('pharmed-herbal-teas.js')).catch(()=>{});
+
 })();
 
 /* Load the 2026 Pharmed unified collection navigation, homepage categories and tea landing artwork. */
 (function(){'use strict';if(window.__PM_V2_LOADER)return;window.__PM_V2_LOADER=true;
 var s=document.createElement('script');s.src='pharmed-collections-v2.js';s.async=false;document.head.appendChild(s);
 })();
+
