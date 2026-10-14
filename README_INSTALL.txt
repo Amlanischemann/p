@@ -1,12 +1,13 @@
-PHARMED UG COLLECTION RESTORE - SAFE REPAIR
+PHARMED Weight Management quantified ingredients and header navigation
 
-DO NOT replace the existing root index.html.
+Upload these FOUR files to the existing repository ROOT and overwrite matching files:
+index.html
+products.html
+pharmed-weight-integrated.js
+pharmed-weight-nav.js
 
-1. Extract this ZIP into the EXISTING website repository ROOT, keeping existing files.
-2. Upload/overwrite ONLY: all-products.html, assets/catalog/*, weight-management/index.html, weight-management/assets/*.jpg.
-3. Merge with the existing repository. Do NOT delete existing mens-health.html, animal-nutrition.html, CSS, scripts, categories or assets.
-4. Add navigation link <a href="/all-products.html">All products</a> into your existing header/index.html. Add <a href="/weight-management/">Weight Management</a> if desired.
-5. All-products.html is standalone (no dependency on prior missing product-data scripts) and displays all 64 products with local catalogue images, category filters, search and product detail overlay.
-6. Original six weight product images also exist at weight-management/assets/*.jpg for their independent collection page.
-7. If the live homepage itself was overwritten or its product sections removed, restore the old root index.html from GitHub commit history; this package deliberately avoids altering unknown homepage code.
-8. The current live repository was not available for a full regression test. Check actual deployment after merging.
+Keep all original images, CSS, app.js and all existing other pages. The six image files W01.webp to W06.webp already exist in the repository root.
+
+The quantities for W01-W05 are NEW PROPOSED R&D TARGETS, not historical/approved formulas. W06 is scaled from the original P05 catalogue formula. Per-kg figures are arithmetic proportional scale-ups, not GMP manufacturing specifications.
+
+The products page contains a direct bilingual product detail panel. Main navigation is enhanced non-destructively by a small script. Site is not deployed by this package.
