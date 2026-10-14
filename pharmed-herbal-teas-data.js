@@ -11,7 +11,7 @@ window.PHARMED_HERBAL_TEAS = [
       "de": "Kamillenblüten",
       "ar": "زهور البابونج"
     },
-    "image": "pharmed-collections-assets/herbal-teas/chamomile.webp",
+    "image": "chamomile.webp",
     "category": "botanical",
     "bags": 20,
     "grams": 30,
@@ -36,7 +36,7 @@ window.PHARMED_HERBAL_TEAS = [
       "de": "Pfefferminzblätter",
       "ar": "أوراق النعناع"
     },
-    "image": "pharmed-collections-assets/herbal-teas/peppermint.webp",
+    "image": "peppermint.webp",
     "category": "botanical",
     "bags": 20,
     "grams": 30,
@@ -61,7 +61,7 @@ window.PHARMED_HERBAL_TEAS = [
       "de": "Kräutersamen-Mischung",
       "ar": "مزيج بذور الأعشاب"
     },
-    "image": "pharmed-collections-assets/herbal-teas/fennel.webp",
+    "image": "fennel.webp",
     "category": "german",
     "bags": 20,
     "grams": 40,
@@ -94,7 +94,7 @@ window.PHARMED_HERBAL_TEAS = [
       "de": "Ingwer und Zitronenschale",
       "ar": "زنجبيل وقشر الليمون"
     },
-    "image": "pharmed-collections-assets/herbal-teas/ginger.webp",
+    "image": "ginger.webp",
     "category": "asian",
     "bags": 20,
     "grams": 40,
@@ -123,7 +123,7 @@ window.PHARMED_HERBAL_TEAS = [
       "de": "Moringablatt und Zitronengras",
       "ar": "أوراق المورينغا وحشيشة الليمون"
     },
-    "image": "pharmed-collections-assets/herbal-teas/moringa.webp",
+    "image": "moringa.webp",
     "category": "asian",
     "bags": 20,
     "grams": 36,
@@ -152,7 +152,7 @@ window.PHARMED_HERBAL_TEAS = [
       "de": "Hibiskus mit Gewürzen",
       "ar": "كركديه وتوابل عطرية"
     },
-    "image": "pharmed-collections-assets/herbal-teas/hibiscus.webp",
+    "image": "hibiscus.webp",
     "category": "asian",
     "bags": 20,
     "grams": 40,
@@ -182,3 +182,4 @@ window.PHARMED_HERBAL_TEAS = [
     "serving": 2.0
   }
 ];
+

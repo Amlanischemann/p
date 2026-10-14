@@ -82,42 +82,42 @@
     }
   };
   const ideas = [
-    {id:'heritage-bowl',cat:'grains',image:'pharmed-collections-assets/power-blends/ragi-sunrise.webp',href:'power-blends.html',
+    {id:'heritage-bowl',cat:'grains',image:'ragi-sunrise.webp',href:'power-blends.html',
       name:{en:'Heritage Grain Breakfast 2.0',de:'Traditionsgetreide-Frühstück 2.0',ar:'فطور الحبوب التراثية 2.0'},
       summary:{en:'Ragi, amaranth and heat-treated oat in a quick-preparation bowl with a familiar flavour profile.',de:'Ragi, Amaranth und thermisch behandelter Hafer als schnell zubereitbare Frühstücksschale.',ar:'الراجي والأمارانث والشوفان المعالج حرارياً في وجبة فطور سريعة التحضير.'},
       test:{en:'Compare 3 ratios for texture, mouthfeel and rehydration.',de:'Drei Mischungsverhältnisse hinsichtlich Textur und Quellfähigkeit vergleichen.',ar:'مقارنة ثلاث نسب تركيبية من حيث القوام وإعادة الترطيب.'},
       risk:{en:'Validated heat treatment, allergen cross-contact and nutrition testing.',de:'Validierte Erhitzung, Allergenkreuzkontakt und Nährwertanalytik.',ar:'التحقق من المعالجة الحرارية والتلامس التحسسي والتحليل الغذائي.'}},
-    {id:'dual-fibre',cat:'grains',image:'pharmed-collections-assets/power-blends/psyllium-citrus.webp',href:'power-blends.html',
+    {id:'dual-fibre',cat:'grains',image:'psyllium-citrus.webp',href:'power-blends.html',
       name:{en:'Dual-Fibre Citrus Mix',de:'Zitrus-Ballaststoff-Duo',ar:'مزيج ألياف الحمضيات المزدوج'},
       summary:{en:'A food-format powder combining psyllium husk and citrus fibre with a fruit-led taste.',de:'Pulvermischung aus Flohsamenschalen und Zitrusfaser mit fruchtbetontem Geschmack.',ar:'مسحوق غذائي يجمع قشور السيليوم وألياف الحمضيات بطعم فاكهي.'},
       test:{en:'Measure viscosity and dispersion at realistic serving concentrations.',de:'Viskosität und Dispergierbarkeit unter realistischen Portionsbedingungen messen.',ar:'قياس اللزوجة والتشتت عند تراكيز الاستعمال الواقعية.'},
       risk:{en:'Swallowing precautions, water instructions and permitted claims.',de:'Schluckhinweise, Wasserempfehlungen und zulässige Angaben.',ar:'احتياطات البلع وتناول الماء والادعاءات المسموح بها.'}},
-    {id:'protein',cat:'protein',image:'pharmed-collections-assets/power-blends/active-protein.webp',href:'power-blends.html',
+    {id:'protein',cat:'protein',image:'active-protein.webp',href:'power-blends.html',
       name:{en:'Protein + Whole-Grain Fusion',de:'Protein-Vollkorn-Fusion',ar:'مزيج البروتين والحبوب الكاملة'},
       summary:{en:'Plant-protein shakes combining familiar grains, cocoa and balanced flavour design.',de:'Pflanzliche Proteinshakes mit Getreide, Kakao und sensorisch abgestimmtem Geschmack.',ar:'مشروبات بروتين نباتي بالحبوب والكاكاو ونكهة متوازنة.'},
       test:{en:'Screen protein solubility, sedimentation and consumer sensory acceptance.',de:'Proteinlöslichkeit, Sedimentation und sensorische Akzeptanz prüfen.',ar:'فحص ذوبان البروتين والترسب والتقبل الحسي.'},
       risk:{en:'Measured protein content, allergens and amino-acid suitability.',de:'Analysierter Proteingehalt, Allergene und Aminosäureprofil.',ar:'قياس البروتين والمسببات التحسسية وملاءمة الأحماض الأمينية.'}},
-    {id:'tea-cold',cat:'tea',image:'pharmed-collections-assets/herbal-teas/hibiscus.webp',href:'herbal-teas.html',
+    {id:'tea-cold',cat:'tea',image:'hibiscus.webp',href:'herbal-teas.html',
       name:{en:'Botanical Cold Infusion Sachets',de:'Botanische Cold-Infusion-Beutel',ar:'أكياس منقوع الأعشاب البارد'},
       summary:{en:'Hibiscus and fruit-forward infusion formats for convenient chilled beverages.',de:'Hibiskus und fruchtige Aufgussmischungen für gekühlte Getränke.',ar:'خلطات الكركديه والفواكه لتحضير مشروبات مبردة بسهولة.'},
       test:{en:'Compare hot-brew-then-chill with a validated cold-preparation process.',de:'Heißaufguss mit anschließender Kühlung und validiertes Kaltverfahren vergleichen.',ar:'مقارنة النقع الساخن ثم التبريد مع طريقة تحضير بارد معتمدة.'},
       risk:{en:'Microbiological safety of cold preparation and accurate brewing directions.',de:'Mikrobiologische Sicherheit bei Kaltzubereitung und korrekte Ziehanleitung.',ar:'السلامة الميكروبية للتحضير البارد وتعليمات النقع الصحيحة.'}},
-    {id:'moringa-herb',cat:'tea',image:'pharmed-collections-assets/herbal-teas/moringa.webp',href:'herbal-teas.html',
+    {id:'moringa-herb',cat:'tea',image:'moringa.webp',href:'herbal-teas.html',
       name:{en:'Moringa–Lemongrass Aroma Series',de:'Moringa-Zitronengras-Aromenlinie',ar:'سلسلة المورينغا وحشيشة الليمون'},
       summary:{en:'Single-herb and paired botanical teas with clear origin and identity information.',de:'Einzelkräuter- und Kombinationsaufgüsse mit transparenter Herkunft und Identität.',ar:'شاي عشبي منفرد أو مركب مع توضيح المنشأ وهوية النباتات.'},
       test:{en:'Develop sensory panels for bitter notes, aroma retention and brewing consistency.',de:'Sensorik für Bitterkeit, Aromastabilität und gleichmäßige Extraktion entwickeln.',ar:'اختبارات حسية للمرارة وثبات النكهة واتساق الاستخلاص.'},
       risk:{en:'Botanical identity, contaminants and EU status for the intended use.',de:'Pflanzenidentität, Schadstoffe und EU-Status der beabsichtigten Verwendung.',ar:'هوية النباتات والملوثات والوضع الأوروبي للاستعمال المقصود.'}},
-    {id:'fermented-grain',cat:'grains',image:'pharmed-collections-assets/power-blends/amaranth-cacao.webp',href:'power-blends.html',
+    {id:'fermented-grain',cat:'grains',image:'amaranth-cacao.webp',href:'power-blends.html',
       name:{en:'Fermented-Grain Breakfast',de:'Fermentiertes Getreidefrühstück',ar:'فطور الحبوب المخمرة'},
       summary:{en:'Investigate controlled fermentation as a processing step for grain-based breakfast mixes.',de:'Kontrollierte Fermentation als Verfahrensschritt für Getreide-Frühstücksmischungen untersuchen.',ar:'دراسة التخمير المضبوط كخطوة تصنيع لخلطات فطور الحبوب.'},
       test:{en:'Compare defined starter cultures, acidity, sensory profile and shelf life.',de:'Definierte Starterkulturen, Säuregrad, Sensorik und Haltbarkeit vergleichen.',ar:'مقارنة البادئات الميكروبية والحموضة والطعم وفترة الثبات.'},
       risk:{en:'Microbial control, process validation and ingredient regulatory status.',de:'Mikrobiologische Kontrolle, Prozessvalidierung und rechtlicher Rohstoffstatus.',ar:'التحكم الميكروبي وتوثيق العملية والوضع القانوني للمكونات.'}},
-    {id:'protein-snack',cat:'protein',image:'pharmed-collections-assets/power-blends/cocoa-hazelnut-energy.webp',href:'power-blends.html',
+    {id:'protein-snack',cat:'protein',image:'cocoa-hazelnut-energy.webp',href:'power-blends.html',
       name:{en:'Date–Cocoa Nutrient Shake',de:'Dattel-Kakao-Nährshake',ar:'مخفوق التمر والكاكاو الغذائي'},
       summary:{en:'An energy-containing grain, nut and date drink mix designed around natural flavour.',de:'Getreide-Nuss-Dattel-Getränkepulver mit natürlich geprägtem Geschmack.',ar:'مزيج شراب من الحبوب والمكسرات والتمر بطعم طبيعي.'},
       test:{en:'Compare fat oxidation, powder flow and perceived sweetness during shelf life.',de:'Fettoxidation, Fließfähigkeit und wahrgenommene Süße über die Haltbarkeit testen.',ar:'قياس أكسدة الدهون وانسيابية المسحوق وحلاوته أثناء التخزين.'},
       risk:{en:'Nut allergens, food labelling and accurate energy calculations.',de:'Nussallergene, Kennzeichnung und korrekte Energieberechnung.',ar:'حساسية المكسرات ومتطلبات الملصق والحساب الصحيح للطاقة.'}},
-    {id:'traceable',cat:'quality',image:'assets/ingredient-passport.svg',href:'quality.html',
+    {id:'traceable',cat:'quality',image:'ingredient-passport.svg',href:'quality.html',
       name:{en:'Digital Ingredient Passport',de:'Digitaler Rohstoffpass',ar:'جواز المادة الخام الرقمي'},
       summary:{en:'Build an internal source-to-batch record for botanical identity, certificates and traceability.',de:'Interne digitale Rückverfolgung für Pflanzenidentität, Zertifikate und Chargen.',ar:'سجل رقمي داخلي يربط هوية النبات والشهادات بالدفعات.'},
       test:{en:'Pilot batch-level ingredient records with two suppliers and one finished product.',de:'Chargendaten mit zwei Lieferanten und einem Fertigprodukt testen.',ar:'تجربة سجلات دفعات مع موردين اثنين ومنتج نهائي واحد.'},
@@ -152,7 +152,7 @@
     const chipKeys=['all','grains','tea','protein','quality'];
     const prio=[ideas[0],ideas[3],ideas[7]];
     main.innerHTML=`<div class="pi-lab" dir="${lang()==='ar'?'rtl':'ltr'}">
-      <header class="pi-hero"><div class="pi-hero-inner"><div class="pi-hero-copy"><div class="pi-brow">${esc(t.brow)} <span class="pi-sep">•</span> ${esc(t.updated)}</div><h1>${esc(t.title)}</h1><p>${esc(t.sub)}</p><div class="pi-actions"><a class="pi-btn" href="#pi-opportunities">${esc(t.explore)} →</a><a class="pi-btn pi-btn-outline" href="all-products.html">${esc(t.catalogue)}</a></div></div><div class="pi-montage" aria-hidden="true"><img src="pharmed-collections-assets/power-blends/ragi-sunrise.webp" alt=""><img src="pharmed-collections-assets/herbal-teas/moringa.webp" alt=""><img src="pharmed-collections-assets/power-blends/active-protein.webp" alt=""></div></div></header>
+      <header class="pi-hero"><div class="pi-hero-inner"><div class="pi-hero-copy"><div class="pi-brow">${esc(t.brow)} <span class="pi-sep">•</span> ${esc(t.updated)}</div><h1>${esc(t.title)}</h1><p>${esc(t.sub)}</p><div class="pi-actions"><a class="pi-btn" href="#pi-opportunities">${esc(t.explore)} →</a><a class="pi-btn pi-btn-outline" href="all-products.html">${esc(t.catalogue)}</a></div></div><div class="pi-montage" aria-hidden="true"><img src="ragi-sunrise.webp" alt=""><img src="moringa.webp" alt=""><img src="active-protein.webp" alt=""></div></div></header>
       <section class="pi-wrap pi-signals"><div class="pi-headline"><span class="pi-section-eyebrow">RESEARCH × PRODUCT DESIGN</span><h2>${esc(t.signalTitle)}</h2><p>${esc(t.signalDesc)}</p></div><div class="pi-signal-grid">${[1,2,3].map((n)=>`<div class="pi-signal"><span class="pi-signal-num">0${n}</span><h3>${esc(t['s'+n])}</h3><p>${esc(t['s'+n+'d'])}</p></div>`).join('')}</div></section>
       <section class="pi-focus"><div class="pi-wrap"><div class="pi-headline"><span class="pi-section-eyebrow">FROM IDEA TO TEST</span><h2>${esc(t.featured)}</h2><p>${esc(t.featuredIntro)}</p></div><div class="pi-focus-grid">${prio.map(x=>`<a href="${esc(x.href)}" class="pi-focus-item"><img src="${esc(x.image)}" alt="${esc(read(x,'name'))}" loading="lazy"><div><small>${esc(catLabel(x.cat))}</small><h3>${esc(read(x,'name'))}</h3><span>${esc(t.exploreRange)} ↗</span></div></a>`).join('')}</div></div></section>
       <section class="pi-wrap pi-opportunities" id="pi-opportunities"><div class="pi-headline"><span class="pi-section-eyebrow">R&D OPPORTUNITIES</span><h2>${esc(t.pipeline)}</h2><p>${esc(t.pipelineIntro)}</p></div><div class="pi-tools"><div class="pi-filters">${chipKeys.map(k=>`<button type="button" data-pi-filter="${k}" aria-pressed="${filter===k}">${esc(t[k])}</button>`).join('')}</div><label class="pi-search"><span class="pi-sr">${esc(t.search)}</span><input id="pi-query" type="search" placeholder="${esc(t.search)}" value="${esc(search)}"></label></div><div class="pi-idea-grid" id="pi-ideas"></div></section>
@@ -167,4 +167,5 @@
   function init(){render();document.addEventListener('click',event=>{if(event.target.closest?.('[data-lang]'))setTimeout(render,0);});}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
+
 

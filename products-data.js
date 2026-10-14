@@ -200,7 +200,7 @@ const PRODUCTS = [
   },
   {
     "name": "PHARMED NO FLOW",
-    "image": "pharmed-collections-assets/mens-health/mens-no-flow.png",
+    "image": "mens-no-flow.png",
     "category": "men",
     "description": {
       "en": "A focused amino-acid formula pairing L-citrulline with L-arginine, vitamin C and zinc. Presented in tablet blisters with a distinctive cobalt-and-gold carton.",
@@ -315,7 +315,7 @@ const PRODUCTS = [
   },
   {
     "name": "PHARMED VIGOR",
-    "image": "pharmed-collections-assets/mens-health/mens-vigor.png",
+    "image": "mens-vigor.png",
     "category": "men",
     "description": {
       "en": "Maca and Panax ginseng meet zinc and selected B vitamins in a distinctive daily botanical formula. Ruby-and-gold packaging gives the range a confident shelf presence.",
@@ -450,7 +450,7 @@ const PRODUCTS = [
   },
   {
     "name": "PHARMED STAMINA",
-    "image": "pharmed-collections-assets/mens-health/mens-stamina.png",
+    "image": "mens-stamina.png",
     "category": "men",
     "description": {
       "en": "A broader magnesium-and-B-vitamin blend with vitamin C for everyday nutritional routines. Magnesium supports normal muscle function and helps reduce tiredness and fatigue.",
@@ -597,7 +597,7 @@ const PRODUCTS = [
   },
   {
     "name": "PHARMED SPERM CARE",
-    "image": "pharmed-collections-assets/mens-health/mens-sperm.png",
+    "image": "mens-sperm.png",
     "category": "men",
     "description": {
       "en": "An expanded L-carnitine, CoQ10 and micronutrient profile for the male reproductive-nutrition range. Selenium contributes to normal spermatogenesis and zinc to normal fertility and reproduction.",
@@ -776,7 +776,7 @@ const PRODUCTS = [
   },
   {
     "name": "PHARMED PROSTA BOTANICAL",
-    "image": "pharmed-collections-assets/mens-health/mens-prosta-botanical.png",
+    "image": "mens-prosta-botanical.png",
     "category": "men",
     "description": {
       "en": "A tablet-focused botanical combination of saw palmetto, pumpkin seed and nettle root, complemented by zinc. A distinctive emerald-and-gold option for the mature-men’s nutrition range.",
@@ -891,7 +891,7 @@ const PRODUCTS = [
   },
   {
     "name": "PHARMED PROSTA NUTRI",
-    "image": "pharmed-collections-assets/mens-health/mens-prosta-nutri.png",
+    "image": "mens-prosta-nutri.png",
     "category": "men",
     "description": {
       "en": "Tomato-derived lycopene and pumpkin seed combine with vitamins C, D and E, zinc and selenium in a distinct nutritional profile for adult men.",
@@ -1053,3 +1053,4 @@ const PRODUCTS = [
     ]
   }
 ];
+

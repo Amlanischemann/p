@@ -8,7 +8,7 @@ const TXT={
  ar:{title:'جميع منتجات فارميد',lead:'كتالوج موحد للمكملات الغذائية وخلطات الحبوب وشاي الأعشاب وتغذية الحيوانات والمنتجات النباتية والمتخصصة.',eyebrow:'فارميد · المجموعة الكاملة',search:'ابحث باسم المنتج أو المكون…',all:'الكل',men:"صحة الرجل",supp:'المكملات والعافية',blends:'الخلطات الغذائية',teas:'شاي الأعشاب',animal:'تغذية الحيوانات',animaldesc:'تغذية نباتية للحيوانات مع ملفات مكونات واضحة.',botanical:'المنتجات النباتية',special:'منتجات متخصصة',view:'عرض المجموعة',profile:'عرض المنتج',results:'منتج مطابق',note:'اكتشف مجموعة فارميد وتواصل معنا لاستفسارات التصدير والعلامات الخاصة.',noresults:'لم يتم العثور على منتجات مطابقة.',base:'المكملات والعافية',preparation:'خلطات غذائية جاهزة للتحضير',packs:'شاي الأعشاب',botname:'خلطة التوازن النباتي',botdesc:'معلومات بحثية عن المكونات النباتية.',mixdesc:'خلطة مسحوق · معلومات المكونات والتحضير',teadesc:'منقوع أعشاب · 20 كيساً في العلبة',suppdesc:'معلومات منتج للتغذية والعافية',specialdesc:'معلومات منتج متخصص'}
 };
 const T=()=>TXT[L()];
-const safeURL=x=>{const s=String(x||'');return /^(?:assets|pharmed-collections-assets)\/[-\w./]+\.(?:webp|png|jpg|jpeg|svg)$/i.test(s)?s:'assets/pharmed-official-logo.webp'};
+const safeURL=x=>{const s=String(x||'');return /^(?:(?:assets|pharmed-collections-assets)\/[-\w./]+|[-\w]+)\.(?:webp|png|jpg|jpeg|svg)$/i.test(s)?s:'assets/pharmed-official-logo.webp'};
 let rows=[],selected='all',query='';
 const base=typeof PRODUCTS!=='undefined'&&Array.isArray(PRODUCTS)?PRODUCTS:[];
 const pw=Array.isArray(window.PHARMED_POWER_BLENDS)?window.PHARMED_POWER_BLENDS:[];
@@ -19,7 +19,7 @@ for(const p of base){if(!p?.id||p.id==='animal-supplements'||seen.has(p.id))cont
 for(const p of pw){if(!p?.id||seen.has('blend-'+p.id))continue;seen.add('blend-'+p.id);rows.push({key:'blend-'+p.id,name:{en:p.title,de:p.de||p.title,ar:p.ar||p.title},cat:'blends',img:safeURL(p.image),href:'power-blends.html#'+encodeURIComponent(p.id),search:p.title+' '+(p.ingredients||[]).map(i=>i.name).join(' ')});}
 for(const p of tea){if(!p?.id||seen.has('tea-'+p.id))continue;seen.add('tea-'+p.id);rows.push({key:'tea-'+p.id,name:p.name,cat:'teas',img:safeURL(p.image),href:'herbal-teas.html#'+encodeURIComponent(p.id),search:Object.values(p.name||{}).join(' ')+' '+(p.mix||[]).map(i=>i.name).join(' ')});}
 for(const p of animals){if(!p?.id||seen.has('animal-'+p.id))continue;seen.add('animal-'+p.id);rows.push({key:'animal-'+p.id,name:p.name,cat:'animal',img:safeURL(p.image),href:'vetherb-'+encodeURIComponent(p.id)+'.html',search:Object.values(p.name||{}).join(' ')+' '+Object.values(p.summary||{}).join(' ')+' '+(p.speciesResearch||[]).join(' ')+' '+p.theme});}
-rows.push({key:'botanical-balance',name:{en:'Botanical Balance Blend',de:'Botanical Balance Blend',ar:'خلطة التوازن النباتي'},cat:'botanical',img:'pharmed-collections-assets/botanical-products/botanical-balance-blend.webp',href:'products.html',search:'botanical extract plant wellness herbs'});
+rows.push({key:'botanical-balance',name:{en:'Botanical Balance Blend',de:'Botanical Balance Blend',ar:'خلطة التوازن النباتي'},cat:'botanical',img:'botanical-balance-blend.webp',href:'products.html',search:'botanical extract plant wellness herbs'});
 }
 function label(cat){const t=T();return ({supp:t.supp,blends:t.blends,teas:t.teas,animal:t.animal,botanical:t.botanical,special:t.special,men:t.men})[cat]||t.supp}
 
@@ -45,4 +45,5 @@ function paint(){const main=document.getElementById('content');if(!main)return;c
 function init(){assemble();render();document.addEventListener('click',e=>{if(e.target.closest?.('[data-lang]'))setTimeout(render,0)});}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
+
 

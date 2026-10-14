@@ -102,7 +102,7 @@ window.PHARMED_SETTINGS = {
   function loadOnce(url){
     const existing=[...document.scripts].find(x=>new URL(x.src,location.href).pathname.split('/').pop()===url);
     if(existing) return Promise.resolve();
-    return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url;s.async=false;s.onload=resolve;s.onerror=reject;document.head.appendChild(s)});
+    return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url+'?v=20261014-photo-paths';s.async=false;s.onload=resolve;s.onerror=reject;document.head.appendChild(s)});
   }
   loadOnce('pharmed-power-blends-data.js').then(()=>loadOnce('pharmed-power-blends.js')).catch(()=>{});
   loadOnce('pharmed-herbal-teas-data.js').then(()=>loadOnce('pharmed-herbal-teas.js')).catch(()=>{});
@@ -111,6 +111,7 @@ window.PHARMED_SETTINGS = {
 
 /* Load the 2026 Pharmed unified collection navigation, homepage categories and tea landing artwork. */
 (function(){'use strict';if(window.__PM_V2_LOADER)return;window.__PM_V2_LOADER=true;
-var s=document.createElement('script');s.src='pharmed-collections-v2.js';s.async=false;document.head.appendChild(s);
+var s=document.createElement('script');s.src='pharmed-collections-v2.js?v=20261014-photo-paths';s.async=false;document.head.appendChild(s);
 })();
+
 

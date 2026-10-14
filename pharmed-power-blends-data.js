@@ -48,7 +48,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "اطبخ 50 غ مع 200–250 مل ماء أو حليب لمدة 3–5 دقائق بعد التحقق من صلاحية طريقة التحضير."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/ragi-sunrise.webp",
+    "image": "ragi-sunrise.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -100,7 +100,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "سخّن 50 غ مع 200 مل ماء أو حليب مع التحريك."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/amaranth-cacao.webp",
+    "image": "amaranth-cacao.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -152,7 +152,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "امزج 10 غ في 300 مل ماء على الأقل واشرب فوراً مع شرب ماء إضافي؛ لا يُؤكل جافاً."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/psyllium-citrus.webp",
+    "image": "psyllium-citrus.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -205,7 +205,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "اخلط 40 غ مع 250 مل ماء أو حليب."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/moringa-green.webp",
+    "image": "moringa-green.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -257,7 +257,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "امزج 40 غ في 200–250 مل من مشروب غير محلى."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/light-day-breakfast.webp",
+    "image": "light-day-breakfast.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -313,7 +313,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "اخلط 80 غ مع 250–350 مل حليب أو ماء."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/energy-oats.webp",
+    "image": "energy-oats.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -361,7 +361,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "اخلط 30 غ مع 250 مل ماء بارد أو حليب."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/active-protein.webp",
+    "image": "active-protein.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -413,7 +413,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "اخلط 55 غ مع 250–300 مل ماء أو حليب."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/banana-recovery.webp",
+    "image": "banana-recovery.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -469,7 +469,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "اخلط 50 غ في 200–250 مل حليب أو مشروب مناسب."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/grain-nourish-50.webp",
+    "image": "grain-nourish-50.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -521,7 +521,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "أضف 50 غ إلى 180–220 مل ماء مغلي واتركه 4 دقائق."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/quinoa-berry.webp",
+    "image": "quinoa-berry.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -578,7 +578,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "اطبخ 45 غ مع 200 مل ماء أو حليب 3–5 دقائق."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/golden-grain.webp",
+    "image": "golden-grain.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -630,7 +630,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "امزج 65 غ في 350 مل ماء واتركه يغلي ثم اطبخ 8 دقائق على الأقل؛ يجب اعتماد وقت الطبخ."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/lentil-millet-soup.webp",
+    "image": "lentil-millet-soup.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -682,7 +682,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "سخّن 50 غ مع 200–250 مل ماء أو حليب مع التحريك."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/teff-date.webp",
+    "image": "teff-date.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -734,7 +734,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "امزج 50 غ في 250 مل ماء أو حليب بارد أو دافئ."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/sorghum-sesame.webp",
+    "image": "sorghum-sesame.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -786,7 +786,7 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "امزج 50 غ مع 220 مل ماء مغلي واتركه 3–4 دقائق."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/apple-oat-cinnamon.webp",
+    "image": "apple-oat-cinnamon.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
@@ -838,9 +838,10 @@ window.PHARMED_POWER_BLENDS = [
       "ar": "اخلط 65 غ مع 250 مل حليب أو ماء."
     },
     "minpilot": 25,
-    "image": "pharmed-collections-assets/power-blends/cocoa-hazelnut-energy.webp",
+    "image": "cocoa-hazelnut-energy.webp",
     "concept": true,
     "notForSale": true,
     "labVerified": false
   }
 ];
+

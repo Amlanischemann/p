@@ -10,13 +10,13 @@ const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const lang=()=>['en','de','ar'].includes(document.documentElement.lang)?document.documentElement.lang:'en';
 const tx=()=>TXT[lang()];
 const features=[
- {name:'men',href:'products.html?category=men',img:'pharmed-collections-assets/mens-health/mens-vigor.png'},
+ {name:'men',href:'products.html?category=men',img:'mens-vigor.png'},
  {name:'all',href:'all-products.html',img:'assets/pharmed-official-logo.webp'},
  {name:'supp',href:'products.html',img:'assets/new-products/vitamin-d3-k2-tablets.webp'},
- {name:'blend',href:'power-blends.html',img:'pharmed-collections-assets/power-blends/ragi-sunrise.webp'},
- {name:'tea',href:'herbal-teas.html',img:'pharmed-collections-assets/herbal-teas/chamomile.webp'},
+ {name:'blend',href:'power-blends.html',img:'ragi-sunrise.webp'},
+ {name:'tea',href:'herbal-teas.html',img:'chamomile.webp'},
  {name:'animal',href:'animal-nutrition.html',img:'pharmed-collections-assets/animal-nutrition/gut-balance.webp'},
- {name:'bot',href:'all-products.html?category=botanical',img:'pharmed-collections-assets/botanical-products/botanical-balance-blend.webp'}
+ {name:'bot',href:'all-products.html?category=botanical',img:'botanical-balance-blend.webp'}
 ];
 function collectionMarkup(){const t=tx();return '<section class="pm-collections" id="pm-featured-collections" aria-label="'+esc(t.title)+'"><div class="pm-eyebrow">'+esc(t.eyebrow)+'</div><h2>'+esc(t.title)+'</h2><p class="pm-lead">'+esc(t.subtitle)+'</p><div class="pm-collection-grid">'+features.map(f=>'<a class="pm-collection-card" href="'+f.href+'"><img loading="lazy" src="'+f.img+'" alt="'+esc(t[f.name])+'"><div class="pm-card-copy"><h3>'+esc(t[f.name])+'</h3><p>'+esc(t[f.name+'Desc'])+'</p><span class="pm-linktext">'+esc(t.action)+' →</span></div></a>').join('')+'</div><div class="pm-collections-footer"><span>'+esc(t.subtitle)+'</span><a href="industry-insights.html">'+esc(t.news)+' ↗</a></div></section>'}
 function installCollectionSection(){const page=document.body.dataset.page; if(page!=='index'&&page!=='products')return;const main=document.getElementById('content');if(!main||!main.querySelector('section'))return;
@@ -41,7 +41,7 @@ function legacyAnimalCategory(){
   }
 }
 function teaHero(){if(document.body.dataset.page!=='herbal-teas')return;const main=document.getElementById('content');if(!main)return;const controls=main.querySelector('.ht-controls');if(!controls)return;const t=tx();let block=main.querySelector('.pm-tea-feature');if(block&&block.dataset.pmLang===lang())return;
- const h='<section class="pm-tea-feature" aria-label="'+esc(t.teatitle)+'"><div><span class="pm-kicker">'+esc(t.teakicker)+'</span><h1>'+esc(t.teatitle)+'</h1><p>'+esc(t.tealead)+'</p><span class="pm-chip">'+esc(t.teachip1)+'</span><span class="pm-chip">'+esc(t.teachip2)+'</span></div><img src="pharmed-collections-assets/herbal-teas/chamomile.webp" alt="'+esc(t.teatitle)+'"></section>';
+ const h='<section class="pm-tea-feature" aria-label="'+esc(t.teatitle)+'"><div><span class="pm-kicker">'+esc(t.teakicker)+'</span><h1>'+esc(t.teatitle)+'</h1><p>'+esc(t.tealead)+'</p><span class="pm-chip">'+esc(t.teachip1)+'</span><span class="pm-chip">'+esc(t.teachip2)+'</span></div><img src="chamomile.webp" alt="'+esc(t.teatitle)+'"></section>';
  const holder=document.createElement('div');holder.innerHTML=h;const newBlock=holder.firstElementChild;newBlock.dataset.pmLang=lang();if(block)block.replaceWith(newBlock);else controls.before(newBlock);
 }
 let busy=false;function run(){if(busy)return;busy=true;try{nav();installCollectionSection();teaHero();normalizeTitles();legacyAnimalCategory()}finally{busy=false}}
@@ -53,4 +53,5 @@ function init(){if(!document.querySelector('link[href="pharmed-collections-v2.cs
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
+
 
