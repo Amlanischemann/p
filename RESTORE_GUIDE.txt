@@ -1,0 +1,9 @@
+PHARMED UG IMAGE RESTORATION AND MEN PRODUCTS
+
+This package is based on your original p-main (2).zip. It preserves all original images and site files. The product data, main app and style were updated to include six Men's Health products.
+
+IMPORTANT: Back up your present GitHub repository first. To restore missing photos, upload the asset files from this package preserving paths. The six new product illustrations are in assets/mens-*.svg. For missing Men's Health products ensure products-data.js, app.js and style.css are all from this package.
+
+Do not delete the assets folder or replace it with only the six SVG images. Check your Cloudflare Pages deployment after pushing.
+
+Verify pages: /products.html?category=men and /products.html, then confirm old product images load.
