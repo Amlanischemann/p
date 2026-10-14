@@ -1,0 +1,10 @@
+PHARMED UG INTEGRATED WEIGHT COLLECTION
+
+Replace only these 3 files in the GitHub repository root: index.html, products.html, all-products.html. Upload the new pharmed-weight-integrated.js to the repository root. Do NOT replace app.js, copy.js, CSS files or any existing product photos.
+
+Integrated collection: /products.html#pharmed-weight-collection
+Product images: /W01.webp through /W06.webp already exist in repository.
+
+The quantified Light Day Breakfast P05 recipe comes from PHARMED 2026 catalogue; all other formula ingredients are proposed concepts with unconfirmed quantitative specifications.
+
+The original site header, footer and existing product renderer remain. The homepage receives only a link to the integrated collection.
