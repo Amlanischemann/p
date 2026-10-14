@@ -1,10 +1,11 @@
-PHARMED UG INTEGRATED WEIGHT COLLECTION
+PHARMED · THE COLLECTIONS – Weight Management Card
 
-Replace only these 3 files in the GitHub repository root: index.html, products.html, all-products.html. Upload the new pharmed-weight-integrated.js to the repository root. Do NOT replace app.js, copy.js, CSS files or any existing product photos.
+Install exactly TWO files in the root of the GitHub repository Amlanischemann/p:
+1. index.html (replace the existing file)
+2. pharmed-weight-collection-card.js (new file)
 
-Integrated collection: /products.html#pharmed-weight-collection
-Product images: /W01.webp through /W06.webp already exist in repository.
+The original homepage structure and scripts are retained. The new script adds a matching eighth card to the existing collection grid, using its existing CSS. Image: W03.webp (already in repository root). Link: products.html#pharmed-weight-collection. Card translations: English, German, Arabic.
 
-The quantified Light Day Breakfast P05 recipe comes from PHARMED 2026 catalogue; all other formula ingredients are proposed concepts with unconfirmed quantitative specifications.
+No images, existing product pages, stylesheets or collection scripts need replacing. Do not upload a whole website package.
 
-The original site header, footer and existing product renderer remain. The homepage receives only a link to the integrated collection.
+Cloudflare Pages may take time to redeploy. Refresh the homepage after the commit.
