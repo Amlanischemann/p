@@ -1,13 +1,12 @@
-PHARMED UG WEIGHT MANAGEMENT WEBSITE UPDATE
+PHARMED UG COLLECTION RESTORE - SAFE REPAIR
 
-This is an add-on page because the live site source files were not available for safe direct editing.
+DO NOT replace the existing root index.html.
 
-1. Upload the directory weight-management (rename this downloaded folder) with its index.html and assets/ to the site repository root.
-2. Add this navigation link to the existing Home/Collections page: <a href="/weight-management/">Weight Management</a>
-3. Publish using the existing deployment process; inspect desktop/mobile and check the path.
-4. Do not overwrite the existing website index.html or product inventory.
-5. The product photographs are concept crops from the PHARMED catalogue extension, not signed-off artwork.
-6. This add-on has English UI with Arabic section caption; full Arabic localization would need the existing site localization structure.
-
-Catalogue: PHARMED_UG_Complete_Catalogue_2026_Weight_Management_Update.pdf
-The source catalogue is preserved and the new weight management pages appended.
+1. Extract this ZIP into the EXISTING website repository ROOT, keeping existing files.
+2. Upload/overwrite ONLY: all-products.html, assets/catalog/*, weight-management/index.html, weight-management/assets/*.jpg.
+3. Merge with the existing repository. Do NOT delete existing mens-health.html, animal-nutrition.html, CSS, scripts, categories or assets.
+4. Add navigation link <a href="/all-products.html">All products</a> into your existing header/index.html. Add <a href="/weight-management/">Weight Management</a> if desired.
+5. All-products.html is standalone (no dependency on prior missing product-data scripts) and displays all 64 products with local catalogue images, category filters, search and product detail overlay.
+6. Original six weight product images also exist at weight-management/assets/*.jpg for their independent collection page.
+7. If the live homepage itself was overwritten or its product sections removed, restore the old root index.html from GitHub commit history; this package deliberately avoids altering unknown homepage code.
+8. The current live repository was not available for a full regression test. Check actual deployment after merging.
