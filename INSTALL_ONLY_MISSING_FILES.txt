@@ -1,0 +1,19 @@
+PHARMED UG | Additive category repair | 14 October 2026
+
+This ZIP intentionally DOES NOT contain index.html, products.html, or all-products.html.
+The live all-products.html already includes the 64 product profiles, including W01-W06.
+
+Upload the files/folders in this ZIP to the ROOT of repository Amlanischemann/p, preserving paths:
+- assets/catalog/*.webp (64 original and new product card images)
+- weight-management/index.html (separate category page)
+- weight-management/assets/W01.jpg to W06.jpg (category photos)
+
+Do not replace or delete ANY existing root HTML files.
+
+After deployment visit:
+https://pharmed-ug.pages.dev/all-products.html
+https://pharmed-ug.pages.dev/weight-management/
+
+Ensure Cloudflare Pages builds from repository main. Use a hard refresh if images are cached.
+
+These are proposed products, not approved finished-label claims; final formulations and regulatory approvals remain manufacturer-specific.
