@@ -1,0 +1,7 @@
+PHARMED UG REPAIR | 2026-10-14
+
+Upload the CONTENTS of this folder to the GitHub repository root, including ASSETS and pharmed-collections-assets. Do not upload only HTML files. If the web interface cannot replace existing files, use GitHub Desktop or edit existing files in GitHub. Verify latest deployment in Cloudflare Pages.
+
+The six mens illustrations are now embedded directly in pharmed-all-products.js. A designed placeholder will appear for other images if their referenced files are missing, rather than broken icons. Restoring original photographs still requires uploading the ASSETS folder.
+
+The Men’s Health category is available at all-products.html?category=men.
