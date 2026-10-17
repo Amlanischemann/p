@@ -1,0 +1,3357 @@
+[
+  {
+    "code": "N23",
+    "id": "collagen-pure",
+    "name": "COLLAGEN PURE",
+    "subtitle": "Bovine collagen hydrolysate",
+    "ingredients": "Bovine collagen hydrolysate.",
+    "rows": [
+      {
+        "name": "Collagen hydrolysate (bovine)",
+        "value": 10,
+        "unit": "g",
+        "basis": "10 g Portion",
+        "note": ""
+      },
+      {
+        "name": "Energie",
+        "value": "1624 kJ / 388 kcal",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Energie",
+        "value": "162,4 kJ / 38,8 kcal",
+        "unit": "",
+        "basis": "pro 10 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Fett",
+        "value": "0 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Fett",
+        "value": "0 g",
+        "unit": "",
+        "basis": "pro 10 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "davon gesättigte Fettsäuren",
+        "value": "0 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "davon gesättigte Fettsäuren",
+        "value": "0 g",
+        "unit": "",
+        "basis": "pro 10 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Kohlenhydrate",
+        "value": "0 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Kohlenhydrate",
+        "value": "0 g",
+        "unit": "",
+        "basis": "pro 10 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "davon Zucker",
+        "value": "0 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "davon Zucker",
+        "value": "0 g",
+        "unit": "",
+        "basis": "pro 10 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Eiweiß",
+        "value": "97 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Eiweiß",
+        "value": "9,7 g",
+        "unit": "",
+        "basis": "pro 10 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Salz",
+        "value": "0,2 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Salz",
+        "value": "0,02 g",
+        "unit": "",
+        "basis": "pro 10 g",
+        "note": "Source-declared nutrition; value includes unit."
+      }
+    ],
+    "pack": "200 g",
+    "format": "powder",
+    "kind": "food",
+    "alternative": false
+  },
+  {
+    "code": "N24",
+    "id": "psyllium-whole",
+    "name": "PSYLLIUM WHOLE",
+    "subtitle": "Whole Indian psyllium seeds",
+    "ingredients": "Indian psyllium seeds (Plantago ovata).",
+    "rows": [
+      {
+        "name": "Whole psyllium seeds",
+        "value": 5,
+        "unit": "g",
+        "basis": "5 g Portion",
+        "note": ""
+      },
+      {
+        "name": "Energie",
+        "value": "1113 kJ / 271 kcal",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Energie",
+        "value": "56 kJ / 14 kcal",
+        "unit": "",
+        "basis": "pro 5 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Fett",
+        "value": "7,2 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Fett",
+        "value": "< 0,5 g",
+        "unit": "",
+        "basis": "pro 5 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "davon gesättigte Fettsäuren",
+        "value": "1,2 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "davon gesättigte Fettsäuren",
+        "value": "< 0,1 g",
+        "unit": "",
+        "basis": "pro 5 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Kohlenhydrate",
+        "value": "3,8 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Kohlenhydrate",
+        "value": "< 0,5 g",
+        "unit": "",
+        "basis": "pro 5 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "davon Zucker",
+        "value": "< 0,5 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "davon Zucker",
+        "value": "< 0,5 g",
+        "unit": "",
+        "basis": "pro 5 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Ballaststoffe",
+        "value": "62 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Ballaststoffe",
+        "value": "3,1 g",
+        "unit": "",
+        "basis": "pro 5 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Eiweiß",
+        "value": "17 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Eiweiß",
+        "value": "0,8 g",
+        "unit": "",
+        "basis": "pro 5 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Salz",
+        "value": "0,08 g",
+        "unit": "",
+        "basis": "pro 100 g",
+        "note": "Source-declared nutrition; value includes unit."
+      },
+      {
+        "name": "Salz",
+        "value": "< 0,01 g",
+        "unit": "",
+        "basis": "pro 5 g",
+        "note": "Source-declared nutrition; value includes unit."
+      }
+    ],
+    "pack": "300 g",
+    "format": "powder",
+    "kind": "food",
+    "alternative": false
+  },
+  {
+    "code": "N25",
+    "id": "herbal-digest",
+    "name": "HERBAL DIGEST",
+    "subtitle": "Five-herb liquid extract",
+    "ingredients": "Ethanolic extracts of wormwood herb, peppermint leaves, dill fruit, blessed thistle herb and caraway fruit. Contains 40% alcohol by volume.",
+    "rows": [
+      {
+        "name": "Wormwood herb extract (1:5.9)",
+        "value": 1.16,
+        "unit": "ml",
+        "basis": "4 ml Tagesmenge (2 x 2 ml)",
+        "note": ""
+      },
+      {
+        "name": "Dill fruit extract (1:5.9)",
+        "value": 0.56,
+        "unit": "ml",
+        "basis": "4 ml Tagesmenge (2 x 2 ml)",
+        "note": ""
+      },
+      {
+        "name": "Blessed thistle extract (1:5.9)",
+        "value": 0.56,
+        "unit": "ml",
+        "basis": "4 ml Tagesmenge (2 x 2 ml)",
+        "note": ""
+      },
+      {
+        "name": "Caraway fruit extract (1:5.9)",
+        "value": 0.56,
+        "unit": "ml",
+        "basis": "4 ml Tagesmenge (2 x 2 ml)",
+        "note": ""
+      },
+      {
+        "name": "Peppermint leaf extract (1:5.9)",
+        "value": 1.16,
+        "unit": "ml",
+        "basis": "4 ml Tagesmenge (2 x 2 ml)",
+        "note": ""
+      },
+      {
+        "name": "Ethanol",
+        "value": 40,
+        "unit": "% v/v",
+        "basis": "finished liquid",
+        "note": "Source-declared alcohol concentration."
+      }
+    ],
+    "pack": "50 ml",
+    "format": "liquid",
+    "kind": "food supplement",
+    "alternative": false
+  },
+  {
+    "code": "N26",
+    "id": "hair-nutri-matrix",
+    "name": "HAIR NUTRI MATRIX",
+    "subtitle": "Millet, cystine and micronutrients",
+    "ingredients": "Lactose; sucrose; anti-caking agent: talc; filler: microcrystalline cellulose; aqueous millet extract (2.96%); colour: calcium carbonate; L-cysteine hydrochloride (2.42%); filler: gum arabic; ascorbic acid; nicotinamide; magnesium oxide; mono- and diglycerides of fatty acids; calcium D-pantothenate; polyvinylpyrrolidone; zinc oxide (0.44%); maltodextrin; shellac; magnesium salts of fatty acids; starch; glucose syrup; pyridoxine hydrochloride; silicon dioxide; copper sulphate; thiamine mononitrate; riboflavin; polysorbate 80; folic acid; biotin; red iron oxide; white beeswax; carnauba wax; yellow iron oxide; cyanocobalamin.",
+    "rows": [
+      {
+        "name": "Vitamin C",
+        "value": 50,
+        "unit": "mg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Thiamin (B1)",
+        "value": 3,
+        "unit": "mg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Riboflavin (B2)",
+        "value": 3.6,
+        "unit": "mg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Pantothenic acid",
+        "value": 18,
+        "unit": "mg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "L-cystine (label term)",
+        "value": 45,
+        "unit": "mg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Copper",
+        "value": 1,
+        "unit": "mg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B6",
+        "value": 3.6,
+        "unit": "mg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B12",
+        "value": 9,
+        "unit": "µg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 180,
+        "unit": "µg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Folic acid",
+        "value": 600,
+        "unit": "µg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Niacin",
+        "value": 39,
+        "unit": "mg NE",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Zinc",
+        "value": 9.5,
+        "unit": "mg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      },
+      {
+        "name": "Millet extract",
+        "value": 80,
+        "unit": "mg",
+        "basis": "4 Dragees (2 x 2)",
+        "note": ""
+      }
+    ],
+    "pack": "120 Dragees",
+    "format": "dragee",
+    "kind": "food supplement",
+    "alternative": false
+  },
+  {
+    "code": "N27",
+    "id": "beauty-chews",
+    "name": "BEAUTY CHEWS",
+    "subtitle": "Chewable nutrient format",
+    "ingredients": "Sweeteners: maltitol syrup, maltitol, isomalt; purified water; sorbitol syrup; gelling agent: pectin; acidity regulators: citric acid, sodium citrate; concentrated black carrot juice; D-biotin; vitamin C (L-ascorbic acid); flavouring; edible rice paper powder; glazing agents: carnauba wax and vegetable oil.",
+    "rows": [
+      {
+        "name": "Vitamin C",
+        "value": 4.25,
+        "unit": "mg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 1250,
+        "unit": "µg",
+        "basis": "1 Gummy",
+        "note": ""
+      }
+    ],
+    "pack": "60 Gummies",
+    "format": "gummy",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N28",
+    "id": "immuno-chews",
+    "name": "IMMUNO CHEWS",
+    "subtitle": "Chewable nutrient format",
+    "ingredients": "Sweeteners: maltitol syrup, isomalt; purified water; sweeteners: maltitol, sorbitol syrup, erythritol; vitamin C (L-ascorbic acid); pectin; zinc citrate; sodium citrate; xylitol; lemon flavouring; sodium hexametaphosphate; palm oil; carotene; vitamin D3 (cholecalciferol); steviol glycosides; concentrated black carrot juice; carnauba wax; edible rice paper.",
+    "rows": [
+      {
+        "name": "Zinc",
+        "value": 10,
+        "unit": "mg",
+        "basis": "2 Gummies",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 86,
+        "unit": "mg",
+        "basis": "2 Gummies",
+        "note": ""
+      },
+      {
+        "name": "Vitamin D3",
+        "value": 35,
+        "unit": "µg",
+        "basis": "2 Gummies",
+        "note": ""
+      }
+    ],
+    "pack": "60 Gummies",
+    "format": "gummy",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N29",
+    "id": "junior-daily",
+    "name": "JUNIOR DAILY",
+    "subtitle": "Chewable nutrient format",
+    "ingredients": "Sweeteners: maltitol syrup, maltitol; purified water; isomalt, sorbitol syrup; pectin; vitamin C (L-ascorbic acid); sodium citrate; edible rice paper powder; vitamin E (DL-alpha-tocopheryl acetate); palm oil; orange flavouring; citric acid; calcium D-pantothenate; DL-malic acid; carotene; pyridoxine hydrochloride; carnauba wax; retinyl acetate; folic acid; D-biotin; potassium iodide; inositol; cholecalciferol; cyanocobalamin.",
+    "rows": [
+      {
+        "name": "Vitamin C",
+        "value": 20,
+        "unit": "mg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E",
+        "value": 6,
+        "unit": "mg α-TE",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Pantothenic acid (B5)",
+        "value": 1.5,
+        "unit": "mg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Vitamin D3",
+        "value": 5,
+        "unit": "µg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Iodine",
+        "value": 20,
+        "unit": "µg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Vitamin A",
+        "value": 300,
+        "unit": "µg RE",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B6",
+        "value": 0.5,
+        "unit": "mg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Folic acid",
+        "value": 120,
+        "unit": "µg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B12",
+        "value": 1,
+        "unit": "µg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 30,
+        "unit": "µg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Inositol",
+        "value": 10,
+        "unit": "µg",
+        "basis": "1 Gummy",
+        "note": ""
+      }
+    ],
+    "pack": "60 Gummies",
+    "format": "gummy",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N30",
+    "id": "evening-botanical",
+    "name": "EVENING BOTANICAL",
+    "subtitle": "Chewable nutrient format",
+    "ingredients": "Sweeteners: maltitol syrup, isomalt, sorbitol syrup, erythritol, maltitol; gelling agent: pectin; melatonin; vitamin D3 (cholecalciferol); vitamin K2 (menaquinone-7); passionflower extract (Passiflora incarnata); chamomile extract (Matricaria recutita); magnesium glycinate; acidity regulators: citric acid, DL-malic acid, sodium citrate; flavouring; concentrated black carrot juice; glazing agents: carnauba wax, vegetable oil; edible rice paper powder.",
+    "rows": [
+      {
+        "name": "Magnesium",
+        "value": 2,
+        "unit": "mg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Vitamin K2",
+        "value": 18.75,
+        "unit": "µg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Passionflower extract",
+        "value": 8.5,
+        "unit": "mg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Chamomile extract",
+        "value": 8.5,
+        "unit": "mg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Vitamin D3",
+        "value": 0.75,
+        "unit": "µg",
+        "basis": "1 Gummy",
+        "note": ""
+      },
+      {
+        "name": "Melatonin",
+        "value": 0.125,
+        "unit": "mg",
+        "basis": "1 Gummy",
+        "note": ""
+      }
+    ],
+    "pack": "60 Gummies",
+    "format": "gummy",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N31",
+    "id": "vegan-omega-ala",
+    "name": "VEGAN OMEGA ALA",
+    "subtitle": "Lemon-flavoured flaxseed oil",
+    "ingredients": "Flaxseed oil (Linum usitatissimum L.); lemon oil (Citrus limon (L.) Osbeck); antioxidant: tocopherol-rich extract.",
+    "rows": [
+      {
+        "name": "Alpha-linolenic acid (ALA)",
+        "value": 500,
+        "unit": "mg",
+        "basis": "5 ml",
+        "note": ""
+      }
+    ],
+    "pack": "250 ml",
+    "format": "oil",
+    "kind": "food supplement",
+    "alternative": false
+  },
+  {
+    "code": "N32",
+    "id": "focus-energy-chews",
+    "name": "FOCUS ENERGY CHEWS",
+    "subtitle": "Chewable nutrient format",
+    "ingredients": "Süßungsmittel: Maltitsirup; gereinigtes Wasser; Süßungsmittel: Isomalt, Sorbitsirup, Maltit, Erythrit; Geliermittel: Pektin; Säureregulator: Citronensäure; Koffein (Guarana-Extrakt); Säureregulator: Natriumcitrat; essbares Reispapier (Pulver); Aroma: Mangoaroma; Vitamin B 6 (Pyridoxinhydrochlorid); Pflanzenöl (Palmöl); Süßungsmittel: Steviolglykoside; Überzugsmittel: Carnaubawachs; Taurin; Farbstoff: Carotine (E 160 a); Vitamin B 12 (Cyanocobalamin).",
+    "rows": [
+      {
+        "name": "Caffeine",
+        "value": 20,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Taurine",
+        "value": 1,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B 6",
+        "value": 10,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B 12",
+        "value": 0.7,
+        "unit": "µg",
+        "basis": "2 gummies",
+        "note": ""
+      }
+    ],
+    "pack": "60 gummies",
+    "format": "gummy",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N33",
+    "id": "magnesium-b-complex",
+    "name": "MAGNESIUM B COMPLEX",
+    "subtitle": "Nutrient tablet format",
+    "ingredients": "Magnesiumoxid, Füllstoff mikrokristalline Cellulose, Überzugsmittel Hydroxypropylmethylcellulose, Trennmittel Magnesiumsalze der Speisefettsäuren, Füllstoff vernetzte Carboxymethylcellulose, Trennmittel Talkum, Vitamin B 6, Trennmittel Siliciumdioxid, Trennmittel Speisefettsäuren, Vitamin B 1, Farbstoff Eisenoxide und Eisenhydroxide, Folsäure, Vitamin B 12.",
+    "rows": [
+      {
+        "name": "Magnesium",
+        "value": 400,
+        "unit": "mg",
+        "basis": "1 tablet",
+        "note": ""
+      },
+      {
+        "name": "Folic acid",
+        "value": 600,
+        "unit": "µg",
+        "basis": "1 tablet",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B 1",
+        "value": 4.2,
+        "unit": "mg",
+        "basis": "1 tablet",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B 6",
+        "value": 5,
+        "unit": "mg",
+        "basis": "1 tablet",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B 12",
+        "value": 5,
+        "unit": "µg",
+        "basis": "1 tablet",
+        "note": ""
+      }
+    ],
+    "pack": "60 tablets",
+    "format": "tablet",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N34",
+    "id": "carotene-skin",
+    "name": "CAROTENE SKIN",
+    "subtitle": "Nutrient softgel format",
+    "ingredients": "Gelatine (Rind), Olivenöl, Beta-Carotin aus der Alge Dunaliella salina (3,9%), L-Ascorbinsäure (Vitamin C), Feuchthaltemittel: Glycerin, Sojaöl, Feuchthaltemittel: Sorbit, D-alpha-Tocopherol (Vitamin E), Nicotinamid (Niacin), Kokosöl, Stabilisator: Bienenwachs (gelb), Emulgator: Sojalecithine, Riboflavin (Vitamin B 2), Farbstoffe: Eisenoxide und Eisenhydroxide; Kupfersulfat, Biotin.",
+    "rows": [
+      {
+        "name": "Beta-carotene",
+        "value": 15,
+        "unit": "mg",
+        "basis": "1 capsule",
+        "note": ""
+      },
+      {
+        "name": "Vitamin A equivalent",
+        "value": 2500,
+        "unit": "µg RE",
+        "basis": "1 capsule",
+        "note": ""
+      },
+      {
+        "name": "Copper",
+        "value": 0.5,
+        "unit": "mg",
+        "basis": "1 capsule",
+        "note": ""
+      },
+      {
+        "name": "Niacin",
+        "value": 16,
+        "unit": "mg NE",
+        "basis": "1 capsule",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 150,
+        "unit": "µg",
+        "basis": "1 capsule",
+        "note": ""
+      },
+      {
+        "name": "Riboflavin B 2",
+        "value": 1.6,
+        "unit": "mg",
+        "basis": "1 capsule",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 40,
+        "unit": "mg",
+        "basis": "1 capsule",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E",
+        "value": 12,
+        "unit": "mg α-TE",
+        "basis": "1 capsule",
+        "note": ""
+      }
+    ],
+    "pack": "60 capsules",
+    "format": "softgel",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N35",
+    "id": "omega-marine",
+    "name": "OMEGA MARINE",
+    "subtitle": "Nutrient softgel format",
+    "ingredients": "Fischöl, Weichkapselhülle (Gelatine vom Rind, Glycerin, Wasser), Vitamin E (als Alpha-Tocopherol).",
+    "rows": [
+      {
+        "name": "Fish oil",
+        "value": 1000,
+        "unit": "mg",
+        "basis": "1 softgel",
+        "note": ""
+      },
+      {
+        "name": "Omega 3 fatty acids",
+        "value": 300,
+        "unit": "mg",
+        "basis": "1 softgel",
+        "note": ""
+      },
+      {
+        "name": "EPA",
+        "value": 180,
+        "unit": "mg",
+        "basis": "1 softgel",
+        "note": ""
+      },
+      {
+        "name": "DHA",
+        "value": 120,
+        "unit": "mg",
+        "basis": "1 softgel",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E",
+        "value": 5,
+        "unit": "mg",
+        "basis": "1 softgel",
+        "note": ""
+      }
+    ],
+    "pack": "180 softgels",
+    "format": "softgel",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N36",
+    "id": "metabolic-plant-matrix",
+    "name": "METABOLIC PLANT MATRIX",
+    "subtitle": "Botanical capsule format",
+    "ingredients": "N-Acetyl-L-Carnitin HCl; Überzugsmittel: Hydroxypropylmethylcellulose (pflanzliche Kapselhülle); Grüner Tee-Extrakt (Camellia sinensis); Cholinbitartrat; Coleus Forskohlii-Extrakt; Garcinia-Extrakt (Garcinia cambogia); Bittermelonen-Extrakt (Momordica charantia); Indischer Spargel-Extrakt (Asparagus racemosus); Chrompicolinat.",
+    "rows": [
+      {
+        "name": "L-carnitine (source table term)",
+        "value": 800,
+        "unit": "mg",
+        "basis": "4 capsules",
+        "note": ""
+      },
+      {
+        "name": "Green tea extract",
+        "value": 225,
+        "unit": "mg",
+        "basis": "4 capsules",
+        "note": ""
+      },
+      {
+        "name": "EGCG (of green tea extract)",
+        "value": 112.5,
+        "unit": "mg",
+        "basis": "4 capsules",
+        "note": ""
+      },
+      {
+        "name": "Caffeine (of green tea extract)",
+        "value": 2.25,
+        "unit": "mg",
+        "basis": "4 capsules",
+        "note": ""
+      },
+      {
+        "name": "Coleus forskohlii extract",
+        "value": 120,
+        "unit": "mg",
+        "basis": "4 capsules",
+        "note": ""
+      },
+      {
+        "name": "Forskolin (of Coleus extract)",
+        "value": 12,
+        "unit": "mg",
+        "basis": "4 capsules",
+        "note": ""
+      },
+      {
+        "name": "Choline",
+        "value": 82.5,
+        "unit": "mg",
+        "basis": "4 capsules",
+        "note": ""
+      },
+      {
+        "name": "Garcinia extract 5: 1",
+        "value": 25,
+        "unit": "mg",
+        "basis": "4 capsules",
+        "note": ""
+      },
+      {
+        "name": "Indian asparagus extract 10: 1",
+        "value": 24,
+        "unit": "mg",
+        "basis": "4 capsules",
+        "note": ""
+      },
+      {
+        "name": "Bitter melon extract 4: 1",
+        "value": 24,
+        "unit": "mg",
+        "basis": "4 capsules",
+        "note": ""
+      },
+      {
+        "name": "Chromium",
+        "value": 6,
+        "unit": "µg",
+        "basis": "4 capsules",
+        "note": ""
+      }
+    ],
+    "pack": "120 capsules",
+    "format": "capsule",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N37",
+    "id": "collagen-hyaluron-matrix",
+    "name": "COLLAGEN HYALURON MATRIX",
+    "subtitle": "Collagen combination powder",
+    "ingredients": "Kollagenhydrolysat (Rind), L-Glycin, Vitamin- & Mineralstoffmix (Vitamin C (L-Ascorbinsäure), Niacin (Nicotinamid), Zinkbisglycinat, Biotin (D-Biotin), Manganbisglycinat, Kupferbisglycinat), Natriumhyaluronat.",
+    "rows": [
+      {
+        "name": "Sodium hyaluronate",
+        "value": 63,
+        "unit": "mg",
+        "basis": "15 g powder",
+        "note": ""
+      },
+      {
+        "name": "Hyaluronic acid (of sodium hyaluronate)",
+        "value": 60,
+        "unit": "mg",
+        "basis": "15 g powder",
+        "note": ""
+      },
+      {
+        "name": "Glycine",
+        "value": 1.8,
+        "unit": "g",
+        "basis": "15 g powder",
+        "note": ""
+      },
+      {
+        "name": "Bovine collagen hydrolysate",
+        "value": 12,
+        "unit": "g",
+        "basis": "15 g powder",
+        "note": ""
+      },
+      {
+        "name": "Zinc",
+        "value": 1.5,
+        "unit": "mg",
+        "basis": "15 g powder",
+        "note": ""
+      },
+      {
+        "name": "Manganese",
+        "value": 0.3,
+        "unit": "mg",
+        "basis": "15 g powder",
+        "note": ""
+      },
+      {
+        "name": "Copper",
+        "value": 0.15,
+        "unit": "mg",
+        "basis": "15 g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 60,
+        "unit": "mg",
+        "basis": "15 g powder",
+        "note": ""
+      },
+      {
+        "name": "Niacin",
+        "value": 16,
+        "unit": "mg NE",
+        "basis": "15 g powder",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 50,
+        "unit": "µg",
+        "basis": "15 g powder",
+        "note": ""
+      }
+    ],
+    "pack": "300 g",
+    "format": "powder",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N38",
+    "id": "apple-vinegar-chews",
+    "name": "APPLE VINEGAR CHEWS",
+    "subtitle": "Chewable nutrient format",
+    "ingredients": "Glukosesirup, Saccharose, Apfelessigpulver, Wasser, Konzentrate (Apfelsaft, Granatapfelsaft, Schwarzer Johannisbeersaft, Karottensaft, Schwarzer Karottensaft), Pektin, Säureregulator: Natriumcitrat, Vitamin C, natürliches Aroma, Säuerungsmittel: Citronensäure, pflanzliche Öle (Raps, Kokosnuss), Überzugsmittel: Carnaubawachs, Chrompicolinat.",
+    "rows": [
+      {
+        "name": "Apple cider vinegar",
+        "value": 1000,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 40,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Chromium",
+        "value": 12,
+        "unit": "µg",
+        "basis": "2 gummies",
+        "note": ""
+      }
+    ],
+    "pack": "60 gummies",
+    "format": "gummy",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N39",
+    "id": "biotic-fibre-chews",
+    "name": "BIOTIC FIBRE CHEWS",
+    "subtitle": "Chewable nutrient format",
+    "ingredients": "Inulin (Frutalose) 58%; Süßungsmittel: Maltit, Sorbit; Wasser; natürliche Aromen; Pektin; Säureregulatoren: Citronensäure (E330), Natriumcitrat (E331); Bacillus coagulans (1,26%); Farbstoff: Curcumin (E100i); Überzugsmittel: Kokosöl, Carnaubawachs.",
+    "rows": [
+      {
+        "name": "Bacillus coagulans Unique IS-2",
+        "value": 10000000000,
+        "unit": "CFU",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Dietary fibre",
+        "value": 2000,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      }
+    ],
+    "pack": "60 gummies",
+    "format": "gummy",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N40",
+    "id": "skin-collagen-chews",
+    "name": "SKIN COLLAGEN CHEWS",
+    "subtitle": "Chewable nutrient format",
+    "ingredients": "Tapiokasirup, Rohrzucker, gereinigtes Wasser, Kollagen-Peptide, Ascorbinsäure, Geliermittel: Pektin; Obst- und Gemüsemischung (Pulver aus Orange, Blaubeere, Karotte, Pflaume, Granatapfel, Erdbeere, Birne, Apfel, Rübe, Himbeere, Ananas, Kürbis, Kirsche, Blumenkohl, Traube, Banane, Weißkohl, Tomate, Acai, Spargel, Rosenkohl, Cranberry, Gurke, Erbse, Brokkoli, Spinat) 1,8 %; D-α-Tocopherylacetat, natürliche Aromen, Säureregulatoren: Natriumcitrat, Zitronensäure; färbendes Frucht- und Gemüsesaftkonzentrat (Karottensaftkonzentrat, Saccharose, Schwarze Johannisbeersaftkonzentrat, Zitronensäure), Siliziumdioxid, Zinkcitrat, Kokosöl, D-Biotin, Retinylpalmitat, Überzugsmittel: Bienenwachs; Lutein.",
+    "rows": [
+      {
+        "name": "Vitamin A",
+        "value": 450,
+        "unit": "µg RE",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 2500,
+        "unit": "µg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 135,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E",
+        "value": 30,
+        "unit": "mg α-TE",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Zinc",
+        "value": 2.75,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Bovine collagen peptides",
+        "value": 255,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Silicon",
+        "value": 6.5,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      }
+    ],
+    "pack": "60 gummies",
+    "format": "gummy",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N41",
+    "id": "hair-nail-chews",
+    "name": "HAIR NAIL CHEWS",
+    "subtitle": "Chewable nutrient format",
+    "ingredients": "Tapiokasirup, Rohrzucker, gereinigtes Wasser, Kollagen-Peptide, Ascorbinsäure, Geliermittel: Pektin; Obst- und Gemüsemischung (Pulver aus Orange, Blaubeere, Karotte, Pflaume, Granatapfel, Erdbeere, Birne, Apfel, Rübe, Himbeere, Ananas, Kürbis, Kirsche, Blumenkohl, Traube, Banane, Weißkohl, Tomate, Acai, Spargel, Rosenkohl, Cranberry, Gurke, Erbse, Brokkoli, Spinat) 1,8 %; D-α-Tocopherylacetat, natürliche Aromen, Säureregulatoren: Natriumcitrat, Zitronensäure; färbendes Karottensaft- und Schwarze Johannisbeersaftkonzentrat, Siliziumdioxid, Zinkcitrat, Kokosöl, D-Biotin, Retinylpalmitat, Überzugsmittel: Bienenwachs; Lutein.",
+    "rows": [
+      {
+        "name": "Vitamin A",
+        "value": 450,
+        "unit": "µg RE",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 2500,
+        "unit": "µg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 135,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E",
+        "value": 30,
+        "unit": "mg α-TE",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Zinc",
+        "value": 2.75,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Bovine collagen peptides",
+        "value": 300,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      },
+      {
+        "name": "Silicon",
+        "value": 6.5,
+        "unit": "mg",
+        "basis": "2 gummies",
+        "note": ""
+      }
+    ],
+    "pack": "60 gummies",
+    "format": "gummy",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N42",
+    "id": "soy-yoghurt-honey-shake",
+    "name": "SOY YOGHURT HONEY SHAKE",
+    "subtitle": "Soy protein, yoghurt & honey",
+    "ingredients": "SOY protein 49% (contains SOY lecithins), honey25% (honey enzyme activity100U/kg), skimmed MILK yoghurt powder23%, potassium chloride, calcium citrate, magnesium carbonate, magnesium citrate, silica, vitamin C, ferrous fumarate, riboflavins (colour), niacin, vitamin E, zinc oxide, manganese sulphate, calcium D-pantothenate, vitamin B2, vitamin D3, vitamin B6, vitamin B1, vitamin A, folic acid, potassium iodide, vitamin K, sodium selenite, biotin, vitamin B12.",
+    "rows": [
+      {
+        "name": "Energy",
+        "value": 1475,
+        "unit": "kJ",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Energy",
+        "value": 347,
+        "unit": "kcal",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Fat",
+        "value": 1.8,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Saturates",
+        "value": 0.5,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Carbohydrate",
+        "value": 29.1,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Sugars",
+        "value": 29.1,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Protein",
+        "value": 52.2,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Salt",
+        "value": 1.38,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin A",
+        "value": 467,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin D3",
+        "value": 3.16,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E",
+        "value": 5.3,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin K",
+        "value": 31.7,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 53.1,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Thiamin",
+        "value": 0.7,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Riboflavin",
+        "value": 1.1,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Niacin",
+        "value": 11.9,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B6",
+        "value": 1.0,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Folic acid",
+        "value": 157,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B12",
+        "value": 1.7,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 40,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Pantothenic acid",
+        "value": 4.1,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Potassium",
+        "value": 1039,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Calcium",
+        "value": 484,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Phosphorus",
+        "value": 555,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Magnesium",
+        "value": 237,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Iron",
+        "value": 10.8,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Zinc",
+        "value": 6.6,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Copper",
+        "value": 0.7,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Manganese",
+        "value": 1.4,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Selenium",
+        "value": 38,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Iodine",
+        "value": 100,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Energy",
+        "value": 959,
+        "unit": "kJ",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Energy",
+        "value": 228,
+        "unit": "kcal",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Fat",
+        "value": 6.9,
+        "unit": "g",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Saturates",
+        "value": 0.7,
+        "unit": "g",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Carbohydrate",
+        "value": 14.6,
+        "unit": "g",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Sugars",
+        "value": 14.6,
+        "unit": "g",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Protein",
+        "value": 26.1,
+        "unit": "g",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Salt",
+        "value": 0.69,
+        "unit": "g",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Vitamin A",
+        "value": 266,
+        "unit": "µg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Vitamin D3",
+        "value": 1.6,
+        "unit": "µg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E",
+        "value": 4,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Vitamin K",
+        "value": 24.9,
+        "unit": "µg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 26.5,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Thiamin",
+        "value": 0.4,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Riboflavin",
+        "value": 0.5,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Niacin",
+        "value": 6.0,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B6",
+        "value": 0.5,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Folic acid",
+        "value": 79,
+        "unit": "µg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B12",
+        "value": 0.8,
+        "unit": "µg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 20,
+        "unit": "µg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Pantothenic acid",
+        "value": 2.1,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Potassium",
+        "value": 519,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Calcium",
+        "value": 242,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Phosphorus",
+        "value": 277,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Magnesium",
+        "value": 118,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Iron",
+        "value": 5.4,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Zinc",
+        "value": 3.3,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Copper",
+        "value": 0.4,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Manganese",
+        "value": 0.7,
+        "unit": "mg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Selenium",
+        "value": 19,
+        "unit": "µg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "Iodine",
+        "value": 50,
+        "unit": "µg",
+        "basis": "prepared portion:50g powder+200mL water+6g rapeseed oil",
+        "note": ""
+      },
+      {
+        "name": "L-Tyrosine",
+        "value": 3.7,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Methionine",
+        "value": 1.5,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Cystine/cysteine",
+        "value": 1.1,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Lysine",
+        "value": 6.3,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Threonine",
+        "value": 3.7,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Tryptophan",
+        "value": 1.4,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Leucine",
+        "value": 8.4,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Isoleucine",
+        "value": 5.2,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Valine",
+        "value": 5.3,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Histidine",
+        "value": 2.6,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Arginine",
+        "value": 6.8,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Phenylalanine",
+        "value": 5.1,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Aspartic acid + asparagine",
+        "value": 10.9,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Serine",
+        "value": 4.9,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Glutamic acid + glutamine",
+        "value": 19.1,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Proline",
+        "value": 6.0,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Glycine",
+        "value": 3.8,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "L-Alanine",
+        "value": 4.2,
+        "unit": "g",
+        "basis": "100g protein; NOT100g powder",
+        "note": ""
+      },
+      {
+        "name": "Soy protein",
+        "value": 49,
+        "unit": "%",
+        "basis": "powder mass",
+        "note": ""
+      },
+      {
+        "name": "Honey",
+        "value": 25,
+        "unit": "%",
+        "basis": "powder mass",
+        "note": ""
+      },
+      {
+        "name": "Skimmed milk yoghurt powder",
+        "value": 23,
+        "unit": "%",
+        "basis": "powder mass",
+        "note": ""
+      }
+    ],
+    "pack": "500 g",
+    "format": "powder",
+    "kind": "food",
+    "alternative": false
+  },
+  {
+    "code": "N43",
+    "id": "vanilla-meal-shake",
+    "name": "VANILLA MEAL SHAKE",
+    "subtitle": "Vanilla protein shake",
+    "ingredients": "WHEY protein concentrate, SOY protein isolate, MILK protein, maltodextrin, inulin, SOY oil, emulsifier(SOY lecithin), thickeners(guar gum,xanthan), flavouring, potassium citrate, magnesium hydroxide, calcium carbonate, potassium chloride, sweeteners(acesulfameK,sucralose), ferric diphosphate, L-ascorbic acid, zinc oxide, nicotinamide, D-alpha-tocopheryl acetate, manganese(II)sulphate, calcium D-pantothenate, antioxidant(DL-alpha-tocopherol), anti-caking agent(silicon dioxide), copper carbonate, pyridoxine hydrochloride, riboflavin, thiamin mononitrate, retinyl acetate, pteroylmonoglutamic acid, sodium selenite, phylloquinone, D-biotin, potassium iodide, cholecalciferol, cyanocobalamin.",
+    "rows": [
+      {
+        "name": "Energy",
+        "value": 1596,
+        "unit": "kJ",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Energy",
+        "value": 378,
+        "unit": "kcal",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Fat",
+        "value": 7.9,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Saturates",
+        "value": 2.0,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Carbohydrate",
+        "value": 28.4,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Sugars",
+        "value": 21.7,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Fibre",
+        "value": 6.1,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Protein",
+        "value": 45.1,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Salt",
+        "value": 1.3,
+        "unit": "g",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin A",
+        "value": 511,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin D",
+        "value": 3.3,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E",
+        "value": 7.9,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 52.5,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Thiamin",
+        "value": 0.78,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Riboflavin",
+        "value": 1.4,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Niacin",
+        "value": 10.2,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B6",
+        "value": 0.89,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Folic acid",
+        "value": 161,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B12",
+        "value": 3.1,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 32.7,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Pantothenic acid",
+        "value": 3.8,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Vitamin K",
+        "value": 48,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Calcium",
+        "value": 514,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Phosphorus",
+        "value": 564,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Potassium",
+        "value": 1274,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Iron",
+        "value": 8.8,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Zinc",
+        "value": 6.3,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Copper",
+        "value": 0.7,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Iodine",
+        "value": 98.7,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Selenium",
+        "value": 37.7,
+        "unit": "µg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Magnesium",
+        "value": 240,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Manganese",
+        "value": 1.3,
+        "unit": "mg",
+        "basis": "100g powder",
+        "note": ""
+      },
+      {
+        "name": "Energy",
+        "value": 878,
+        "unit": "kJ",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Energy",
+        "value": 208,
+        "unit": "kcal",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Fat",
+        "value": 4.3,
+        "unit": "g",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Saturates",
+        "value": 1.1,
+        "unit": "g",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Carbohydrate",
+        "value": 15.6,
+        "unit": "g",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Sugars",
+        "value": 11.9,
+        "unit": "g",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Fibre",
+        "value": 3.4,
+        "unit": "g",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Protein",
+        "value": 24.8,
+        "unit": "g",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Salt",
+        "value": 0.73,
+        "unit": "g",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Vitamin A",
+        "value": 281,
+        "unit": "µg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Vitamin D",
+        "value": 1.8,
+        "unit": "µg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E",
+        "value": 4.3,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 28.9,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Thiamin",
+        "value": 0.43,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Riboflavin",
+        "value": 0.77,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Niacin",
+        "value": 5.6,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B6",
+        "value": 0.49,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Folic acid",
+        "value": 88.9,
+        "unit": "µg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B12",
+        "value": 1.7,
+        "unit": "µg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 18,
+        "unit": "µg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Pantothenic acid",
+        "value": 2.1,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Vitamin K",
+        "value": 26.4,
+        "unit": "µg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Calcium",
+        "value": 283,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Phosphorus",
+        "value": 310,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Potassium",
+        "value": 701,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Iron",
+        "value": 4.9,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Zinc",
+        "value": 3.5,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Copper",
+        "value": 0.38,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Iodine",
+        "value": 54.3,
+        "unit": "µg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Selenium",
+        "value": 20.7,
+        "unit": "µg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Magnesium",
+        "value": 132,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      },
+      {
+        "name": "Manganese",
+        "value": 0.73,
+        "unit": "mg",
+        "basis": "55g powder portion prepared with250mL water",
+        "note": ""
+      }
+    ],
+    "pack": "440 g",
+    "format": "powder",
+    "kind": "food",
+    "alternative": false
+  },
+  {
+    "code": "N44",
+    "id": "vitamin-c1000-caps",
+    "name": "VITAMIN C1000 CAPS",
+    "subtitle": "Vitamin C 1,000 mg",
+    "ingredients": "L-ascorbic acid(vitaminC); capsule(hydroxypropylmethylcellulose); antioxidant(ascorbyl palmitate).",
+    "rows": [
+      {
+        "name": "Vitamin C",
+        "value": 1000,
+        "unit": "mg",
+        "basis": "1capsule / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Capsule HPMC",
+        "value": null,
+        "unit": "not published",
+        "basis": "1capsule / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Ascorbyl palmitate",
+        "value": null,
+        "unit": "not published",
+        "basis": "1capsule / daily portion",
+        "note": ""
+      }
+    ],
+    "pack": "120 capsules",
+    "format": "capsule",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N45",
+    "id": "multi-a-z-daily",
+    "name": "MULTI A-Z DAILY",
+    "subtitle": "Vitamins & minerals",
+    "ingredients": "Bulking agent(microcrystalline cellulose), calcium, magnesium, vitamin C, stabilisers(povidone,crospovidoneXL), anti-caking agents(magnesium stearate,silicon dioxide), potassium, thickener(crosslinked cellulose gum), vitamin B3, coating(hydroxypropylmethylcellulose), iron, vitamin E, zinc, vitamin B5, manganese, vitamin B2, vitamin B6, vitamin B1, copper, vitamin A, folic acid, iodine, coenzymeQ10, vitamin K, selenium, molybdenum, biotin, chromium picolinate, vitamin D3, vitamin B12.",
+    "rows": [
+      {
+        "name": "Vitamin A(asretinylacetate)",
+        "value": 800,
+        "unit": "µg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Thiamin(mononitrate)",
+        "value": 1.1,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Riboflavin",
+        "value": 1.4,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Niacin(nicotinamide)",
+        "value": 16,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Pantothenic acid(calciumD-pantothenate)",
+        "value": 6,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B6(pyridoxineHCl)",
+        "value": 1.4,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 50,
+        "unit": "µg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Folic acid",
+        "value": 200,
+        "unit": "µg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B12(methylcobalamin)",
+        "value": 2.5,
+        "unit": "µg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C(ascorbic acid)",
+        "value": 80,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Vitamin D3(cholecalciferol)",
+        "value": 10,
+        "unit": "µg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E(dl-alpha-tocopherylacetate)",
+        "value": 12,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Vitamin K(phytomenadione)",
+        "value": 75,
+        "unit": "µg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Calcium(from526mgcalciumcarbonate)",
+        "value": 200,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Chromium(picolinate)",
+        "value": 40,
+        "unit": "µg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Iron(fumarate)",
+        "value": 14,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Iodine(potassiumiodide)",
+        "value": 150,
+        "unit": "µg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Potassium(potassiumchloride)",
+        "value": 20,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Copper(gluconate)",
+        "value": 1,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Magnesium(from159mgmagnesiumoxide)",
+        "value": 93.7,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Manganese(sulphate)",
+        "value": 2,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Molybdenum(sodiummolybdate)",
+        "value": 50,
+        "unit": "µg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Selenium(sodiumselenate)",
+        "value": 55,
+        "unit": "µg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "Zinc(oxide)",
+        "value": 10,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      },
+      {
+        "name": "CoenzymeQ10",
+        "value": 0.1,
+        "unit": "mg",
+        "basis": "1tablet",
+        "note": ""
+      }
+    ],
+    "pack": "60 tablets",
+    "format": "tablet",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N46",
+    "id": "skin-hair-nails-matrix",
+    "name": "SKIN HAIR NAILS MATRIX",
+    "subtitle": "Horsetail, vitamins & minerals",
+    "ingredients": "Bulking agents(calcium carbonate,microcrystalline cellulose,crosslinked cellulose gum); horsetail(Equisetum arvense); vitaminC; vitaminE; anti-caking agents(silicon dioxide,stearic acid,magnesium salts of fatty acids,HPMC); niacin; zinc; iron; biotin; riboflavin; thiamin; manganese; copper; vitaminA; kelp extract; selenium; vitaminD; vitaminB12.",
+    "rows": [
+      {
+        "name": "Horsetail powder(Equisetum arvense)",
+        "value": 200,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C(ascorbic acid)",
+        "value": 160,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Vitamin E(DL-alpha-tocopheryl acetate)",
+        "value": 12,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Niacin(nicotinamide)",
+        "value": 16,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Zinc(zinc oxide)",
+        "value": 15,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Iron(ferrous fumarate)",
+        "value": 4.2,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Biotin",
+        "value": 2,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Riboflavin",
+        "value": 1.4,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Thiamin(mononitrate)",
+        "value": 1.1,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Manganese(sulphate)",
+        "value": 1,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Copper(sulphate pentahydrate)",
+        "value": 1,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Iodine(fromLaminaria japonica)",
+        "value": 150,
+        "unit": "µg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Vitamin A(retinylacetate)",
+        "value": 800,
+        "unit": "µg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Selenium(sodium selenite)",
+        "value": 55,
+        "unit": "µg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Vitamin D3(cholecalciferol)",
+        "value": 5,
+        "unit": "µg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Vitamin B12(cyanocobalamin)",
+        "value": 2.5,
+        "unit": "µg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      }
+    ],
+    "pack": "60 tablets",
+    "format": "tablet",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N47",
+    "id": "collagen1000-tablets",
+    "name": "COLLAGEN1000 TABLETS",
+    "subtitle": "Collagen with vitamin C & L-ornithine",
+    "ingredients": "Hydrolysed collagen(VerisolP); bulking agent(microcrystalline cellulose); L-ornithine hydrochloride; L-ascorbic acid.",
+    "rows": [
+      {
+        "name": "Hydrolysed collagen",
+        "value": 8000,
+        "unit": "mg",
+        "basis": "8tablets(source maximum daily dose)",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C",
+        "value": 80,
+        "unit": "mg",
+        "basis": "8tablets(source maximum daily dose)",
+        "note": ""
+      },
+      {
+        "name": "L-Ornithine",
+        "value": 120,
+        "unit": "mg",
+        "basis": "8tablets(source maximum daily dose)",
+        "note": ""
+      }
+    ],
+    "pack": "180 tablets",
+    "format": "tablet",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N48",
+    "id": "collagen-hyaluron-tablets",
+    "name": "COLLAGEN HYALURON TABLETS",
+    "subtitle": "Collagen, vitamin C & hyaluronic acid",
+    "ingredients": "Hydrolysed collagen; bulking agents(calcium carbonate,microcrystalline cellulose); anti-caking agents(polyvinylpyrrolidone,colloidal silicon dioxide,magnesium salts of fatty acids); coating(hydroxypropylmethylcellulose,polyethyleenglycerol [supplier wording]); vitaminC; sodium hyaluronate; thickener(pregelatinised starch).",
+    "rows": [
+      {
+        "name": "Hydrolysed collagen peptides",
+        "value": 2000,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Vitamin C(ascorbic acid)",
+        "value": 80,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      },
+      {
+        "name": "Hyaluronic acid",
+        "value": 40,
+        "unit": "mg",
+        "basis": "2tablets / daily portion",
+        "note": ""
+      }
+    ],
+    "pack": "60 tablets",
+    "format": "tablet",
+    "kind": "food supplement",
+    "alternative": true
+  },
+  {
+    "code": "N49",
+    "id": "evening-herbal-drink",
+    "name": "EVENING HERBAL DRINK",
+    "subtitle": "Valerian & California poppy drink",
+    "ingredients": "Water; sweetener(xylitol); acidity regulator(potassium citrate); valerian root extract(Valeriana officinalisL.); California poppy extract(Eschscholzia californicaCham.); colour(caramel); acid(citric acid); preservatives(potassium sorbate,sodium benzoate); thickener(cellulose gum); iodine(potassium iodide).",
+    "rows": [
+      {
+        "name": "Valerian root extract",
+        "value": 20,
+        "unit": "mg",
+        "basis": "15mL daily portion",
+        "note": ""
+      },
+      {
+        "name": "California poppy extract",
+        "value": 20,
+        "unit": "mg",
+        "basis": "15mL daily portion",
+        "note": ""
+      },
+      {
+        "name": "Iodine",
+        "value": null,
+        "unit": "not quantified",
+        "basis": "15mL daily portion",
+        "note": ""
+      }
+    ],
+    "pack": "250 mL",
+    "format": "liquid",
+    "kind": "food supplement",
+    "alternative": false
+  },
+  {
+    "code": "N50",
+    "id": "psyllium-husk-pure",
+    "name": "PSYLLIUM HUSK PURE",
+    "subtitle": "Pure psyllium husk",
+    "ingredients": "Indian psyllium seed husks(Plantago ovata),single ingredient.",
+    "rows": [
+      {
+        "name": "Energy",
+        "value": 772,
+        "unit": "kJ",
+        "basis": "100g",
+        "note": ""
+      },
+      {
+        "name": "Energy",
+        "value": 192,
+        "unit": "kcal",
+        "basis": "100g",
+        "note": ""
+      },
+      {
+        "name": "Fat",
+        "value": 0.5,
+        "unit": "g",
+        "basis": "100g",
+        "note": ""
+      },
+      {
+        "name": "Saturates",
+        "value": "<0.1",
+        "unit": "g",
+        "basis": "100g",
+        "note": ""
+      },
+      {
+        "name": "Carbohydrate",
+        "value": 3.0,
+        "unit": "g",
+        "basis": "100g",
+        "note": ""
+      },
+      {
+        "name": "Sugars",
+        "value": "<0.5",
+        "unit": "g",
+        "basis": "100g",
+        "note": ""
+      },
+      {
+        "name": "Fibre",
+        "value": 88,
+        "unit": "g",
+        "basis": "100g",
+        "note": ""
+      },
+      {
+        "name": "Protein",
+        "value": 1.0,
+        "unit": "g",
+        "basis": "100g",
+        "note": ""
+      },
+      {
+        "name": "Salt",
+        "value": 0.3,
+        "unit": "g",
+        "basis": "100g",
+        "note": ""
+      },
+      {
+        "name": "Energy",
+        "value": 46,
+        "unit": "kJ",
+        "basis": "6g daily portion",
+        "note": ""
+      },
+      {
+        "name": "Energy",
+        "value": 12,
+        "unit": "kcal",
+        "basis": "6g daily portion",
+        "note": ""
+      },
+      {
+        "name": "Fat",
+        "value": "<0.5",
+        "unit": "g",
+        "basis": "6g daily portion",
+        "note": ""
+      },
+      {
+        "name": "Saturates",
+        "value": "<0.1",
+        "unit": "g",
+        "basis": "6g daily portion",
+        "note": ""
+      },
+      {
+        "name": "Carbohydrate",
+        "value": "<0.5",
+        "unit": "g",
+        "basis": "6g daily portion",
+        "note": ""
+      },
+      {
+        "name": "Sugars",
+        "value": "<0.5",
+        "unit": "g",
+        "basis": "6g daily portion",
+        "note": ""
+      },
+      {
+        "name": "Fibre",
+        "value": 5.3,
+        "unit": "g",
+        "basis": "6g daily portion",
+        "note": ""
+      },
+      {
+        "name": "Protein",
+        "value": "<0.5",
+        "unit": "g",
+        "basis": "6g daily portion",
+        "note": ""
+      },
+      {
+        "name": "Salt",
+        "value": 0.02,
+        "unit": "g",
+        "basis": "6g daily portion",
+        "note": ""
+      },
+      {
+        "name": "Psyllium husks",
+        "value": 100,
+        "unit": "%",
+        "basis": "product mass",
+        "note": ""
+      }
+    ],
+    "pack": "200 g",
+    "format": "powder",
+    "kind": "food",
+    "alternative": true
+  },
+  {
+    "code": "H01",
+    "id": "junior-moss-lollipops",
+    "name": "JUNIOR MOSS LOLLIPOPS",
+    "subtitle": "Iceland moss lollipop format",
+    "ingredients": "Iceland moss dry extract (Lichen islandicus); calcium pantothenate; ascorbic acid; sucrose; starch syrup; citric acid; strawberry flavour; colouring food concentrate (apple, blackcurrant, radish).",
+    "rows": [
+      {
+        "name": "Iceland moss dry extract",
+        "value": 6.66,
+        "unit": "mg",
+        "basis": "1 lollipop",
+        "note": ""
+      },
+      {
+        "name": "Calcium pantothenate",
+        "value": 1.5,
+        "unit": "mg",
+        "basis": "1 lollipop",
+        "note": ""
+      }
+    ],
+    "pack": "8 lollipops",
+    "format": "lollipop",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "H02",
+    "id": "marshmallow-throat-lozenges",
+    "name": "MARSHMALLOW THROAT LOZENGES",
+    "subtitle": "Marshmallow root extract",
+    "ingredients": "Marshmallow root extract; liquid isomalt; citric acid; grape concentrate; menthol; blackcurrant flavour; eucalyptus oil; geranium flavour; sucralose; water; maltitol syrup; thyme extract; ribwort plantain extract; glycerol; soy lecithin. Further separately declared constituents:propylene glycol and sorbitol.",
+    "rows": [
+      {
+        "name": "Marshmallow root extract",
+        "value": 87.5,
+        "unit": "mg",
+        "basis": "1 lozenge",
+        "note": ""
+      },
+      {
+        "name": "Isomaltitol+maltitol combined",
+        "value": 2.5,
+        "unit": "g",
+        "basis": "1 lozenge",
+        "note": "Combined amount only; individual proportions undisclosed."
+      },
+      {
+        "name": "Propylene glycol",
+        "value": 2.5,
+        "unit": "mg",
+        "basis": "1 lozenge",
+        "note": ""
+      },
+      {
+        "name": "Sorbitol",
+        "value": 20,
+        "unit": "mg",
+        "basis": "1 lozenge",
+        "note": ""
+      }
+    ],
+    "pack": "20 lozenges",
+    "format": "lozenge",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "H03",
+    "id": "hyaluron-throat-lemon",
+    "name": "HYALURON THROAT LEMON",
+    "subtitle": "Lemon lozenges with hyaluronic acid",
+    "ingredients": "Isomalt; sucralose; menthol; hyaluronic acid; xanthan gum; carbomer; macrogollaurylether; natural lemon flavour; citric acid; natural colour.",
+    "rows": [
+      {
+        "name": "Isomalt",
+        "value": 2.5,
+        "unit": "g",
+        "basis": "1 lozenge",
+        "note": ""
+      }
+    ],
+    "pack": "20 lozenges",
+    "format": "lozenge",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "H04",
+    "id": "sea-care-nasal-spray",
+    "name": "SEA CARE NASAL SPRAY",
+    "subtitle": "Sea water & dexpanthenol",
+    "ingredients": "Isotonised seawater (0.9% saline equivalence); dexpanthenol; chamomile flower extract; potassium dihydrogen phosphate; purified water.",
+    "rows": [
+      {
+        "name": "Dexpanthenol",
+        "value": 10,
+        "unit": "mg",
+        "basis": "1 mL solution",
+        "note": ""
+      },
+      {
+        "name": "Sodium chloride equivalence",
+        "value": 0.9,
+        "unit": "%",
+        "basis": "isotonised solution",
+        "note": "Physiological saline equivalence, not90%/100% seawater or complete elemental mineral assay."
+      }
+    ],
+    "pack": "20 mL",
+    "format": "spray",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "H05",
+    "id": "hypertonic-nasal-care",
+    "name": "HYPERTONIC NASAL CARE",
+    "subtitle": "Hypertonic saline with dexpanthenol",
+    "ingredients": "Peppermint oil; eucalyptus oil; dexpanthenol; sodium chloride; propylene glycol; poloxamer407; sodium benzoate; potassium dihydrogen phosphate; dipotassium hydrogen phosphate; potassium sorbate; water.",
+    "rows": [],
+    "pack": "20 mL",
+    "format": "spray",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "H06",
+    "id": "sea-isotonic-nasal-spray",
+    "name": "SEA ISOTONIC NASAL SPRAY",
+    "subtitle": "Isotonic sea water format",
+    "ingredients": "Isotonised seawater solution (0.9% saline equivalence); water.",
+    "rows": [
+      {
+        "name": "Sodium chloride equivalence",
+        "value": 0.9,
+        "unit": "%",
+        "basis": "isotonised solution",
+        "note": ""
+      }
+    ],
+    "pack": "20 mL",
+    "format": "spray",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "H07",
+    "id": "nasal-care-balm",
+    "name": "NASAL CARE BALM",
+    "subtitle": "Dexpanthenol & barrier lipids",
+    "ingredients": "Shea butter; dexpanthenol; vegetable oil; water; soy lecithin; squalane; ceramideNP; medium-chain triglycerides; behenyl alcohol; rice wax; glycerin; pentanediol; hydroxyethylcellulose; xanthan; citric acid.",
+    "rows": [],
+    "pack": "5 g",
+    "format": "tube",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "H08",
+    "id": "botanical-nasal-spray",
+    "name": "BOTANICAL NASAL SPRAY",
+    "subtitle": "Botanical nasal spray format",
+    "ingredients": "Sodium chloride; polysorbate 20; potassium hydrogen phosphates; water; aroma (eucalyptus oil, peppermint oil, chamomile oil, thyme oil, sage oil, menthol, ethanol, vanillin).",
+    "rows": [],
+    "pack": "20 mL",
+    "format": "spray",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "H09",
+    "id": "moss-throat-spray",
+    "name": "MOSS THROAT SPRAY",
+    "subtitle": "Iceland moss & dexpanthenol",
+    "ingredients": "Iceland moss extract; dexpanthenol; flavour; sodium chloride; propylene glycol; hydrogenated ethoxylated castor oil; glycerol; sodium benzoate; potassium sorbate; sorbic acid; sodium saccharin; potassium dihydrogen phosphate; water.",
+    "rows": [],
+    "pack": "30 mL",
+    "format": "spray",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "H10",
+    "id": "marshmallow-honey-propolis-syrup",
+    "name": "MARSHMALLOW HONEY & PROPOLIS SYRUP",
+    "subtitle": "Marshmallow, honey & propolis",
+    "ingredients": "Marshmallow root dry extract; honey; propolis extract; sodium benzoate; potassium sorbate. Contains alcohol from extract preparation.",
+    "rows": [
+      {
+        "name": "Alcohol",
+        "value": "up to 2.8",
+        "unit": "%vol",
+        "basis": "finished liquid",
+        "note": "Upper limit, not an exact concentration."
+      }
+    ],
+    "pack": "100 mL / 117 g",
+    "format": "syrup",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "H11",
+    "id": "ear-olive-care",
+    "name": "EAR OLIVE CARE",
+    "subtitle": "Olive oil ear care format",
+    "ingredients": "Olive oil; peppermint oil.",
+    "rows": [
+      {
+        "name": "Olive oil",
+        "value": 0.09,
+        "unit": "mL",
+        "basis": "one0.1mL spray dose",
+        "note": ""
+      },
+      {
+        "name": "Peppermint oil",
+        "value": null,
+        "unit": "not published",
+        "basis": "one0.1mL spray dose",
+        "note": ""
+      }
+    ],
+    "pack": "30 mL",
+    "format": "spray",
+    "kind": "device development",
+    "alternative": false
+  },
+  {
+    "code": "C01",
+    "id": "hamamelis-skin-balm",
+    "name": "HAMAMELIS SKIN BALM",
+    "subtitle": "Witch hazel skin balm",
+    "ingredients": "Aqua, Petrolatum, Zinc Oxide, Isopropyl Myristate, Sorbitan Oleate, Caprylic/Capric Triglyceride, Hamamelis Virginiana Water, Cera Alba, Hydrogenated Castor Oil, PEG-7 Hydrogenated Castor Oil, Propylene Glycol, Panthenol, Alcohol, Stearic Acid, Methylparaben, Propylparaben, Citric Acid, BHT.",
+    "rows": [
+      {
+        "name": "Aqua",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Petrolatum",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Zinc Oxide",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Isopropyl Myristate",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Sorbitan Oleate",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Caprylic/Capric Triglyceride",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Hamamelis Virginiana Water",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Cera Alba",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Hydrogenated Castor Oil",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "PEG-7 Hydrogenated Castor Oil",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Propylene Glycol",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Panthenol",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Alcohol",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Stearic Acid",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Methylparaben",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Propylparaben",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "Citric Acid",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      },
+      {
+        "name": "BHT",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished balm; percentages not disclosed",
+        "note": ""
+      }
+    ],
+    "pack": "30 g",
+    "format": "tube",
+    "kind": "cosmetic development",
+    "alternative": false
+  },
+  {
+    "code": "R01",
+    "id": "thyme-primrose-elixir",
+    "name": "THYME & PRIMROSE ELIXIR",
+    "subtitle": "Thyme & primrose fluidextracts",
+    "ingredients": "Fluidextract of thyme herb (DER 1:2–2.5; extraction solvents ammonia solution10% m/m, glycerol85%, ethanol90% V/V and water in ratio1:20:70:109); fluidextract of primrose root (DER1:2–2.5; extraction solvent ethanol70% m/m); invert sugar syrup; caramel syrup; sodium benzoate; purified water.",
+    "rows": [
+      {
+        "name": "Thyme herb fluidextract",
+        "value": 6.635,
+        "unit": "g",
+        "basis": "100 mL solution",
+        "note": ""
+      },
+      {
+        "name": "Primrose root fluidextract",
+        "value": 3.318,
+        "unit": "g",
+        "basis": "100 mL solution",
+        "note": ""
+      },
+      {
+        "name": "Ethanol",
+        "value": 39,
+        "unit": "mg",
+        "basis": "1 mL solution",
+        "note": "Official current warning; also expressed as2.9% w/w. Uploaded older pack says4.9vol%. These use different bases."
+      },
+      {
+        "name": "Ethanol",
+        "value": 2.9,
+        "unit": "%w/w",
+        "basis": "finished solution",
+        "note": ""
+      },
+      {
+        "name": "Sucrose, glucose and fructose combined",
+        "value": 1.1,
+        "unit": "g",
+        "basis": "1 mL solution",
+        "note": "Combined mixture; individual sugar proportions undisclosed."
+      },
+      {
+        "name": "Sodium benzoate",
+        "value": 2.4,
+        "unit": "mg",
+        "basis": "1 mL solution",
+        "note": ""
+      }
+    ],
+    "pack": "100 mL",
+    "format": "syrup",
+    "kind": "medicinal development",
+    "alternative": false
+  },
+  {
+    "code": "R02",
+    "id": "herbal-spirit-en",
+    "name": "HERBAL SPIRIT EN",
+    "subtitle": "Herbal spirit formulation",
+    "ingredients": "Distillate of essential-oil mixture: angelica oil, ginger oil, galangal oil, peppermint oil, clove oil, lemon balm oil, black pepper essential oil, cinnamon oil, nutmeg oil, cardamom oil, eucalyptus oil, bitter orange peel oil, juniper oil, star anise oil; ethanol96%(v/v); purified water.",
+    "rows": [
+      {
+        "name": "Essential-oil mixture distillate",
+        "value": 12.01,
+        "unit": "mg",
+        "basis": "100mL finished liquid",
+        "note": ""
+      },
+      {
+        "name": "Ethanol",
+        "value": 3220,
+        "unit": "mg",
+        "basis": "5mL finished liquid",
+        "note": ""
+      },
+      {
+        "name": "Alcohol",
+        "value": 80,
+        "unit": "%v/v",
+        "basis": "finished liquid",
+        "note": ""
+      }
+    ],
+    "pack": "250 mL",
+    "format": "liquid",
+    "kind": "medicinal development",
+    "alternative": false
+  },
+  {
+    "code": "R03",
+    "id": "fennel-honey-syrup",
+    "name": "FENNEL HONEY SYRUP",
+    "subtitle": "Fennel oil in honey syrup",
+    "ingredients": "Bitter fennel oil; honey; sucrose; purified water.",
+    "rows": [
+      {
+        "name": "Bitter fennel oil",
+        "value": 0.05,
+        "unit": "g",
+        "basis": "100g syrup",
+        "note": ""
+      },
+      {
+        "name": "Glucose+fructose+sucrose",
+        "value": 4.97,
+        "unit": "g",
+        "basis": "5mL/6.5g source measuring spoon",
+        "note": ""
+      },
+      {
+        "name": "Honey",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished syrup",
+        "note": ""
+      },
+      {
+        "name": "Sucrose",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished syrup",
+        "note": ""
+      },
+      {
+        "name": "Purified water",
+        "value": null,
+        "unit": "not published",
+        "basis": "finished syrup",
+        "note": ""
+      }
+    ],
+    "pack": "350 g",
+    "format": "syrup",
+    "kind": "medicinal development",
+    "alternative": false
+  }
+]
