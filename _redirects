@@ -1,0 +1,5 @@
+# Keep links from the previous package working after the root-folder repair.
+/downloads/pharmed-expanded-products-oct-2026.pdf /pharmed-expanded-products-oct-2026.pdf 301
+/expanded-products/* /expanded-:splat 301
+/new-products/* /expanded-:splat 301
+/assets/expanded-20261017/* /:splat 301
