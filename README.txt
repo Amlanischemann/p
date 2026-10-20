@@ -1,7 +1,1 @@
-PHARMED VETHERB: SIX INGREDIENT TABLES IN MAIN PRODUCT RENDERER
-
-Upload the three files in this archive to the GitHub repository ROOT (Amlanischemann/p). REPLACE all three matching files; do not upload the containing folder. Commit, allow Cloudflare deployment, and hard-refresh your browser.
-
-This fixes all six links using animal-nutrition.html?product=<id>. Do not add the former pharmed-animal-ingredients.js script tag back to the HTML. Existing products, assets and other JS scripts stay in place.
-
-Check: liver-support, gut-balance, calm-support, immune-force, para-balance, respira-comfort. The table is rendered inside the product-detail HTML when the main product script runs. Quantities are not stated in source data.
+EXACT REFERENCE IMAGES: The original user image is preserved and cropped into 10 complete product cards and 10 photo crops. No replacement stock photos or regenerated bottle images. Some original image labels include different ingredients and unverified health claims: do not print or market them as approved packaging. Baseline formula is in JSON/CSV and webpage tables. Dimensioned drawings copied from prior R&D package, schematic only. Website standalone: open functional-health-2026.html and keep assets/ alongside. No existing site files modified.
