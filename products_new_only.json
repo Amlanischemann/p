@@ -1,0 +1,604 @@
+{
+  "collection": "PHARMED FUNCTIONAL HEALTH",
+  "status": "R&D PREVIEW ONLY",
+  "products": [
+    {
+      "sku": "PH-FH-001",
+      "name": "THYMOQUIN 20 COMPLEX",
+      "subtitle": "High-concentration black seed extract",
+      "ingredients_per_daily_serving": [
+        {
+          "ingredient": "Nigella sativa extract, 20% thymoquinone",
+          "amount": "TBD pending safety and regulatory review"
+        }
+      ],
+      "serving_assumption": "1 capsule per day - R&D planning assumption; not final label direction",
+      "pack_count": 60,
+      "form": "Capsules",
+      "status": "R&D concept; not approved for sale",
+      "regulatory_note": "NO-GO: 20% extract requires Novel Food / safety assessment; do not manufacture",
+      "brand": "PHARMED UG",
+      "label_size_mm": {
+        "width": 160,
+        "height": 60
+      },
+      "carton_concept_mm": {
+        "width": 43,
+        "depth": 43,
+        "height": 110,
+        "flat_blank_width": 184,
+        "flat_blank_height": 140,
+        "note": "schematic only; supplier dieline required"
+      },
+      "claims_status": "Not legally reviewed",
+      "logo_status": "Text wordmark placeholder; original vector logo required",
+      "image": "01_THYMOQUIN_20_COMPLEX.png",
+      "formula_scope": "Original 10-product formula supplied by user; no additional botanical actives from reference poster",
+      "daily_serving": "Proposed amounts per day; serving size not finalized",
+      "packaging": {
+        "bottle": "matte black, metallic gold cap",
+        "label_trim_mm": [
+          160,
+          60
+        ],
+        "carton_assembled_mm": [
+          43,
+          43,
+          110
+        ],
+        "carton_flat_mm": [
+          184,
+          140
+        ],
+        "bleed_mm": 3,
+        "dieline_status": "provisional"
+      },
+      "safety_note": "20% thymoquinone extract: dose not established; legal and toxicological review required"
+    },
+    {
+      "sku": "PH-FH-002",
+      "name": "THYRO BALANCE",
+      "subtitle": "Normal thyroid function",
+      "ingredients_per_daily_serving": [
+        {
+          "ingredient": "Selenium",
+          "amount": "55 µg"
+        },
+        {
+          "ingredient": "Zinc",
+          "amount": "10 mg"
+        },
+        {
+          "ingredient": "Vitamin B12",
+          "amount": "2.5 µg"
+        }
+      ],
+      "serving_assumption": "1 capsule per day - R&D planning assumption; not final label direction",
+      "pack_count": 60,
+      "form": "Capsules",
+      "status": "R&D concept; not approved for sale",
+      "regulatory_note": "Review iodine-free positioning; thyroid patients require professional advice",
+      "brand": "PHARMED UG",
+      "label_size_mm": {
+        "width": 160,
+        "height": 60
+      },
+      "carton_concept_mm": {
+        "width": 43,
+        "depth": 43,
+        "height": 110,
+        "flat_blank_width": 184,
+        "flat_blank_height": 140,
+        "note": "schematic only; supplier dieline required"
+      },
+      "claims_status": "Not legally reviewed",
+      "logo_status": "Text wordmark placeholder; original vector logo required",
+      "image": "02_THYRO_BALANCE.png",
+      "formula_scope": "Original 10-product formula supplied by user; no additional botanical actives from reference poster",
+      "daily_serving": "Proposed amounts per day; serving size not finalized",
+      "packaging": {
+        "bottle": "matte black, metallic gold cap",
+        "label_trim_mm": [
+          160,
+          60
+        ],
+        "carton_assembled_mm": [
+          43,
+          43,
+          110
+        ],
+        "carton_flat_mm": [
+          184,
+          140
+        ],
+        "bleed_mm": 3,
+        "dieline_status": "provisional"
+      },
+      "safety_note": "Raw material identity, specifications, excipients, stability, claims and regulatory review pending"
+    },
+    {
+      "sku": "PH-FH-003",
+      "name": "GASTRO COMFORT",
+      "subtitle": "Normal function of digestive enzymes",
+      "ingredients_per_daily_serving": [
+        {
+          "ingredient": "Calcium (elemental, from calcium carbonate)",
+          "amount": "240 mg"
+        },
+        {
+          "ingredient": "Vitamin B6",
+          "amount": "1.4 mg"
+        }
+      ],
+      "serving_assumption": "1 capsule per day - R&D planning assumption; not final label direction",
+      "pack_count": 60,
+      "form": "Capsules",
+      "status": "R&D concept; not approved for sale",
+      "regulatory_note": "Calcium source quantity to be calculated from assay; no stomach-soothing claim",
+      "brand": "PHARMED UG",
+      "label_size_mm": {
+        "width": 160,
+        "height": 60
+      },
+      "carton_concept_mm": {
+        "width": 43,
+        "depth": 43,
+        "height": 110,
+        "flat_blank_width": 184,
+        "flat_blank_height": 140,
+        "note": "schematic only; supplier dieline required"
+      },
+      "claims_status": "Not legally reviewed",
+      "logo_status": "Text wordmark placeholder; original vector logo required",
+      "image": "03_GASTRO_COMFORT.png",
+      "formula_scope": "Original 10-product formula supplied by user; no additional botanical actives from reference poster",
+      "daily_serving": "Proposed amounts per day; serving size not finalized",
+      "packaging": {
+        "bottle": "matte black, metallic gold cap",
+        "label_trim_mm": [
+          160,
+          60
+        ],
+        "carton_assembled_mm": [
+          43,
+          43,
+          110
+        ],
+        "carton_flat_mm": [
+          184,
+          140
+        ],
+        "bleed_mm": 3,
+        "dieline_status": "provisional"
+      },
+      "safety_note": "Raw material identity, specifications, excipients, stability, claims and regulatory review pending"
+    },
+    {
+      "sku": "PH-FH-004",
+      "name": "PANCREA METABOLIC",
+      "subtitle": "Normal macronutrient metabolism",
+      "ingredients_per_daily_serving": [
+        {
+          "ingredient": "Chromium",
+          "amount": "40 µg"
+        },
+        {
+          "ingredient": "Zinc",
+          "amount": "10 mg"
+        },
+        {
+          "ingredient": "Thiamin (Vitamin B1)",
+          "amount": "1.1 mg"
+        }
+      ],
+      "serving_assumption": "1 capsule per day - R&D planning assumption; not final label direction",
+      "pack_count": 60,
+      "form": "Capsules",
+      "status": "R&D concept; not approved for sale",
+      "regulatory_note": "No pancreas-treatment claim; chromium normal blood glucose claim subject to conditions",
+      "brand": "PHARMED UG",
+      "label_size_mm": {
+        "width": 160,
+        "height": 60
+      },
+      "carton_concept_mm": {
+        "width": 43,
+        "depth": 43,
+        "height": 110,
+        "flat_blank_width": 184,
+        "flat_blank_height": 140,
+        "note": "schematic only; supplier dieline required"
+      },
+      "claims_status": "Not legally reviewed",
+      "logo_status": "Text wordmark placeholder; original vector logo required",
+      "image": "04_PANCREA_METABOLIC.png",
+      "formula_scope": "Original 10-product formula supplied by user; no additional botanical actives from reference poster",
+      "daily_serving": "Proposed amounts per day; serving size not finalized",
+      "packaging": {
+        "bottle": "matte black, metallic gold cap",
+        "label_trim_mm": [
+          160,
+          60
+        ],
+        "carton_assembled_mm": [
+          43,
+          43,
+          110
+        ],
+        "carton_flat_mm": [
+          184,
+          140
+        ],
+        "bleed_mm": 3,
+        "dieline_status": "provisional"
+      },
+      "safety_note": "Raw material identity, specifications, excipients, stability, claims and regulatory review pending"
+    },
+    {
+      "sku": "PH-FH-005",
+      "name": "RENAL NUTRI CARE",
+      "subtitle": "General micronutrient nutrition",
+      "ingredients_per_daily_serving": [
+        {
+          "ingredient": "Vitamin B6",
+          "amount": "1.4 mg"
+        },
+        {
+          "ingredient": "Vitamin B12",
+          "amount": "2.5 µg"
+        },
+        {
+          "ingredient": "Folate",
+          "amount": "200 µg"
+        }
+      ],
+      "serving_assumption": "1 capsule per day - R&D planning assumption; not final label direction",
+      "pack_count": 60,
+      "form": "Capsules",
+      "status": "R&D concept; not approved for sale",
+      "regulatory_note": "Do not claim kidney support; rename before release if renal implications are misleading",
+      "brand": "PHARMED UG",
+      "label_size_mm": {
+        "width": 160,
+        "height": 60
+      },
+      "carton_concept_mm": {
+        "width": 43,
+        "depth": 43,
+        "height": 110,
+        "flat_blank_width": 184,
+        "flat_blank_height": 140,
+        "note": "schematic only; supplier dieline required"
+      },
+      "claims_status": "Not legally reviewed",
+      "logo_status": "Text wordmark placeholder; original vector logo required",
+      "image": "05_RENAL_NUTRI_CARE.png",
+      "formula_scope": "Original 10-product formula supplied by user; no additional botanical actives from reference poster",
+      "daily_serving": "Proposed amounts per day; serving size not finalized",
+      "packaging": {
+        "bottle": "matte black, metallic gold cap",
+        "label_trim_mm": [
+          160,
+          60
+        ],
+        "carton_assembled_mm": [
+          43,
+          43,
+          110
+        ],
+        "carton_flat_mm": [
+          184,
+          140
+        ],
+        "bleed_mm": 3,
+        "dieline_status": "provisional"
+      },
+      "safety_note": "Raw material identity, specifications, excipients, stability, claims and regulatory review pending"
+    },
+    {
+      "sku": "PH-FH-006",
+      "name": "URO BLADDER COMPLEX",
+      "subtitle": "Cranberry botanical formulation",
+      "ingredients_per_daily_serving": [
+        {
+          "ingredient": "Cranberry extract",
+          "amount": "300 mg"
+        },
+        {
+          "ingredient": "Vitamin C",
+          "amount": "80 mg"
+        }
+      ],
+      "serving_assumption": "1 capsule per day - R&D planning assumption; not final label direction",
+      "pack_count": 60,
+      "form": "Capsules",
+      "status": "R&D concept; not approved for sale",
+      "regulatory_note": "Verify cranberry extract specification and Novel Food status; no UTI claims",
+      "brand": "PHARMED UG",
+      "label_size_mm": {
+        "width": 160,
+        "height": 60
+      },
+      "carton_concept_mm": {
+        "width": 43,
+        "depth": 43,
+        "height": 110,
+        "flat_blank_width": 184,
+        "flat_blank_height": 140,
+        "note": "schematic only; supplier dieline required"
+      },
+      "claims_status": "Not legally reviewed",
+      "logo_status": "Text wordmark placeholder; original vector logo required",
+      "image": "06_URO_BLADDER_COMPLEX.png",
+      "formula_scope": "Original 10-product formula supplied by user; no additional botanical actives from reference poster",
+      "daily_serving": "Proposed amounts per day; serving size not finalized",
+      "packaging": {
+        "bottle": "matte black, metallic gold cap",
+        "label_trim_mm": [
+          160,
+          60
+        ],
+        "carton_assembled_mm": [
+          43,
+          43,
+          110
+        ],
+        "carton_flat_mm": [
+          184,
+          140
+        ],
+        "bleed_mm": 3,
+        "dieline_status": "provisional"
+      },
+      "safety_note": "Raw material identity, specifications, excipients, stability, claims and regulatory review pending"
+    },
+    {
+      "sku": "PH-FH-007",
+      "name": "VISION MACULA+",
+      "subtitle": "Maintenance of normal vision",
+      "ingredients_per_daily_serving": [
+        {
+          "ingredient": "Lutein",
+          "amount": "10 mg"
+        },
+        {
+          "ingredient": "Zeaxanthin",
+          "amount": "2 mg"
+        },
+        {
+          "ingredient": "Zinc",
+          "amount": "10 mg"
+        },
+        {
+          "ingredient": "Vitamin A",
+          "amount": "400 µg RE"
+        }
+      ],
+      "serving_assumption": "1 capsule per day - R&D planning assumption; not final label direction",
+      "pack_count": 60,
+      "form": "Capsules",
+      "status": "R&D concept; not approved for sale",
+      "regulatory_note": "Verify lutein/zeaxanthin sources, vitamin A suitability and ingredient status",
+      "brand": "PHARMED UG",
+      "label_size_mm": {
+        "width": 160,
+        "height": 60
+      },
+      "carton_concept_mm": {
+        "width": 43,
+        "depth": 43,
+        "height": 110,
+        "flat_blank_width": 184,
+        "flat_blank_height": 140,
+        "note": "schematic only; supplier dieline required"
+      },
+      "claims_status": "Not legally reviewed",
+      "logo_status": "Text wordmark placeholder; original vector logo required",
+      "image": "07_VISION_MACULAPLUS.png",
+      "formula_scope": "Original 10-product formula supplied by user; no additional botanical actives from reference poster",
+      "daily_serving": "Proposed amounts per day; serving size not finalized",
+      "packaging": {
+        "bottle": "matte black, metallic gold cap",
+        "label_trim_mm": [
+          160,
+          60
+        ],
+        "carton_assembled_mm": [
+          43,
+          43,
+          110
+        ],
+        "carton_flat_mm": [
+          184,
+          140
+        ],
+        "bleed_mm": 3,
+        "dieline_status": "provisional"
+      },
+      "safety_note": "Raw material identity, specifications, excipients, stability, claims and regulatory review pending"
+    },
+    {
+      "sku": "PH-FH-008",
+      "name": "NEURO FOCUS",
+      "subtitle": "Normal nervous system function",
+      "ingredients_per_daily_serving": [
+        {
+          "ingredient": "Vitamin B6",
+          "amount": "1.4 mg"
+        },
+        {
+          "ingredient": "Vitamin B12",
+          "amount": "2.5 µg"
+        },
+        {
+          "ingredient": "Magnesium",
+          "amount": "100 mg"
+        }
+      ],
+      "serving_assumption": "1 capsule per day - R&D planning assumption; not final label direction",
+      "pack_count": 60,
+      "form": "Capsules",
+      "status": "R&D concept; not approved for sale",
+      "regulatory_note": "Avoid cognition-enhancement claims without authorisation",
+      "brand": "PHARMED UG",
+      "label_size_mm": {
+        "width": 160,
+        "height": 60
+      },
+      "carton_concept_mm": {
+        "width": 43,
+        "depth": 43,
+        "height": 110,
+        "flat_blank_width": 184,
+        "flat_blank_height": 140,
+        "note": "schematic only; supplier dieline required"
+      },
+      "claims_status": "Not legally reviewed",
+      "logo_status": "Text wordmark placeholder; original vector logo required",
+      "image": "08_NEURO_FOCUS.png",
+      "formula_scope": "Original 10-product formula supplied by user; no additional botanical actives from reference poster",
+      "daily_serving": "Proposed amounts per day; serving size not finalized",
+      "packaging": {
+        "bottle": "matte black, metallic gold cap",
+        "label_trim_mm": [
+          160,
+          60
+        ],
+        "carton_assembled_mm": [
+          43,
+          43,
+          110
+        ],
+        "carton_flat_mm": [
+          184,
+          140
+        ],
+        "bleed_mm": 3,
+        "dieline_status": "provisional"
+      },
+      "safety_note": "Raw material identity, specifications, excipients, stability, claims and regulatory review pending"
+    },
+    {
+      "sku": "PH-FH-009",
+      "name": "MUSCLE RECOVERY",
+      "subtitle": "Normal muscle function",
+      "ingredients_per_daily_serving": [
+        {
+          "ingredient": "Magnesium",
+          "amount": "200 mg"
+        },
+        {
+          "ingredient": "Vitamin D3",
+          "amount": "20 µg"
+        },
+        {
+          "ingredient": "Vitamin B6",
+          "amount": "1.4 mg"
+        }
+      ],
+      "serving_assumption": "1 capsule per day - R&D planning assumption; not final label direction",
+      "pack_count": 60,
+      "form": "Capsules",
+      "status": "R&D concept; not approved for sale",
+      "regulatory_note": "Check magnesium tolerability and salt choice",
+      "brand": "PHARMED UG",
+      "label_size_mm": {
+        "width": 160,
+        "height": 60
+      },
+      "carton_concept_mm": {
+        "width": 43,
+        "depth": 43,
+        "height": 110,
+        "flat_blank_width": 184,
+        "flat_blank_height": 140,
+        "note": "schematic only; supplier dieline required"
+      },
+      "claims_status": "Not legally reviewed",
+      "logo_status": "Text wordmark placeholder; original vector logo required",
+      "image": "09_MUSCLE_RECOVERY.png",
+      "formula_scope": "Original 10-product formula supplied by user; no additional botanical actives from reference poster",
+      "daily_serving": "Proposed amounts per day; serving size not finalized",
+      "packaging": {
+        "bottle": "matte black, metallic gold cap",
+        "label_trim_mm": [
+          160,
+          60
+        ],
+        "carton_assembled_mm": [
+          43,
+          43,
+          110
+        ],
+        "carton_flat_mm": [
+          184,
+          140
+        ],
+        "bleed_mm": 3,
+        "dieline_status": "provisional"
+      },
+      "safety_note": "Raw material identity, specifications, excipients, stability, claims and regulatory review pending"
+    },
+    {
+      "sku": "PH-FH-010",
+      "name": "CELL PROTECT+",
+      "subtitle": "Protection of cells from oxidative stress",
+      "ingredients_per_daily_serving": [
+        {
+          "ingredient": "Vitamin C",
+          "amount": "160 mg"
+        },
+        {
+          "ingredient": "Vitamin E",
+          "amount": "12 mg alpha-TE"
+        },
+        {
+          "ingredient": "Selenium",
+          "amount": "55 µg"
+        }
+      ],
+      "serving_assumption": "1 capsule per day - R&D planning assumption; not final label direction",
+      "pack_count": 60,
+      "form": "Capsules",
+      "status": "R&D concept; not approved for sale",
+      "regulatory_note": "Check chemical forms, compatibility and stability",
+      "brand": "PHARMED UG",
+      "label_size_mm": {
+        "width": 160,
+        "height": 60
+      },
+      "carton_concept_mm": {
+        "width": 43,
+        "depth": 43,
+        "height": 110,
+        "flat_blank_width": 184,
+        "flat_blank_height": 140,
+        "note": "schematic only; supplier dieline required"
+      },
+      "claims_status": "Not legally reviewed",
+      "logo_status": "Text wordmark placeholder; original vector logo required",
+      "image": "10_CELL_PROTECTPLUS.png",
+      "formula_scope": "Original 10-product formula supplied by user; no additional botanical actives from reference poster",
+      "daily_serving": "Proposed amounts per day; serving size not finalized",
+      "packaging": {
+        "bottle": "matte black, metallic gold cap",
+        "label_trim_mm": [
+          160,
+          60
+        ],
+        "carton_assembled_mm": [
+          43,
+          43,
+          110
+        ],
+        "carton_flat_mm": [
+          184,
+          140
+        ],
+        "bleed_mm": 3,
+        "dieline_status": "provisional"
+      },
+      "safety_note": "Raw material identity, specifications, excipients, stability, claims and regulatory review pending"
+    }
+  ]
+}
